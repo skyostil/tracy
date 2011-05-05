@@ -1,0 +1,40 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+#
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+#
+# Modified to make a template file for a multi-binary package with separated
+# build-arch and build-indep targets  by Bill Allombert 2001
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+# This has to be exported to make some magic below work.
+export DH_OPTIONS
+PYTHON=$(shell which python2.6 > /dev/null && echo python2.6 || echo python2.5)
+
+%:
+	dh  $@
+
+override_dh_auto_build:
+	@# Compile tracers
+	cd src/generator && $(MAKE) gles20-egl13-tracer-unix PYTHON=$(PYTHON)
+	cd src/generator && $(MAKE) gles11-egl13-tracer-unix PYTHON=$(PYTHON)
+	#cd src/generator && $(MAKE) vg11-egl13-tracer-unix
+
+override_dh_auto_clean:
+	@# Clean tracers
+	cd src/generator && $(MAKE) clean PYTHON=$(PYTHON)
+
+override_dh_auto_test:
+	@
+
+override_dh_auto_install:
+	install -D src/generator/output/gles20-egl13-tracer-unix/libEGL_tracer.so \
+	    debian/tmp/usr/lib/tracy-tracer-gles20-egl13.so
+	install -D src/generator/output/gles11-egl13-tracer-unix/libGLES_CM_tracer.so \
+	    debian/tmp/usr/lib/tracy-tracer-gles11-egl13.so

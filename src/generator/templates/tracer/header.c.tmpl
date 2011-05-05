@@ -1,0 +1,73 @@
+/*********************************************************************
+ *  This is a generated tracer for the the following libraries:
+ *
+#for $i, $library in enumerate($libraries):
+ *      $(i + 1). $library.name - $len($library.functions) functions
+#end for
+ *
+ *  This tracer should be compiled on the $platform.name platform.
+ *********************************************************************/
+
+#if "includes" in $config: 
+  #for item in $config.includes:
+\#include "$item"
+  #end for
+#end if
+#if "systemincludes" in $config:
+  #for item in $config.systemincludes:
+\#include <$item>
+  #end for
+#end if
+
+/* Included libraries */
+#set libNames = "_".join([$library.name for library in $libraries])
+\#define TR_LIBRARIES "$libNames"
+
+/* Symbol exporting macros */
+#if $platform.language == "c++"
+\#define TR_APICALL     extern "C" $platform.exportLinkage
+\#define TR_APICALL_CPP $platform.exportLinkage
+#else
+\#define TR_APICALL     $platform.exportLinkage
+#endif
+\#define TR_APIENTRY    $platform.entryLinkage
+\#define TR_IMPL_APIENTRY TR_APIENTRY
+ 
+## Maximum number of function arguments
+#set $maxArgs = 20
+
+##
+## This function returns a list of textual items (textFn) for
+## the given number of items (n).
+##
+## @param $n:       Number of items
+## @param $textFn:  A function that will be called with the
+##                  item number and which should return the
+##                  text for that item
+##
+#def itemList($n, $textFn)
+  #echo ", ".join([$textFn(i) for i in range(1, $n + 1)])
+#end def
+
+/* Function call macros. Up to $maxArgs function arguments supported. */
+\#define TR_CALL0(RET, FUNC) \
+         ((RET (TR_IMPL_APIENTRY*) ()) (FUNC)->pointer)()
+#for $i in range(1, $maxArgs + 1)
+\#define TR_CALL$(i)(RET, FUNC, $itemList($i, lambda i: "T%d, P%d" % (i, i))) \
+         ((RET (TR_IMPL_APIENTRY*) ($itemList($i, lambda i: "T%d" % i))) (FUNC)->pointer)($itemList($i, lambda i: "P%d" % i))
+#end for
+
+/* Macro for calling functions in the target library without going through the
+ * tracer
+ */
+\#define TR_FUNC(NAME) ((TR_PROC_ \#\# NAME)(trLookupFunction(0, #NAME)->pointer))
+
+/* Function pointer declarations */
+#for $library in $libraries:
+  #for $function in $library.functions.values():
+    #set args = [str(p.type) for p in $function.parameters.values if p.name is not None]
+    #set args = ", ".join($args)
+typedef $function.type (*TR_PROC_$(function.name))($args);
+\#define __$function.name TR_FUNC($function.name)
+  #end for
+#end for

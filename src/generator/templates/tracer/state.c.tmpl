@@ -1,0 +1,25 @@
+##
+## We don't need to do anything if the state tracking information isn't there.
+##
+#if not "state" in $config:
+  #stop
+#end if
+
+/* State tracking nodes */
+#def processGroup(root, path = [], idPath = []):
+#for $i, $item in $enumerate(root.items()):
+#set key, value = $item
+#set p          = $path + [$key]
+#if isinstance($value, dict):
+#set ip         = $idPath + [$i + 1]
+#else
+#set ip         = $idPath + [$i + 0x81]
+#end if
+#set id         = $getStatePathIdentifier($p)
+#echo '#define %-60s "%s"\n' % ($id, "".join(["\\x%02x" % $c for c in $ip]))
+#if isinstance($value, dict):
+$processGroup($value, $p, $ip)
+#end if
+#end for
+#end def
+$processGroup($config.state)

@@ -1,0 +1,70 @@
+/*
+ *  Resource file for $(projectName).
+ */
+
+\#include <eikon.rh>
+\#include <avkon.rsg>
+\#include <avkon.rh>
+\#include <avkon.mbg>
+\#include <appinfo.rh>
+
+NAME            TRCY
+
+RESOURCE RSS_SIGNATURE 
+{
+}
+
+RESOURCE TBUF
+{
+    buf     = "$(projectName)";
+}
+
+RESOURCE EIK_APP_INFO 
+{ 
+    menubar = R_MENUBAR;
+    cba     = R_AVKON_SOFTKEYS_OPTIONS_BACK;
+}
+
+RESOURCE MENU_BAR R_MENUBAR
+{
+    titles =
+    {
+        MENU_TITLE
+        {
+            menu_pane = R_EXIT;
+        },
+        MENU_TITLE 
+        { 
+            menu_pane = R_MENU; 
+        }
+    };
+}
+
+RESOURCE MENU_PANE R_EXIT
+{
+    items =
+    {
+        MENU_ITEM 
+        { 
+            command = 1;
+            txt     = "Exit"; 
+        }
+    };
+}
+
+RESOURCE MENU_PANE R_MENU
+{
+    items =
+    {
+        MENU_ITEM 
+        { 
+            command = 2;
+            txt     = "Restart"; 
+        }
+    };
+}
+
+RESOURCE LOCALISABLE_APP_INFO R_LOCALISABLE_APP_INFO
+{
+    short_caption = "$(projectName)";
+}

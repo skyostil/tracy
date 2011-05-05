@@ -1,0 +1,24 @@
+/*
+* ============================================================================
+*  Name        : TracePlayer.hrh
+*  Part of     : TracePlayer
+*
+*  Copyright (c) 2009 Nokia Corporation.
+* ==============================================================================
+*/
+
+#ifndef TRACEPLAYER_HRH
+#define TRACEPLAYER_HRH
+
+enum TTracePlayerMenuCommands
+{
+    ETracePlayerShading = 1,
+    ETracePlayerFlat,
+    ETracePlayerSmooth,
+
+    ETracePlayerDrawing,
+    ETracePlayerTriangles,
+    ETracePlayerTriangleFans
+};
+
+#endif      // TRACEPLAYER_HRH

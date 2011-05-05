@@ -1,0 +1,376 @@
+##
+## Align a number up to n fields.
+##
+#def pad(number, fields):
+  #return ("%%%dd" % fields) % number
+#end def
+##
+## Return a library name identifier
+##
+#def libName(n):
+  #if not n:
+    #return 0
+  #end if
+  #return "TR_LIB_" + $safeName(n).split(".")[0].upper()
+#end def
+/* Libraries used by the APIs */
+#for $library in $libraries:
+#set libNames = set(f.libName for f in $library.functions.values())
+#for $n in $libNames:
+  #if not $n:
+    #continue
+  #end if
+\#ifndef $libName($n)
+\#define $libName($n) "$n"
+\#endif
+#end for
+
+/* A list of functions for the $library.name library */
+const TRFunction $(safeName($library.name))_functions[] =
+{
+    /* index, name, ordinal, pointer, event handler, flags */
+    #for $functionIndex, $function in enumerate($library.functions.values())
+      ##
+      ##  Compose flags for the function
+      ##
+      #set flags = []
+      #if $function.isFrameMarker:
+        #set flags = $flags + ["TR_FUNC_FRAME_MARKER"]
+      #end if
+      #if $function.isRenderCall:
+        #set flags = $flags + ["TR_FUNC_RENDER_CALL"]
+      #end if
+      #if $function.isTerminator:
+        #set flags = $flags + ["TR_FUNC_TERMINATOR"]
+      #end if
+      #if $flags:
+        #set flags = " | ".join($flags)
+      #else
+        #set flags = "0"
+      #end if
+    /*$pad($functionIndex, 4) */ {"$getMangledFunctionName($function)", $libName($function.libName), #if $function.ordinal is not None then $function.ordinal else -1#, 0, 0, $flags},
+    #end for
+};
+#end for
+
+##
+## A comma-separated list of parameters for a given function
+##
+#def parameterList($function)
+  #return ", ".join(["%s %s" % (p.type, p.name) for p in $function.parameters.values if p.name is not None])
+#end def
+
+##
+## Generate a unique local variable for the function
+##
+#def local($function, $name)
+  #if not $name in $function.parameters:
+    #return $name
+  #end if
+  #for $i in range(256):
+    #if not "%s%d" % ($name, $i) in $function.parameters
+      #echo "%s%d" % ($name, $i)
+      #break
+    #end if
+  #end for
+#end def
+
+##
+## Generate code to log a parameter with a meta type
+##
+#def logParameterWithMetaType($library, $function, $event, $type, $metatype, $paramName, $name)
+  ## Hack: Copy some needed stuff from the global namespace, as the nested functions
+  ##       don't seem to be able to access them.
+  #set _nativeArrayTypeLogger = $nativeArrayTypeLogger
+  #set _cType                 = $cType
+  #set _fail                  = $getVar('fail', None, False)
+  #set _nativeArrayType       = $getNativeType($library, $type.getDereferencedType())
+  #set _classIdentifier       = $getClassIdentifier($type)
+  ##
+  #def _generateLogger($metatype, $values):
+    ## Is this an array?
+    #if $metatype.name == "array":
+      ## If we have a type, use it, otherwise use the original type
+      #if "type" in $values:
+        #set nativeType = $values["type"]
+      #else
+        #set nativeType = $_nativeArrayType
+      #endif
+      #if $nativeType not in $_nativeArrayTypeLogger:
+        $_fail("Unable to log array data type %s in %s" % ($nativeType, $function.name))
+      #elif $nativeType == "object"
+$(_nativeArrayTypeLogger[$nativeType])($event, $paramName, $values.size, $_classIdentifier, ($(_cType[$nativeType])*)$name);
+      #else
+$(_nativeArrayTypeLogger[$nativeType])($event, $paramName, $values.size, ($(_cType[$nativeType])*)$name);
+      #end if
+    ## Or an image?
+    #elif $metatype.name == "image":
+      ## If we have a type, use it, otherwise use the original type
+      #if "type" in $values:
+        #set nativeType = $values["type"]
+      #else
+        #set nativeType = $_nativeArrayType
+      #endif
+      #if $nativeType not in $_nativeArrayTypeLogger:
+        $_fail("Unable to log image data type %s in %s" % ($nativeType, $function.name))
+      #else
+/* FIXME: allow for negative stride */
+$(_nativeArrayTypeLogger[$nativeType])($event, $paramName, $values.stride * $values.height * $values.components, ($(_cType[$nativeType])*)$name);
+      #end if
+    #end if
+  #end def
+  ##
+  #def _generateSwitch($metatype, $metavalues, $values = {}):
+    #if len($metavalues):
+	    ## Process the first metavalue in the list
+	    #set metavalue = $metavalues[0]
+	    #set metavalues = $metavalues[1:]
+	    ## Set this metavalue to its default
+	    #set values[$metavalue.name] = $metavalue.default
+      ## See how many predicates this metavalue has
+      #if not len($metavalue.predicates):
+        ## No predicates -> use the default
+        $_generateSwitch($metatype, $metavalues, $values)
+      #elif len(set([p[0] for p in $metavalue.predicates])) == 1:
+        ## Just one predicate with potentially multiple permutations -> generate a switch statement
+    switch($(metavalue.predicates[0][0]))
+    {
+        #for predName, predValue, value in $metavalue.predicates:
+    case $predValue:
+        {
+            #set _values = $values.copy()
+            #set _values[$metavalue.name] = $value
+            $_generateSwitch($metatype, $metavalues, $_values)
+            break;
+        }
+        #end for
+        ## Generate the default branch last
+    default:
+        {
+            $_generateSwitch($metatype, $metavalues, $values)
+            break;
+        }
+    }
+      #else
+        ## Many different predicates -> generate a set of if statements
+        #for predName, predValue, value in $metavalue.predicates:
+    if ($predName == $predValue)
+    {
+            #set _values = $values.copy()
+            #set _values[$metavalue.name] = $value
+        $_generateSwitch($metatype, $metavalues, $_values)
+    } else
+        #end for
+        ## Generate the default branch last
+    {
+        $_generateSwitch($metatype, $metavalues, $values)
+    }
+      #end if
+    #else
+      ## Generate the actual logging call
+$_generateLogger($metatype, $values)
+    #end if
+  #end def
+$_generateSwitch($metatype, $metatype.values.values())
+#end def
+
+##
+## Generate a function call to log a single parameter
+##
+#def logParameter($library, $event, $function, $type, $name, $hookName = None)
+  #if $hookName is None:
+    #set hookName = $name
+  #end if
+  #if $name:
+    #set paramName = '"%s"' % $name
+  #else
+    #set paramName = '0'
+    #set name      = $local($function, "ret")
+  #end if
+  #if $hookName in $function.hooks:
+    #return $emitHook($hookName, $function.hooks)
+  #end if
+  #set nativeType = $getNativeType($library, $type)
+  #if $nativeType not in $nativeTypeLogger:
+    $fail("Unable to log data type %s in function %s" % ($nativeType, $function.name))
+  #endif
+  ## See if this object has a meta type
+  #if $name in $function.parameters and $function.parameters[$name].metaType:
+    #set logger = ''
+    $logParameterWithMetaType($library, $function, $event, $type, $function.parameters[$name].metaType, $paramName, $name)
+  ## Convert an object to a pointer, unless it is an integral type, in which case the integer is simply converted to a handle.
+  #elif $nativeType == "object":
+    #if not $library.isPointerType($type):
+      #if $library.isIntegralType($type):
+        #set $name = "(TRhandle)" + $name;
+      #else
+        #set $name = "&" + $name;
+      #end if
+    #else
+      #set $name = "(TRhandle)" + $name
+    #end if
+    #set logger = '%s(%s, %s, %s, %s);' % ($nativeTypeLogger[$nativeType], $event, $paramName, $getClassIdentifier($type), $name)
+  ## Log ordinary parameter
+  #else
+    #set logger = '%s(%s, %s, %s);' % ($nativeTypeLogger[$nativeType], $event, $paramName, $name)
+  #end if
+  #echo $logger + " /* Code hook: %s */" % ($hookName)
+#end def
+
+/*
+ * The tracers for each function
+ */
+#for $library in $libraries:
+$logMessage("Generating library %s." % $library.name)
+#for $functionIndex, $function in enumerate($library.functions.values())
+$logMessage("Generating code for function %s." % $function.name)
+#if $function.linkage:
+  #set linkage = $function.linkage
+#else:
+  #if $function.ordinal is None and not $function.staticLinkage:
+    #set linkage = ""
+  #else
+    #if $function.language == "c++":
+      #set linkage = "TR_APICALL_CPP"
+    #else
+      #set linkage = "TR_APICALL"
+    #endif
+  #endif
+#endif
+##
+## If code generation is disabled for the function, skip it
+##
+#if not $function.generate:
+  #continue
+#end if
+    ##
+    ## If this is a passthrough function, use a macro to generate the approriate stub
+    ##
+    #if $function.passthrough:
+/* Pass-through */
+TR_GENERATE_PASSTHROUGH_FUNCTION($linkage, $function.name, $library.id, $functionIndex)
+
+      #continue
+    #end if
+##
+## Function declaration
+##
+$linkage $function.type TR_APIENTRY $function.name ($parameterList($function))
+##
+## If the function already has a body, echo it and continue to the next one
+##
+#if $function.body
+  #echo "%s\n\n" % $function.body
+  #continue
+#end if
+{
+    ##
+    ## If this is a passthrough function, just call the original function directly
+    ##
+    ## #if $function.passthrough:
+    ## /* Pass-through */
+    ##   #set func = $local($function, "func")
+    ##   ##
+    ##   ## Construct the list of arguments for the call macro
+    ##   ##
+    ##   #set macroArgs = [str($function.type), $func]
+    ##   #if len($function.parameters)
+    ##     #set macroArgs = macroArgs + [$getMacroParameterList($function)]
+    ##   #end if
+    ##   #set macroArgs = ", ".join($macroArgs)
+    ## const TRFunction* $func = trLookupFunctionByIndex($library.id, $functionIndex);
+    ##   #if $isVoidType($library, $function.type):
+    ## TR_CALL$len($function.parameters)($macroArgs);
+    ##   #else
+    ## return TR_CALL$len($function.parameters)($macroArgs);
+    ##   #endif
+    ## }
+    ##   #continue
+    ###end if
+    #if not $isVoidType($library, $function.type)
+      #set ret = $local($function, "ret");
+    $function.type $local($function, "ret");
+    #endif
+    ##
+    ## Get the function pointer
+    ##
+    #set event = $local($function, "event")
+    #if $function.isTerminator
+    TREvent* $event = trBeginTerminatorEventByIndex($library.id, $functionIndex);
+    #else
+    TREvent* $event = trBeginEventByIndex($library.id, $functionIndex);
+    #endif
+    ##
+    ## Call the function
+    ##
+    $emitHook("@precall", $function.hooks)
+    trBeginCall($event);
+    $emitHook("@call", $function.hooks)
+    #if not "@call" in $function.hooks:
+      ##
+      ## Construct the list of arguments for the call macro
+      ##
+      #set macroArgs = [str($function.type), "%s->function" % $event]
+      #if len($function.parameters)
+        #set macroArgs = macroArgs + [$getMacroParameterList($function)]
+      #end if
+      #set macroArgs = ", ".join($macroArgs)
+      ##
+      ## Need to save the return value?
+      ##
+      #if $isVoidType($library, $function.type):
+    TR_CALL$len($function.parameters)($macroArgs);
+      #else
+    $ret = TR_CALL$len($function.parameters)($macroArgs);
+      #endif
+    #endif call
+    trEndCall($event);
+    $emitHook("@postcall", $function.hooks)
+    #if $function.runtimeStateTracking:
+      ##
+      ## Write the return value to the state table
+      ##
+      #if $function.retStateRelation:
+        #set path = $getStatePathIdentifier($function.retStateRelation.path)
+    trSetStateValue($event, $path, (void*)$ret);
+      #end if
+      ##
+      ## Write the parameters to the state table
+      ##
+      #for $param in $function.parameters:
+        #if $function.parameters[$param].stateRelation:
+          #set path = $getStatePathIdentifier($function.parameters[$param].stateRelation.path)
+    trSetStateValue($event, $path, (void*)$param);
+        #end if
+      #end for
+    #end if
+    ##
+    ## Log the parameters
+    ##
+    #for $param in $function.parameters.values()
+    $logParameter($library, $event, $function, $param.type, $param.name)
+    #end for
+    ##
+    ## Log the return value
+    ##
+    #if not $isVoidType($library, $function.type):
+    $logParameter($library, $event, $function, $function.type, None, "@return")
+    #endif
+    $emitHook("@postlog", $function.hooks)
+    trEndEvent($event);
+    ##
+    ## If this is a terminator function, close down the tracer.
+    ##
+    #if $function.isTerminator:
+    trTerminate();
+    #endif
+    ##
+    ## All done, return the return value if we have one
+    ##
+    #if not $isVoidType($library, $function.type)
+    return ret;
+    #endif
+}
+
+#end for functions
+#end for libraries

@@ -1,0 +1,69 @@
+#
+# Makefile for $(projectName) (win32)
+#
+#import os.path
+##
+## Get the object name for a source file
+##
+#def objectName(sourceName):
+  #return sourceName.replace(".cpp", "").replace(".c", "") + ".obj"
+#end def
+##
+## Construct the compiler command line
+##
+#set cflags  = ["/c", "/Zi", "/Iinclude", "/nologo", "/D_CRT_SECURE_NO_DEPRECATE"]
+#set ldflags = ["/nologo", "/DEBUG"]
+#set libs    = []
+#if "includedirs" in $config:
+  #for item in $config.includedirs:
+     #set cflags = $cflags + ["/I%s" % $os.path.abspath($config.getRelativePath($item))]
+  #end for
+#end if
+#if "macros" in $config:
+  #for macro, value in $config.macros.items():
+     #if $value:
+       #set cflags = $cflags + ["/D%s=%s" % ($macro, $value)]
+     #else
+       #set cflags = $cflags + ["/D%s" % $macro]
+     #end if
+  #end for
+#end if
+#if "librarydirs" in $config:
+  #for item in $config.librarydirs:
+     #set ldflags = $ldflags + ["/LIBPATH:%s" % $os.path.abspath($config.getRelativePath($item))]
+  #end for
+#end if
+#if "libraries" in $config:
+  #for item in $config.libraries:
+     #set libs = $libs + ["%s" % $item]
+  #end for
+#end if
+#if $config.targettype == "dll":
+  #set ldflags = $ldflags + ["/DLL"]
+#endif
+#set cflags  = " ".join($cflags)
+#set ldflags = " ".join($ldflags)
+#set libs    = " ".join($libs)
+LIBS=$libs
+CC=cl
+CFLAGS=$cflags
+LD=link
+LDFLAGS=$ldflags
+RM=del
+
+#if "target" in $config:
+  #set target = "%s" % ($config.target)
+#else
+  #set target = "%s.%s" % ($projectName, $config.targettype)
+#endif
+#set objects = " ".join([$objectName(s) for s in $sources])
+$target: $objects
+	@\$(LD) \$(LDFLAGS) $objects /out:$target \$(LIBS)
+
+#for source in $sources:
+$objectName($source): src/$source
+	@\$(CC) \$(CFLAGS) src/$source
+
+#end for
+clean:
+	@\$(RM) $target $objects

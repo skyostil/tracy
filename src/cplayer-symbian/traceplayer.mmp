@@ -1,0 +1,15 @@
+TARGET		traceplayer.exe
+TARGETTYPE	exe
+
+EPOCHEAPSIZE	0x3000 0x800000		// allocate 8MB heap
+
+SOURCEPATH	.
+SOURCE		native_symbian.cpp
+SOURCE      	traceplayer.cpp
+
+USERINCLUDE	.
+SYSTEMINCLUDE	\epoc32\include\libc  \epoc32\include 
+
+LIBRARY		libOpenVG.lib libEGL.lib 
+LIBRARY		euser.lib estlib.lib
+LIBRARY		cone.lib ws32.lib fbscli.lib 

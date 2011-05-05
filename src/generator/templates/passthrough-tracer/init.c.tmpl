@@ -1,0 +1,12 @@
+/* Tracer initialization */
+void trInitialize()
+{
+    /* Register all the APIs */
+    #for $library in $libraries:
+    trRegisterApi($library.id, $len($library.functions), $(safeName($library.name))_functions);
+    #end for
+
+    #for $library in $libraries:
+    $emitHook("@init", $library.hooks)
+    #end for
+}

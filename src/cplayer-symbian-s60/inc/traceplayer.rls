@@ -1,0 +1,17 @@
+/*
+* ============================================================================
+*  Name        : TracePlayer.rls
+*  Part of     : TracePlayer
+*
+*  Copyright (c) 2009 Nokia Corporation.
+* ==============================================================================
+*/
+
+// LOCALISATION STRINGS
+
+rls_string qtn_app_caption_string       "TracePlayer"
+rls_string qtn_app_short_caption_string "TracePlayer"
+
+rls_string qtn_traceplayer_exit          "Exit"
+
+// End of File

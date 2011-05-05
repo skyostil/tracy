@@ -1,0 +1,16 @@
+/* Player initialization */
+void trInitialize(void)
+{
+    /* Register all the APIs */
+    #for $library in $libraries:
+    trRegisterApi($library.id, $len($library.functions), $(safeName($library.name))_functions);
+    #end for
+
+    /* Register the classes */
+    trRegisterClasses();
+    
+    #for $library in $libraries:
+    $emitHook("@init", $library.hooks)
+    #end for
+}
+

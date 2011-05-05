@@ -1,0 +1,203 @@
+\#---------------------------------------------------------------------------
+\# Tracy Generator makefile
+\# (automatically generated)
+\#---------------------------------------------------------------------------
+\# Installation prefix
+PREFIX=../..
+\# Project target path
+TRACY_TARGET_PATH=\$(PREFIX)/lib/tracy
+\# Generation target path
+TRACY_CODEGEN_PATH=output
+\# Symbian architecture (e.g., winscw, armv5)
+ARCH=winscw
+\# Symbian configuration (e.g., urel, ureb)
+CONF=udeb
+\# Choose compiler
+COMP=ABLD
+\# Verbose output
+VERBOSE=0
+
+# Tools
+PYTHON=python
+RM=/bin/rm
+ABLD=cmd /c ..\\..\\..\\abld-wrapper.bat   # ABLD wrapper for Cygwin
+NMAKE=cmd /c ..\\..\\nmake-wrapper.bat     # NMake wrapper for Cygwin
+SBS=cmd /c ..\\..\\..\\sbs-wrapper.bat         # SBS wrapper for Cygwin
+MKDIR=/bin/mkdir
+CP=cp
+\#---------------------------------------------------------------------------
+
+ifeq (\$(VERBOSE),1)
+TRACY_ARGS=-v
+else
+TRACY_ARGS?=
+endif
+
+ifeq (\$(COMP),abld)
+BUILD_COMMAND=  \$(ABLD) build \$(ARCH) \$(CONF)
+CLEANCOMMAND=   \$(ABLD) reallyclean \$(ARCH) \$(CONF)
+else
+BUILD_COMMAND= \$(SBS) -c \$(ARCH)_\$(CONF)
+CLEANCOMMAND=  \$(SBS) -c \$(ARCH)_\$(CONF) clean
+endif
+
+\#---------------------------------------------------------------------------
+\# Global targets
+\#---------------------------------------------------------------------------
+#set project_rules=" ".join($conf["name"] for conf in $configs)
+#set target_rules=" ".join($target["name"] for target in $targets)
+all: projects targets
+projects: $project_rules
+targets: $target_rules
+.PHONY: all projects targets
+
+#set clean_project_rules=" ".join($conf["name"] + "_clean" for conf in $configs)
+#set clean_target_rules=" ".join($target["name"] + "_clean" for target in $targets)
+projects_clean: $clean_project_rules
+targets_clean: $clean_target_rules
+clean: targets_clean projects_clean output-dirs_clean
+.PHONY: clean projects_clean targets_clean
+
+help:
+	@echo
+	@echo This makefile is used to generate Tracy projects and targets such
+	@echo as tracers. The following generation targets are available:
+	@echo
+	@echo "    projects  - Generate all project files for all platforms"
+	@echo "    targets   - Compile all targets for all platforms"
+	@echo "    tracers   - Compile all tracers for all platforms"
+	@echo "    clean     - Remove all generated files"
+	@echo
+	@echo To reduce build time, you can generate or compile only a subset of
+	@echo the available targets. For example:
+	@echo
+	@echo "    projects-unix       - Generate all project files for unix"
+	@echo "    targets-win32       - Compile all targets for win32"
+	@echo "    targets-symbian_gen - Generate all targets for symbian without building"
+	@echo "    vg11-tracer-unix    - Build the OpenVG 1.1 tracer for unix"
+	@echo "    symbian_clean       - Remove all generated files for symbian"
+	@echo
+	@echo The following platforms are available:
+#for plat in $platforms:
+	@echo "    $plat"
+#end for
+	@echo
+	@echo The following API configurations are available:
+	@echo
+#for api in $apis.keys():
+	@echo "    $api"
+#end for
+	@echo
+	@echo The following configuration targets are available:
+	@echo
+#for target in $genTargets:
+	@echo "    $target"
+#end for
+	@echo
+	@echo Append _clean to a project or target name to remove the compilation
+	@echo output. Append _dump to a project name to display debug information
+	@echo about that project.
+	@echo
+.PHONY: help
+
+test:
+	@\$(PYTHON) TestAll.py
+.PHONY: test
+
+sync:
+	@\$(PYTHON) TracyGenerator.py sync \$(TRACY_ARGS)
+.PHONY: sync
+
+\$(TRACY_TARGET_PATH):
+	@\$(MKDIR) -p \$@
+
+\$(TRACY_CODEGEN_PATH):
+	@\$(MKDIR) -p \$@
+
+output-dirs_clean:
+	@\$(RM) -rf \$(TRACY_CODEGEN_PATH)
+.PHONY: output-dirs_clean
+
+#set proj_deps="$(TRACY_TARGET_PATH)"
+#set target_deps="$(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl"
+
+#for conf in $configs:
+
+\#---------------------------------------------------------------------------
+\# Project $conf["name"]
+\#---------------------------------------------------------------------------
+\$(TRACY_TARGET_PATH)/$(conf["name"]).tcy: $proj_deps $conf["deps"]
+	@\$(PYTHON) TracyGenerator.py create $conf["conf"] -p $conf["platform"] -o \$@ \$(TRACY_ARGS)
+$(conf["name"]): \$(TRACY_TARGET_PATH)/$(conf["name"]).tcy
+$(conf["name"])_clean:
+	@-\$(RM) -f \$(TRACY_TARGET_PATH)/$(conf["name"]).tcy
+$(conf["name"])_dump: $(conf["name"])
+	@\$(PYTHON) TracyGenerator.py show all -c \$(TRACY_TARGET_PATH)/$(conf["name"]).tcy
+.PHONY: $(conf["name"]) $(conf["name"])_clean $(conf["name"])_dump
+#end for
+
+
+
+
+
+
+#for target in $targets:
+
+\#---------------------------------------------------------------------------
+\# Target $target["name"]
+\#---------------------------------------------------------------------------
+\$(TRACY_CODEGEN_PATH)/$(target["name"]): $target_deps $target["api"]-$(target["platform"])
+	@\$(PYTHON) TracyGenerator.py -c \$(TRACY_TARGET_PATH)/$(target["api"])-$(target["platform"]).tcy generate $(target["target"]) -o \$@ \$(TRACY_ARGS)
+$(target["name"])_build: \$(TRACY_CODEGEN_PATH)/$(target["name"])
+#if $target["platform"] == "symbian":
+	 cd \$(TRACY_CODEGEN_PATH)/$(target["name"])/group && \$(BUILD_COMMAND)
+#end if
+#if $target["platform"] == "win32":
+	@cd \$(TRACY_CODEGEN_PATH)/$(target["name"]) && \$(NMAKE)
+#end if
+#if $target["platform"] == "unix":
+	@cd \$(TRACY_CODEGEN_PATH)/$(target["name"]) && \$(MAKE)
+#end if
+$(target["name"]): $(target["name"])_build
+$(target["name"])_clean:
+#if $target["platform"] == "symbian":
+	@-(test -d \$(TRACY_CODEGEN_PATH)/$(target["name"]) && cd \$(TRACY_CODEGEN_PATH)/$(target["name"])/group && \$(CLEANCOMMAND)) || true
+#end if
+#if $target["platform"] == "win32":
+	@-(test -d \$(TRACY_CODEGEN_PATH)/$(target["name"]) && cd \$(TRACY_CODEGEN_PATH)/$(target["name"]) && \$(NMAKE) clean) || true
+#end if
+#if $target["platform"] == "unix":
+	@-(test -d \$(TRACY_CODEGEN_PATH)/$(target["name"]) && cd \$(TRACY_CODEGEN_PATH)/$(target["name"]) && \$(MAKE) clean) || true
+#end if
+	@-\$(RM) -rf \$(TRACY_CODEGEN_PATH)/$(target["name"])
+.PHONY: $target["name"] $(target["name"])_build $(target["name"])_clean
+#end for
+
+#for plat in $platforms:
+    #set project_rules=" ".join($conf["name"] for conf in $configs if $conf.platform == plat)
+    #set target_rules=" ".join($target["name"] for target in $targets if $target.platform == plat)
+    #set clean_project_rules=" ".join($conf["name"] + "_clean" for conf in $configs if $conf.platform == plat)
+    #set clean_target_rules=" ".join($target["name"] + "_clean" for target in $targets if $target.platform == plat)
+\#---------------------------------------------------------------------------
+\# $plat targets
+\#---------------------------------------------------------------------------
+projects-$plat: $project_rules
+targets-$plat: $target_rules
+projects-$(plat)_clean: $clean_project_rules
+targets-$(plat)_clean: $clean_target_rules
+$(plat): projects-$plat targets-$plat
+$(plat)_clean: projects-$(plat)_clean targets-$(plat)_clean
+.PHONY: projects-$plat targets-$plat projects-$(plat)_clean targets-$(plat)_clean $plat $(plat)_clean
+
+#end for
+#for genTarget in $genTargets:
+    #set target_rules=" ".join($target["name"] for target in $targets if $target.target == genTarget)
+    #set clean_target_rules=" ".join($target["name"] + "_clean" for target in $targets if $target.target == genTarget)
+\#---------------------------------------------------------------------------
+\# $genTarget targets
+\#---------------------------------------------------------------------------
+$(genTarget + "s"): $target_rules
+$(genTarget + "s_clean"): $clean_target_rules
+.PHONY: $(genTarget + "s") $(genTarget + "s_clean")
+
+#end for

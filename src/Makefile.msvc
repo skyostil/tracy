@@ -1,0 +1,18 @@
+#
+# Makefile for compiling with MSVC.Net
+#
+
+MAKE_FLAGS=/FMakefile.msvc
+
+all: generator
+
+generator:
+	@cd generator && $(MAKE) /$(MAKEFLAGS) $(MAKE_FLAGS) && cd ..
+
+clean: do_always
+	@cd libraries && $(MAKE) /$(MAKEFLAGS) $(MAKE_FLAGS) $@ && cd ..
+	@cd generator && $(MAKE) /$(MAKEFLAGS) $(MAKE_FLAGS) $@ && cd ..
+
+do_always:
+	@
+

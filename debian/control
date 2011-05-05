@@ -1,0 +1,53 @@
+Source: tracy
+Section: devel
+Priority: extra
+Maintainer: Sami Kyöstilä <sami.kyostila@nokia.com>
+Build-Depends: debhelper (>= 7), libegl-dev, libgles2-dev, libgles1-dev, libx11-dev
+Standards-Version: 3.8.3
+Homepage: http://gitorious.org/meego-graphics/tracy
+
+Package: tracy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: tracy-recorder, tracy-analyzer
+Description: Tracy graphics performance analysis framework
+ Tracy is an OpenGL ES and OpenVG graphics debugging and system analysis
+ toolkit for cross-platform system and application development. Tracy operates
+ by recording graphics function calls and argument data of unmodified
+ applications into a trace file for offline playback, debugging, and performance
+ analysis.
+
+Package: tracy-recorder
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Tracy recorder tool
+ Tracy is an OpenGL ES and OpenVG graphics debugging and system analysis
+ toolkit for cross-platform system and application development. Tracy operates
+ by recording graphics function calls and argument data of unmodified
+ applications into a trace file for offline playback, debugging, and performance
+ analysis.
+ .
+ This package provides the Tracy recording tool.
+
+Package: tracy-analyzer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Tracy analyzer tool
+ Tracy is an OpenGL ES and OpenVG graphics debugging and system analysis
+ toolkit for cross-platform system and application development. Tracy operates
+ by recording graphics function calls and argument data of unmodified
+ applications into a trace file for offline playback, debugging, and performance
+ analysis.
+ .
+ This package provides the Tracy analyzer tool.
+
+Package: tracy-doc
+Architecture: all
+Description: Documentation for Tracy
+ Tracy is an OpenGL ES and OpenVG graphics debugging and system analysis
+ toolkit for cross-platform system and application development. Tracy operates
+ by recording graphics function calls and argument data of unmodified
+ applications into a trace file for offline playback, debugging, and performance
+ analysis.
+ .
+ This package provides documentation for Tracy.

@@ -1,0 +1,66 @@
+##
+## Object class mapping
+##
+
+##
+## Get code for a hook for a specific class
+##
+#def classHasHook($library, $cls, $hookName):
+  #set hookName = "@%s.%s" % ($cls.name, $hookName)
+  #return $hookName in $library.hooks
+#end def
+##
+/* Class identifiers */
+#for $library in $libraries:
+  #for i, cls in enumerate($library.classes):
+const TRenum $getClassIdentifier($cls) = $hex(i + 1);
+  #end for
+#end for
+
+#for $library in $libraries:
+  #for cls in $library.classes:
+    #set name = $cls.name
+    #if $classHasHook($library, $cls, "serialize")
+void $(name)_serialize(TREvent* event, TRhandle handle)
+{
+    #set hookName = "@%s.serialize" % name
+    $emitHook($hookName, $library.hooks)
+}
+
+    #end if
+    #if $classHasHook($library, $cls, "modify")
+void $(name)_modify(TREvent* event, TRhandle handle)
+{
+    #set hookName = "@%s.modify" % name
+    $emitHook($hookName, $library.hooks)
+}
+
+    #end if
+  #end for
+#end for
+/* Class registration */
+void trRegisterClasses()
+{
+#for $library in $libraries:
+  #for i, c in enumerate($library.classes.items()):
+    #set type, cls   = c
+    #set name        = $type.name
+    #set constructor = 0
+    #set destructor  = 0
+    #set serializer  = 0
+    #set modifier    = 0
+    #set nsPath      = 0
+    #if $classHasHook($library, $type, "serialize")
+      #set serializer  = "%s_serialize" % $name
+    #end if
+    #if $classHasHook($library, $type, "modify")
+      #set modifier = "%s_modify" % $name
+    #end if
+    #if $cls.namespacePath
+      #set nsPath = $getStatePathIdentifier($cls.namespacePath)
+    #end if
+    trRegisterClass($getClassIdentifier($type), "$name", $nsPath, $constructor, $destructor, $serializer, $modifier);
+  #end for
+#end for
+}
+

@@ -1,0 +1,29 @@
+/*
+ * ==============================================================================
+ *  Name        : traceplayer_reg.rss
+ *  Part of     : TracePlayer
+ *
+ *  Copyright (c) 2009 Nokia Corporation.
+ * ==============================================================================
+ */
+
+#include <appinfo.rh>
+#include <traceplayer.rsg>
+
+UID2 KUidAppRegistrationResourceFile
+
+// Application UID
+UID3 0xA2DD1A4C
+
+RESOURCE APP_REGISTRATION_INFO
+    {
+    app_file                  = "TracePlayer";
+    localisable_resource_file = "\\resource\\apps\\traceplayer";
+    localisable_resource_id   = R_TRACEPLAYER_LOCALISABLE_APP_INFO;
+    embeddability             = KAppNotEmbeddable;
+    newfile                   = KAppDoesNotSupportNewFile;
+
+//    group_name                = "OpenGLEx";
+    }
+
+// End of File

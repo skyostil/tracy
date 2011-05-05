@@ -1,0 +1,113 @@
+Installing Tracy
+================
+
+Tracy is a tool for capturing graphics API commands into trace files for
+further analysis. Here is how you can install Tracy for intercepting EGL and
+OpenVG commands.
+
+For tracing APIs such as OpenGL ES, please refer to the output of the "make
+help" command when run under src/generator for the respective API target names.
+
+Installation on Symbian
+-----------------------
+
+    * Prerequisites: Cygwin, Python 2.5+, SymSEE
+
+    * Open a Cygwin shell and compile the three required tracer components
+      (Note: try /bin/make if make doesn't work): 
+
+$ cd tracy/src/generator
+$ make gles11-vg11-egl13-tracer-symbian ARCH=armv5 CONF=urel
+$ make vg11-passthrough_tracer-symbian ARCH=armv5 CONF=urel
+$ make egl13-passthrough_tracer-symbian ARCH=armv5 CONF=urel
+
+    * If any of the above make commands fails with an ABLD build error (due to
+      SBSv2 for example), try building the respective component by hand from
+      tracy/src/generator/output. 
+
+    * The next step is to add the tracer DLLs into the ROM image and to rename
+      the existing graphics driver files. For CTS79, you need to edit the
+      following files: 
+
+/epoc32/rom/include/vc_egl.iby
+
+         file=ABI_DIR\BC_DIR\vclibEGL.dll                       \Sys\Bin\libEGL_orig.dll
+         file=ABI_DIR\BUILD_DIR\egl13-passthrough_tracer.dll    \Sys\Bin\libEGL.dll
+         file=ABI_DIR\BUILD_DIR\gles11-vg11-egl13-tracer.dll    \Sys\Bin\gles11-vg11-egl13-tracer.dll
+
+/epoc32/rom/include/vc_openvg.iby
+
+         file=ABI_DIR\BC_DIR\vclibOpenVG.dll                    \Sys\Bin\libOpenVG_orig.dll
+         file=ABI_DIR\BUILD_DIR\vg11-passthrough_tracer.dll     \Sys\Bin\libOpenVG.dll
+
+    * Now just build the ROM image normally, and the traces for all OpenVG
+      applications will be written to the root of the F: drive (memory card). 
+
+Installation on Windows
+-----------------------
+
+    * Prerequisites: Cygwin (cpp, make), Python 2.5+, Microsoft Visual Studio
+
+    * Open a Cygwin shell and compile the three required tracer components: 
+
+$ cd tracy/src/generator
+$ make gles11-vg11-egl13-tracer-win32
+$ make vg11-passthrough_tracer-win32
+$ make egl13-passthrough_tracer-win32
+
+    * The next step is to replace your OpenVG driver with the tracer. First
+      rename your existing libEGL.dll as libEGL_orig.dll and libOpenVG.dll as
+      libOpenVG_orig.dll
+
+    * Now rename tracy/src/generator/output/vg11-passthrough_tracer-win32/
+      vg11-passthrough_tracer.dll as libOpenVG.dll and copy it to your
+      application's folder.
+
+    * Then rename tracy/src/generator/output/egl13-passthrough_tracer-win32/
+      egl13-passthrough_tracer.dll as libEGL.dll and copy it to your
+      application's folder.
+
+    * Finally, copy tracy/src/generator/output/gles11-vg11-tracer-win32/
+      gles11-vg11-tracer.dll to your application's folder.
+
+    * Now when you run your app, the trace file is created in the same folder. 
+
+Installation on Linux/Unix
+--------------------------
+
+    * Prerequisites: cpp, make, Python 2.5+
+
+    * Open a shell and compile the tracer: 
+
+$ cd tracy/src/generator
+$ make gles11-vg11-egl13-tracer-unix
+
+    * Note: You can override the used Python interpreter with a parameter to make, 
+      e.g., make PYTHON=python2.5 ...
+
+    * To trace an application, start it like this: 
+
+$ LD_PRELOAD=/path/to/tracy/src/generator/output/gles11-vg11-egl13-tracer-unix/gles11-vg11-egl13-tracer.so some_application
+
+Converting binary trace files to text format
+--------------------------------------------
+
+To make any sense of the created trace files, you should convert them to text
+form. To do this, fire up the Tracy Analyzer: 
+
+    $ cd tracy/src/analyzer
+    $ python TracyAnalyzer.py
+      1. egl13-symbian
+      2. gles11-vg11-egl13-symbian
+      3. vg11-symbian
+    Choose a project file: 2
+    gles11-vg11-egl13>_
+
+Now load a trace file and export it to a corresponding text file: 
+
+gles11-vg11-egl13> load "e:/tracer_gles11-vg11-egl13_SomeApp.bin"
+gles11-vg11-egl13> export t0 "someapp.txt" text
+
+We're done for now, so you can either close the analyzer with "quit" or type
+"help" to see what additional commands are available. 
+

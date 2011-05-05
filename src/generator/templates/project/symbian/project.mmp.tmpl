@@ -1,0 +1,64 @@
+/*
+ *  MMP file for $(projectName).
+ */
+
+#if "target" in $config:
+TARGET          $(config.target)
+#else
+TARGET          $(projectName).$(config.targettype)
+#end if
+TARGETTYPE      $config.targettype
+UID             $config.uid1 $config.uid2
+CAPABILITY      $config.capability
+VENDORID        $config.vendorid
+
+/* Include paths */
+USERINCLUDE     ..\inc
+#if "includedirs" in $config:
+  #for item in $config.includedirs:
+SYSTEMINCLUDE   $item
+  #end for
+#end if
+
+#if $config.targettype.lower() == "dll":
+/* Binary interface files */
+DEFFILE         $(projectName).def
+#end if
+
+/* Source files */
+SOURCEPATH      ..\src
+#for name in $sources:
+SOURCE          $name
+#end for
+
+/* Libraries */
+#if "libraries" in $config:
+  #for item in $config.libraries:
+LIBRARY         $item
+  #end for
+#end if
+
+/* Macros */
+#if "macros" in $config:
+  #for macro in $config.macros.keys():
+MACRO           $macro
+  #end for
+#end if
+
+/* Resource files */
+#if "resources" in $config:
+SOURCEPATH      ..\resource
+  #for item in $config.resources:
+START RESOURCE $item
+    #if $item.attrs.get("type") == "reg":
+\#ifdef WINSCW
+TARGETPATH 	    \private\10003a3f\apps
+\#else
+TARGETPATH 	    \private\10003a3f\import\apps
+\#endif
+    #else
+TARGETPATH      \resource\apps
+    #end if
+END
+  #end for
+#end if

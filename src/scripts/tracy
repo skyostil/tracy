@@ -1,0 +1,106 @@
+#!/bin/sh
+CONFS="gles20-egl13 gles11-egl13"
+CONF="gles20-egl13"
+
+help()
+{
+    cat << EOF
+Tracy recorder - Copyright 2010, Nokia
+Author: Sami Kyöstilä <sami.kyostila@nokia.com>
+
+Usage: tracy trace [OPTIONS] PROGRAM [PROG OPTS]
+       tracy analyze [OPTIONS] TRACE_FILE
+
+Options for trace:
+    -c CONF     API configuration, one of $CONFS
+    -o DIR      Output directory, defaults to current directory
+    -f FORMAT   Output format, either binary or text
+    -s          Enable synchronous mode
+    -v          Enable verbose mode
+
+Options for analyze:
+    -c CONF     API configuration, one of $CONFS
+EOF
+}
+
+COMMAND=$1
+if [ "$COMMAND" != "trace" -a "$COMMAND" != "analyze" -a \
+     "$COMMAND" != "--help" -a "$COMMAND" != "-h" ]; then
+    echo Command missing. Use one of trace, analyze
+    exit 1
+fi
+shift
+
+if [ "$COMMAND" = "--help" -o "$COMMAND" = "-h" ]; then
+    help
+    exit 1
+fi
+
+export TRACY_OUTPUT_PATH=$PWD/
+while test $# != 0; do
+    case "$1" in
+        -v) export TRACY_VERBOSE=1
+            ;;
+        -s) export TRACY_SYNC=1
+            ;;
+        -c) if test $# -gt 1; then
+                export CONF=$2
+            else
+                echo "API configuration missing"
+                exit 1
+            fi
+            shift
+            ;;
+        -o) if test $# -gt 1; then
+                export TRACY_OUTPUT_PATH=$2/
+            else
+                echo "Output directory missing"
+                exit 1
+            fi
+            shift
+            ;;
+        -f) if test $# -gt 1; then
+                if [ "$2" != "text" -a "$2" != "binary" ]; then
+                    echo "Output format must be text or binary"
+                    exit 1
+                fi
+                export TRACY_OUTPUT_FORMAT=$2
+            else
+                echo "Output format missing"
+                exit 1
+            fi
+            shift
+            ;;
+        -h) help
+            exit 0
+            ;;
+        --help) help
+            exit 0
+            ;;
+        -*) echo "Unknown option: $1"
+            exit 1
+            ;;
+        *) break
+            ;;
+    esac
+    shift
+done
+
+if test $# -eq 0; then
+    help
+    exit 1
+fi
+
+if [ "$COMMAND" = "trace" ]; then
+    TRACER=/usr/lib/tracy-tracer-$CONF.so
+    if [ \! -f "$TRACER" ]; then
+        echo Tracer $TRACER not found. Have you installed tracy-analyzer\?
+        exit 1
+    fi
+    LD_PRELOAD=$TRACER exec $@
+fi
+
+if [ "$COMMAND" = "analyze" ]; then
+    echo Trace analysis not implemented yet
+    exit 1
+fi

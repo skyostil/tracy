@@ -1,0 +1,6 @@
+#ifndef TRACEPLAYER_IBY
+#define TRACEPLAYER_IBY
+
+file=KERNEL_DIR\DEBUG_DIR\traceplayer.exe                  \traceplayer.exe
+
+#endif

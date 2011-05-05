@@ -1,0 +1,11 @@
+Tracy
+=====
+
+Tracy is an OpenGL ES and OpenVG graphics debugging and system analysis toolkit
+for cross-platform system and application development. Tracy operates by
+recording graphics function calls and argument data of unmodified applications
+into a trace file for offline playback, debugging, and performance analysis.
+
+Please see https://gitorious.org/tracy for more information.
+
+Installation instructions can be found in the INSTALL file.

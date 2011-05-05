@@ -1,0 +1,11 @@
+// BLD.INF
+// Component description file
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_MMPFILES
+traceplayer.mmp
+
+PRJ_EXPORTS
+traceplayer.iby       /epoc32/rom/include/traceplayer.iby

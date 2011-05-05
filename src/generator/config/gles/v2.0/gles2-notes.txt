@@ -1,0 +1,46 @@
+GLES 2 notes
+============
+
+ - Calls that need simple handling:
+   - glBindAttribLocation
+   - glBuffer{Sub}Data
+   - glCompressedTex{Sub}Image2D
+   - glGetActive{Attrib, Uniform}
+   - glGetAttachedShaders
+   - glGet{Boolean, Float, Integer}v
+   - glGet{BufferParameter, FramebufferAttachmentParameter, Program, Shader}iv
+   - glGet{Program, Shader}InfoLog
+   - glGetRenderbufferParameteriv
+   - glGetShaderPrecisionFormat
+   - glGetShaderSource
+   - glGetString
+   - glTexParameter{f, i}v
+   - glReadPixels
+   - glShaderBinary
+   - glTexImage2D
+   - glTexParameterfv
+ - Calls that need complex handling
+   - glDrawElements
+     - Client-side vertex attribs need to be serialized
+   - glUniform{1,2,3,4}{f,v}
+   - glUniformMatrix{2,3,4}fv
+   - glGetUniform{f, i}v
+   - glGetVertexAttrib{f,i}v
+   - glGetVertexAttribPointerv
+   - glVertexAttrib{1,2,3,4}fv
+   - glVertexAttribPointer
+     - The preceeding calls use integer names
+ - Calls that need new code in Tracy
+   - glCreateProgram
+   - glCreateShader
+   - glDelete{Buffers, Framebuffers, Textures, Renderbuffers}
+   - glGen{Buffers, Framebuffers, Textures}
+     - Names are handles and not plain integers
+   - glGetAttribLocation
+   - glGetUniformLocation (how to handle differing locations?)
+     - "Creates" an attribute / uniform
+   - glShaderSource
+     - Nasty array-of-pointers
+ - Is __SOFTFP an issue?
+   - No, we can just ignore it in the parser (i.e., #define it to nothing)
+ - All the special-cased function parameters need to be checked again

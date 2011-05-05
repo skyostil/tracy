@@ -1,0 +1,30 @@
+#
+# Makefile for compiling with MSVC.Net
+#
+
+MAKE_FLAGS=/FMakefile.msvc
+PYTHON=python
+
+all: bin lib src
+
+src: do_always
+	@cd src && $(MAKE) /$(MAKEFLAGS) $(MAKE_FLAGS) && cd ..
+
+bin:
+	@mkdir bin
+
+lib:
+	@mkdir lib
+
+vg-analyzer: do_always
+	@cd src\analyzer && python TracyAnalyzer.py -c ..\generator\vg-win32.tcy
+
+gles-analyzer: do_always
+	@cd src\analyzer && python TracyAnalyzer.py -c ..\generator\gles-win32.tcy
+
+clean: do_always
+	@cd src && $(MAKE) /$(MAKEFLAGS) $(MAKE_FLAGS) $@ && cd ..
+
+do_always:
+	@
+

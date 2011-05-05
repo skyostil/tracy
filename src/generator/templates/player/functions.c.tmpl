@@ -1,0 +1,203 @@
+##
+## Align a number up to n fields.
+##
+#def pad(number, fields):
+  #return ("%%%dd" % fields) % number
+#end def
+##
+## Return a library name identifier
+##
+#def libName(n):
+  #if not n:
+    #return 0
+  #end if
+  #return "TR_LIB_" + $safeName(n).split(".")[0].upper()
+#end def
+/* Libraries used by the APIs */
+#for $library in $libraries:
+#set libNames = set(f.libName for f in $library.functions.values())
+#for $n in $libNames:
+  #if not $n:
+    #continue
+  #end if
+\#ifndef $libName($n)
+\#define $libName($n) "$n"
+\#endif
+#end for
+#end for
+##
+## Generate a unique local variable for the function
+##
+#def local($function, $name)
+  #if not $name in $function.parameters:
+    #return $name
+  #end if
+  #for $i in range(256):
+    #if not "%s%d" % ($name, $i) in $function.parameters
+      #echo "%s%d" % ($name, $i)
+      #break
+    #end if
+  #end for
+#end def
+##
+## A comma-separated list of parameters for a given function suitable for passing
+## to the TR_CALL macro
+##
+#def macroParameterList($function)
+  #return ", ".join(["%s, %s" % (p.type, p.name) for p in $function.parameters.values if p.name is not None])
+#end def
+##
+## Generate a function call to load a single parameter
+##
+#def loadParameter($library, $event, $function, $type, $name, $hookName = None)
+  #$logMessage("Loading parameter %s." % $name)
+  #if $hookName is None:
+    #set hookName = $name
+  #end if
+  #if $hookName in $function.hooks:
+    #return $emitHook($hookName, $function.hooks)
+  #end if
+  #set nativeType = $getNativeType($library, $type)
+  #if $nativeType not in $nativeTypeLoader:
+    $fail("Unable to log data type %s in function %s" % ($nativeType, $function.name))
+  #endif
+  ## Non-integral objects need to be dereferenced from a pointer
+  #if $nativeType == "object" and not $library.isPointerType($type) and not $library.isIntegralType($type):
+    #set loader = '%s %s = *((%s*)%s(%s, "%s"));' % ($type, $name, $type, $nativeTypeLoader[$nativeType], $event, $name)
+  #else
+    #set loader = '%s %s = (%s)%s(%s, "%s");' % ($type, $name, $type, $nativeTypeLoader[$nativeType], $event, $name)
+  #end if
+  #return $loader + " /* Code hook: %s */" % ($hookName)
+#end def
+/*
+ * The handlers for each event
+ */
+#for $library in $libraries:
+$logMessage("Generating library %s." % $library.name)
+#for $functionIndex, $function in enumerate($library.functions.values())
+#if $function.passthrough:
+  ## No need to generate player code for passthrough functions
+  #continue
+#end if
+$logMessage("Generating code for function %s." % $function.name)
+##
+## Function declaration
+##
+static void $(function.name)_event(TREvent* event)
+##
+## If the function already has a body, echo it and continue to the next one
+##
+#if $function.body
+  #echo "%s\n\n" % $function.body
+  #continue
+#end if
+{
+    ##
+    ## Determine whether we need the return value
+    ##
+    #if $getNativeType($library, $function.type) == "object":
+      #set returnValueNeeded = True
+    #else
+      #set returnValueNeeded = False
+    #end if
+    #if returnValueNeeded:
+      #set ret = $local($function, "ret");
+    $function.type $ret;
+    #endif
+    ##
+    ## Load the parameters
+    ##
+    #for $param in $function.parameters.values()
+    $loadParameter($library, "event", $function, $param.type, $param.name)
+    #end for
+    ##
+    ## No parameters?
+    ##
+    #if not $function.parameters and $function.staticLinkage:
+    TR_UNUSED(event);
+    #end if
+    ##
+    ## Call the function
+    ##
+    #set parameters = ", ".join($function.parameters.keys())
+    $emitHook("@precall", $function.hooks)
+    $emitHook("@call", $function.hooks)
+    #if not "@call" in $function.hooks:
+      #if $function.staticLinkage:
+        #if not returnValueNeeded:
+    $(function.name)($parameters);
+        #else
+    $ret = $(function.name)($parameters);
+        #end if
+      #else
+        ##
+        ## Make sure we have the pointer for the function
+    TR_ASSERT(event->function->pointer);
+        ##
+        ##
+        ## Construct the list of arguments for the call macro
+        ##
+        #set macroArgs = [str($function.type), "event->function"]
+        #if len($function.parameters)
+          #set macroArgs = macroArgs + [$macroParameterList($function)]
+        #end if
+        #set macroArgs = ", ".join($macroArgs)
+        ##
+        ## Need to save the return value?
+        ##
+        #if not returnValueNeeded:
+    TR_CALL$len($function.parameters)($macroArgs);
+        #else
+    $ret = TR_CALL$len($function.parameters)($macroArgs);
+        #endif
+      #endif staticLinkage
+    #endif call
+    $emitHook("@postcall", $function.hooks)
+    ##
+    ## Process the return value if it is an object
+    ##
+    #if returnValueNeeded:
+    trRegisterObjectAsEventValue(event, 0, (TRhandle)$ret);
+    #end if
+}
+#end for functions
+#end for libraries
+
+##
+## Write the list of function callers
+##
+#for $library in $libraries:
+/* A list of functions for the $library.name library */
+const TRFunction $(safeName($library.name))_functions[] =
+{
+    /* index, name, ordinal, pointer, event handler, flags */
+    #for $functionIndex, $function in enumerate($library.functions.values())
+      ##
+      ##  Compose flags for the function
+      ##
+      #if $function.passthrough:
+        #continue
+      #endif
+      #set flags = []
+      #if $function.isFrameMarker:
+        #set flags = $flags + ["TR_FUNC_FRAME_MARKER"]
+      #end if
+      #if $function.isRenderCall:
+        #set flags = $flags + ["TR_FUNC_RENDER_CALL"]
+      #end if
+      #if $flags:
+        #set flags = " | ".join($flags)
+      #else
+        #set flags = "0"
+      #end if
+      #if $function.ordinal is None:
+        #set pointer = "0"
+        #set ordinal = -1
+      #else
+        #set pointer = "(void*)%s" % $function.name
+        #set ordinal = $function.ordinal
+      #end if
+    /*$pad($functionIndex, 4) */ {"$function.name", $libName($function.libName), #if $function.ordinal is not None then $function.ordinal else -1#, $pointer, $(function.name)_event, $flags},
+    #end for
+};
+#end for

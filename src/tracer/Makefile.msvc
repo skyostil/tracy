@@ -1,0 +1,38 @@
+#
+# Tracer C API makefile
+#
+
+# Tools
+CC=cl
+LD=link
+RM=del
+LIBS=shlwapi.lib winmm.lib
+CFLAGS=/c /Zi /nologo /D_CRT_SECURE_NO_DEPRECATE
+LDFLAGS=/DEBUG
+
+# Objects
+OBJECTS=tracer.obj tracer_ascii_codec.obj tracer_stdio_stream.obj \
+        tracer_platform_win32.obj tracer_util.obj tracer_internal.obj \
+        tracer_binary_codec.obj tracer_logicanalyzer_codec.obj
+TEST_OBJECTS=CuTest.obj TestAll.obj tracer_api_test.obj tracer_util_test.obj \
+             tracer_player_test.obj testlibrary.obj
+
+all: test
+
+testlibrary.dll: $(TEST_OBJECTS)
+	@$(LD) $(LDFLAGS) /DLL /OUT:testlibrary.dll testlibrary.obj
+
+testsuite.exe: $(OBJECTS) $(TEST_OBJECTS)
+	@$(LD) $(LDFLAGS) $(OBJECTS) $(TEST_OBJECTS) $(LIBS) /out:testsuite.exe
+
+test: testsuite.exe testlibrary.dll
+	@testsuite.exe
+
+clean:
+	@$(RM) *.obj testsuite.exe
+
+
+.PHONY: clean test leaktest
+
+%.obj: %.c
+	$(CC) $(CFLAGS) -c $< -o $@

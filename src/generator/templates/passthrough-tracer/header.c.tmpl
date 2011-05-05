@@ -1,0 +1,34 @@
+/*********************************************************************
+ *  This is a generated passthrough tracer for the the following libraries:
+ *
+#for $i, $library in enumerate($libraries):
+ *      $(i + 1). $library.name - $len($library.functions) functions
+#end for
+ *
+ *  This tracer should be compiled on the $platform.name platform.
+ *********************************************************************/
+
+#if "includes" in $config: 
+  #for item in $config.includes:
+\#include "$item"
+  #end for
+#end if
+#if "systemincludes" in $config:
+  #for item in $config.systemincludes:
+\#include <$item>
+  #end for
+#end if
+
+/* Included libraries */
+#set libNames = "_".join([$library.name for library in $libraries])
+\#define TR_LIBRARIES "$libNames"
+
+/* Symbol exporting macros */
+#if $platform.language == "c++"
+\#define TR_APICALL     extern "C" $platform.exportLinkage
+\#define TR_APICALL_CPP $platform.exportLinkage
+#else
+\#define TR_APICALL     $platform.exportLinkage
+#endif
+\#define TR_APIENTRY    $platform.entryLinkage
+ 

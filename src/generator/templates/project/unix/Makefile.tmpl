@@ -1,0 +1,85 @@
+#
+# Makefile for $(projectName) (unix)
+#
+#import os.path
+##
+## Get the object name for a source file
+##
+#def objectName(sourceName):
+  #return sourceName.replace(".cpp", "").replace(".c", "") + ".o"
+#end def
+##
+## Construct the compiler command line
+##
+#set cflags  = ["-Wall", "-c", "-Iinclude", "-fPIC"]
+#set ldflags = []
+#set libs    = []
+##
+#if "includedirs" in $config:
+  #for item in $config.includedirs:
+     #set cflags = $cflags + ["-I%s" % $os.path.abspath($config.getRelativePath($item))]
+  #end for
+#end if
+#if "macros" in $config:
+  #for macro, value in $config.macros.items():
+     #if $value:
+       #set cflags = $cflags + ["-D%s=%s" % ($macro, $value)]
+     #else
+       #set cflags = $cflags + ["-D%s" % $macro]
+     #end if
+  #end for
+#end if
+#if "librarydirs" in $config:
+  #for item in $config.librarydirs:
+     #set ldflags = $ldflags + ["-L%s" % $os.path.abspath($config.getRelativePath($item))]
+  #end for
+#end if
+#if "libraries" in $config:
+  #for item in $config.libraries:
+     #set libs = $libs + ["-l%s" % $item]
+  #end for
+#end if
+##
+#if "target" in $config:
+  #set target = $config.target
+#elif $config.targettype == "exe":
+  #set target = $projectName
+#elif $config.targettype == "so":
+  #set target = "%s.%s" % ($projectName, $config.targettype)
+#else
+  $fail("Unsupported unix target type")
+#endif
+#if $config.targettype == "so":
+  #set ldflags = $ldflags + ["-shared"]
+#endif
+#set objects = " ".join([$objectName(s) for s in $sources])
+##
+#set cflags  = " ".join($cflags)
+#set ldflags = " ".join($ldflags)
+#set libs    = " ".join($libs)
+##
+#if "cflags" in $config:
+  #set cflags = $cflags + " " + $config.cflags
+#end if
+##
+#if "ldflags" in $config:
+  #set ldflags = $ldflags + " " + $config.ldflags
+#end if
+##
+LIBS=$libs
+CC=gcc
+CFLAGS=$cflags
+LD=gcc
+LDFLAGS=$ldflags
+RM=rm
+
+$target: $objects
+	@\$(LD) \$(LDFLAGS) $objects -o $target \$(LIBS)
+
+#for source in $sources:
+$objectName($source): src/$source
+	@\$(CC) \$(CFLAGS) src/$source
+
+#end for
+clean:
+	@\$(RM) $target $objects

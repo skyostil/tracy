@@ -1,0 +1,11 @@
+EXPORTS
+#for $function in $sorted($library.functions.values(), key = lambda f: f.exportOrdinal):
+  #if $function.exportOrdinal is None:
+    #continue
+  #end if
+  #if $function.staticLinkage:
+	$function.name @ $function.exportOrdinal NONAME
+  #else
+	$function.name @ $function.exportOrdinal NONAME ABSENT
+  #end if
+#end for

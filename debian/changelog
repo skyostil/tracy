@@ -1,0 +1,28 @@
+tracy (1.3) unstable; urgency=low
+
+  * Always save VBO binding in glVertexAttribPointer. Solves serialization
+    problem with attributes that are used with VBOs and client side memory
+    interchangeably.
+
+ -- Sami Kyöstilä <sami.kyostila@nokia.com>  Fri, 26 Nov 2010 17:07:46 +0200
+
+tracy (1.2) unstable; urgency=low
+
+  * Correct build-time dependencies
+  * Also accept Python 2.6 while building
+
+ -- Sami Kyöstilä <sami.kyostila@nokia.com>  Thu, 25 Nov 2010 13:05:41 +0200
+
+tracy (1.1) unstable; urgency=low
+
+  * tracer: Fixed glVertexAttribPointer tracing with VBOs
+  * analyzer: C trace export fix: don't use const with unitialized static arrays
+  * analyzer: Add missing cast when integers are used as pointer parameters
+
+ -- Sami Kyöstilä <sami.kyostila@nokia.com>  Wed, 24 Nov 2010 15:10:12 +0200
+
+tracy (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Sami Kyöstilä <sami.kyostila@nokia.com>  Wed, 12 May 2010 10:47:38 +0300

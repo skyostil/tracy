@@ -1,0 +1,113 @@
+##
+## Align a number up to n fields.
+##
+#def pad(number, fields):
+  #return ("%%%dd" % fields) % number
+#end def
+##
+## Return a library name identifier
+##
+#def libName(n):
+  #if not n:
+    #return 0
+  #end if
+  #return "TR_LIB_" + $safeName(n).split(".")[0].upper()
+#end def
+/* Libraries used by the APIs */
+#for $library in $libraries:
+#set libNames = set(f.libName for f in $library.functions.values())
+#for $n in $libNames:
+  #if not $n:
+    #continue
+  #end if
+\#ifndef $libName($n)
+\#define $libName($n) "$n"
+\#endif
+#end for
+
+/* A list of functions for the $library.name library */
+const TRFunction $(safeName($library.name))_functions[] =
+{
+    /* index, name, ordinal, pointer, event handler, flags */
+    #for $functionIndex, $function in enumerate($library.functions.values())
+      ##
+      ##  Compose flags for the function
+      ##
+      #set flags = []
+      #if $function.isFrameMarker:
+        #set flags = $flags + ["TR_FUNC_FRAME_MARKER"]
+      #end if
+      #if $function.isRenderCall:
+        #set flags = $flags + ["TR_FUNC_RENDER_CALL"]
+      #end if
+      #if $flags:
+        #set flags = " | ".join($flags)
+      #else
+        #set flags = "0"
+      #end if
+    /*$pad($functionIndex, 4) */ {"$getMangledFunctionName($function)", $libName($function.libName), #if $function.ordinal is not None then $function.ordinal else -1#, 0, 0, $flags},
+    #end for
+};
+#end for
+
+/*
+ * The tracers for each function
+ */
+#if $platform.language == "c++"
+extern "C" {
+#endif
+#for $library in $libraries:
+$logMessage("Generating library %s." % $library.name)
+#for $functionIndex, $function in enumerate($library.functions.values())
+$logMessage("Generating code for function %s." % $function.name)
+#if $function.linkage:
+  #set linkage = $function.linkage
+#else:
+  #if $function.ordinal is None and not $function.staticLinkage:
+    #set linkage = ""
+  #else
+    #if $function.language == "c++":
+      #set linkage = "TR_APICALL_CPP"
+    #else
+      #set linkage = "TR_APICALL"
+    #endif
+  #endif
+#endif
+##
+## Generate the trampoline code directly since calling the naked
+## utility functions in tracer.c seem to confuse most compilers
+##
+/* Pass-through */
+##/*TR_GENERATE_PASSTHROUGH_FUNCTION($linkage, $function.name, $library.id, $functionIndex)*/
+\#if defined(__arm__)
+__declspec(dllexport) void $function.name ();
+__asm void $function.name ()
+{
+#if $functionIndex <= 0xff
+    mov r12, # ($functionIndex)
+#else
+    mov r12, # ($functionIndex & 0xff)
+    add r12, r12, # ($functionIndex & 0xff00)
+#endif
+#if $library.id
+    orr r12, r12, #$(library.id << 16)
+#end if
+    b __cpp(trDispatchPassthrough)
+}
+\#elif defined(TR_PLATFORM_WIN32) || defined(TR_PLATFORM_SYMBIAN)
+__declspec(dllexport)
+__declspec(naked)
+void $function.name ()
+{
+    _asm mov eax, (($library.id << 16) | $functionIndex)
+    _asm jmp trDispatchPassthrough
+}
+\#else
+\#error Please port me to your compiler and platform
+\#endif
+
+#end for functions
+#end for libraries
+#if $platform.language == "c++"
+} /* extern "C" */
+#endif
