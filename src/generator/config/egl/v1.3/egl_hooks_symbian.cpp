@@ -8,6 +8,12 @@
 
 void @EGLNativeWindowType.serialize(TREvent* event, TRhandle handle)
 {
+    REglWindowBase* eglwindowbase = reinterpret_cast<REglWindowBase*>(handle);
+        
+    TInt isRwindow = eglwindowbase->iIsRWindow;
+          
+    if (isRwindow != -1)
+    {
     RWindow* window = (RWindow*)handle;
     
     TSize size = window->Size();
@@ -48,6 +54,18 @@ void @EGLNativeWindowType.serialize(TREvent* event, TRhandle handle)
     trIntegerValue(event, "width",  size.iWidth);
     trIntegerValue(event, "height", size.iHeight);
     trIntegerValue(event, "mode",   colorFormat);
+    }
+    else
+    {
+      REglStandAloneWindow* window = (REglStandAloneWindow*)handle;
+      TSize sizeinpixels = window->SizeInPixels();
+        
+      trIntegerValue(event, "x",      0);
+      trIntegerValue(event, "y",      0);
+      trIntegerValue(event, "width",  sizeinpixels.iWidth);
+      trIntegerValue(event, "height", sizeinpixels.iHeight);
+      trIntegerValue(event, "mode",   TR_COLOR_RGBX_8888);
+    }
 }
 
 /*
