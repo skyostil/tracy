@@ -26,7 +26,7 @@
 #include "tracer_compiler.h"
 
 /* General logging */
-#define TRACER_VERBOSE_LOGGING
+/*#define TRACER_VERBOSE_LOGGING*/
 
 /* State tracker logging */
 /*#define TRACER_VERBOSE_STATE_LOGGING*/

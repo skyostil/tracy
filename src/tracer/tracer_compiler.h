@@ -28,6 +28,8 @@
 #  define TR_PLATFORM_WIN32
 #elif defined(__SYMBIAN32__)
 #  define TR_PLATFORM_SYMBIAN
+#elif defined(ANDROID)
+#  define TR_PLATFORM_ANDROID
 #else
 #  define TR_PLATFORM_UNIX
 #endif
