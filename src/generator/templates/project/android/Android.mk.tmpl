@@ -1,0 +1,19 @@
+#
+# Android NDK build file for $(projectName)
+#
+#import os.path
+
+LOCAL_PATH := \$(call my-dir)
+
+include \$(CLEAR_VARS)
+LOCAL_MODULE    := $(projectName)
+
+#set src_files = " ".join("../src/" + s for s in $sources)
+LOCAL_SRC_FILES := $(src_files)
+
+LOCAL_C_INCLUDES += \$(NDK_APP_PROJECT_PATH)/include
+LOCAL_LDLIBS += -llog
+
+# TODO: macros, libraries, cflags, ldflags
+
+include \$(BUILD_SHARED_LIBRARY)

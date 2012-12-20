@@ -310,7 +310,7 @@ def generateMakefile(outputFile = sys.stdout, templatePath = "templates"):
   templates = [
     "generator-makefile.tmpl"
   ]
-  platforms  = ["unix", "symbian", "win32"]
+  platforms  = ["android", "unix", "symbian", "win32"]
   genTargets = ["tracer", "passthrough_tracer", "player"]
   apis = {
     "egl13":                    "config/egl/v1.3/egl.conf",

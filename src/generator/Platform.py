@@ -308,6 +308,42 @@ class UnixBuild(Build):
     generate(["templates", "project", "unix", "Makefile.tmpl"],
              [targetPath, "Makefile"])
 
+class AndroidBuild(Build):
+  def __init__(self, *args):
+    Build.__init__(self, *args)
+
+  def compile(self, targetPath):
+    # Collect the source and header files
+    sources = []
+    for item in self.config.get("sources", []):
+      sources.append(self.collectItem(os.path.join(targetPath, "src"), item))
+
+    headers = []
+    for item in self.config.get("headers", []):
+      if not isinstance(item, Config.Group):
+        headers.append(self.collectItem(os.path.join(targetPath, "include"), item))
+
+    # Prepare the code generator and its namespace
+    namespace = {
+      "targetName":  self.targetName,
+      "projectName": self.name,
+      "config":      self.config,
+      "sources":     sources,
+      "headers":     headers,
+    }
+
+    def generate(templatePath, outputPath):
+      Generator.generate(templates = [Resource.getPath(*templatePath)],
+                         namespace = namespace,
+                         outputFile = open(os.path.join(*outputPath), "w"))
+
+    # Create build files
+    Tools.makePath(os.path.join(targetPath, "jni"))
+    generate(["templates", "project", "android", "Android.mk.tmpl"],
+             [targetPath, "jni", "Android.mk"])
+    generate(["templates", "project", "android", "default.properties.tmpl"],
+             [targetPath, "default.properties"])
+
 class SymbianPlatform(Platform):
   """Symbian C++ platform"""
   def __init__(self, config):
@@ -350,11 +386,23 @@ class UnixPlatform(Platform):
   def createBuild(self, config, library, name, targetName):
     return UnixBuild(config, library, self, name, targetName)
 
-defaultPlatform = "symbian"
+class AndroidPlatform(Platform):
+  def __init__(self, config):
+    Platform.__init__(self, config, "android")
+    self.requireOrdinals  = False
+    self.exportLinkage    = ""
+    self.entryLinkage     = ""
+    self.language         = "c"
+
+  def createBuild(self, config, library, name, targetName):
+    return AndroidBuild(config, library, self, name, targetName)
+
+defaultPlatform = "unix"
 
 platforms = {
   "symbian":  SymbianPlatform,
   "spandex":  SpandexPlatform,
   "win32":    Win32Platform,
   "unix":     UnixPlatform,
+  "android":  AndroidPlatform,
 }
