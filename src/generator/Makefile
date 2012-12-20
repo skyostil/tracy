@@ -45,12 +45,12 @@ endif
 # Global targets
 #---------------------------------------------------------------------------
 all: projects targets
-projects: gles11-vg11-egl13-unix vg11-vgu11-vgi10-unix vg11-egl13-unix vg10-vgi10-unix gles20-vg11-vgu11-egl13-unix gles11-egl13-unix vgu11-unix gles11-egl11-unix vg11-vgi10-unix gles20-vg11-egl13-unix vg11-unix egl13-unix vg101-vgi10-unix gles20-egl13-unix gles11-vg101-egl13-unix gles11-vg11-vgu11-egl13-unix gles11-unix vg11-vgu11-egl13-unix vgi10-unix gles20-unix comp10-unix gles11-vg11-egl13-symbian vg11-vgu11-vgi10-symbian vg11-egl13-symbian vg10-vgi10-symbian gles20-vg11-vgu11-egl13-symbian gles11-egl13-symbian vgu11-symbian gles11-egl11-symbian vg11-vgi10-symbian gles20-vg11-egl13-symbian vg11-symbian egl13-symbian vg101-vgi10-symbian gles20-egl13-symbian gles11-vg101-egl13-symbian gles11-vg11-vgu11-egl13-symbian gles11-symbian vg11-vgu11-egl13-symbian vgi10-symbian gles20-symbian comp10-symbian gles11-vg11-egl13-win32 vg11-vgu11-vgi10-win32 vg11-egl13-win32 vg10-vgi10-win32 gles20-vg11-vgu11-egl13-win32 gles11-egl13-win32 vgu11-win32 gles11-egl11-win32 vg11-vgi10-win32 gles20-vg11-egl13-win32 vg11-win32 egl13-win32 vg101-vgi10-win32 gles20-egl13-win32 gles11-vg101-egl13-win32 gles11-vg11-vgu11-egl13-win32 gles11-win32 vg11-vgu11-egl13-win32 vgi10-win32 gles20-win32 comp10-win32
-targets: gles11-vg11-egl13-tracer-unix vg11-vgu11-vgi10-tracer-unix vg11-egl13-tracer-unix vg10-vgi10-tracer-unix gles20-vg11-vgu11-egl13-tracer-unix gles11-egl13-tracer-unix vgu11-tracer-unix gles11-egl11-tracer-unix vg11-vgi10-tracer-unix gles20-vg11-egl13-tracer-unix vg11-tracer-unix egl13-tracer-unix vg101-vgi10-tracer-unix gles20-egl13-tracer-unix gles11-vg101-egl13-tracer-unix gles11-vg11-vgu11-egl13-tracer-unix gles11-tracer-unix vg11-vgu11-egl13-tracer-unix vgi10-tracer-unix gles20-tracer-unix comp10-tracer-unix gles11-vg11-egl13-passthrough_tracer-unix vg11-vgu11-vgi10-passthrough_tracer-unix vg11-egl13-passthrough_tracer-unix vg10-vgi10-passthrough_tracer-unix gles20-vg11-vgu11-egl13-passthrough_tracer-unix gles11-egl13-passthrough_tracer-unix vgu11-passthrough_tracer-unix gles11-egl11-passthrough_tracer-unix vg11-vgi10-passthrough_tracer-unix gles20-vg11-egl13-passthrough_tracer-unix vg11-passthrough_tracer-unix egl13-passthrough_tracer-unix vg101-vgi10-passthrough_tracer-unix gles20-egl13-passthrough_tracer-unix gles11-vg101-egl13-passthrough_tracer-unix gles11-vg11-vgu11-egl13-passthrough_tracer-unix gles11-passthrough_tracer-unix vg11-vgu11-egl13-passthrough_tracer-unix vgi10-passthrough_tracer-unix gles20-passthrough_tracer-unix comp10-passthrough_tracer-unix gles11-vg11-egl13-player-unix vg11-vgu11-vgi10-player-unix vg11-egl13-player-unix vg10-vgi10-player-unix gles20-vg11-vgu11-egl13-player-unix gles11-egl13-player-unix vgu11-player-unix gles11-egl11-player-unix vg11-vgi10-player-unix gles20-vg11-egl13-player-unix vg11-player-unix egl13-player-unix vg101-vgi10-player-unix gles20-egl13-player-unix gles11-vg101-egl13-player-unix gles11-vg11-vgu11-egl13-player-unix gles11-player-unix vg11-vgu11-egl13-player-unix vgi10-player-unix gles20-player-unix comp10-player-unix gles11-vg11-egl13-tracer-symbian vg11-vgu11-vgi10-tracer-symbian vg11-egl13-tracer-symbian vg10-vgi10-tracer-symbian gles20-vg11-vgu11-egl13-tracer-symbian gles11-egl13-tracer-symbian vgu11-tracer-symbian gles11-egl11-tracer-symbian vg11-vgi10-tracer-symbian gles20-vg11-egl13-tracer-symbian vg11-tracer-symbian egl13-tracer-symbian vg101-vgi10-tracer-symbian gles20-egl13-tracer-symbian gles11-vg101-egl13-tracer-symbian gles11-vg11-vgu11-egl13-tracer-symbian gles11-tracer-symbian vg11-vgu11-egl13-tracer-symbian vgi10-tracer-symbian gles20-tracer-symbian comp10-tracer-symbian gles11-vg11-egl13-passthrough_tracer-symbian vg11-vgu11-vgi10-passthrough_tracer-symbian vg11-egl13-passthrough_tracer-symbian vg10-vgi10-passthrough_tracer-symbian gles20-vg11-vgu11-egl13-passthrough_tracer-symbian gles11-egl13-passthrough_tracer-symbian vgu11-passthrough_tracer-symbian gles11-egl11-passthrough_tracer-symbian vg11-vgi10-passthrough_tracer-symbian gles20-vg11-egl13-passthrough_tracer-symbian vg11-passthrough_tracer-symbian egl13-passthrough_tracer-symbian vg101-vgi10-passthrough_tracer-symbian gles20-egl13-passthrough_tracer-symbian gles11-vg101-egl13-passthrough_tracer-symbian gles11-vg11-vgu11-egl13-passthrough_tracer-symbian gles11-passthrough_tracer-symbian vg11-vgu11-egl13-passthrough_tracer-symbian vgi10-passthrough_tracer-symbian gles20-passthrough_tracer-symbian comp10-passthrough_tracer-symbian gles11-vg11-egl13-player-symbian vg11-vgu11-vgi10-player-symbian vg11-egl13-player-symbian vg10-vgi10-player-symbian gles20-vg11-vgu11-egl13-player-symbian gles11-egl13-player-symbian vgu11-player-symbian gles11-egl11-player-symbian vg11-vgi10-player-symbian gles20-vg11-egl13-player-symbian vg11-player-symbian egl13-player-symbian vg101-vgi10-player-symbian gles20-egl13-player-symbian gles11-vg101-egl13-player-symbian gles11-vg11-vgu11-egl13-player-symbian gles11-player-symbian vg11-vgu11-egl13-player-symbian vgi10-player-symbian gles20-player-symbian comp10-player-symbian gles11-vg11-egl13-tracer-win32 vg11-vgu11-vgi10-tracer-win32 vg11-egl13-tracer-win32 vg10-vgi10-tracer-win32 gles20-vg11-vgu11-egl13-tracer-win32 gles11-egl13-tracer-win32 vgu11-tracer-win32 gles11-egl11-tracer-win32 vg11-vgi10-tracer-win32 gles20-vg11-egl13-tracer-win32 vg11-tracer-win32 egl13-tracer-win32 vg101-vgi10-tracer-win32 gles20-egl13-tracer-win32 gles11-vg101-egl13-tracer-win32 gles11-vg11-vgu11-egl13-tracer-win32 gles11-tracer-win32 vg11-vgu11-egl13-tracer-win32 vgi10-tracer-win32 gles20-tracer-win32 comp10-tracer-win32 gles11-vg11-egl13-passthrough_tracer-win32 vg11-vgu11-vgi10-passthrough_tracer-win32 vg11-egl13-passthrough_tracer-win32 vg10-vgi10-passthrough_tracer-win32 gles20-vg11-vgu11-egl13-passthrough_tracer-win32 gles11-egl13-passthrough_tracer-win32 vgu11-passthrough_tracer-win32 gles11-egl11-passthrough_tracer-win32 vg11-vgi10-passthrough_tracer-win32 gles20-vg11-egl13-passthrough_tracer-win32 vg11-passthrough_tracer-win32 egl13-passthrough_tracer-win32 vg101-vgi10-passthrough_tracer-win32 gles20-egl13-passthrough_tracer-win32 gles11-vg101-egl13-passthrough_tracer-win32 gles11-vg11-vgu11-egl13-passthrough_tracer-win32 gles11-passthrough_tracer-win32 vg11-vgu11-egl13-passthrough_tracer-win32 vgi10-passthrough_tracer-win32 gles20-passthrough_tracer-win32 comp10-passthrough_tracer-win32 gles11-vg11-egl13-player-win32 vg11-vgu11-vgi10-player-win32 vg11-egl13-player-win32 vg10-vgi10-player-win32 gles20-vg11-vgu11-egl13-player-win32 gles11-egl13-player-win32 vgu11-player-win32 gles11-egl11-player-win32 vg11-vgi10-player-win32 gles20-vg11-egl13-player-win32 vg11-player-win32 egl13-player-win32 vg101-vgi10-player-win32 gles20-egl13-player-win32 gles11-vg101-egl13-player-win32 gles11-vg11-vgu11-egl13-player-win32 gles11-player-win32 vg11-vgu11-egl13-player-win32 vgi10-player-win32 gles20-player-win32 comp10-player-win32
+projects: gles11-vg11-egl13-android vg11-egl13-android vg11-android gles11-vg101-egl13-android gles11-vg11-vgu11-egl13-android vg11-vgu11-egl13-android gles20-egl13-android gles20-vg11-egl13-android gles11-egl13-android vgu11-android gles11-egl11-android gles20-vg11-vgu11-egl13-android egl13-android gles11-android gles20-android gles11-vg11-egl13-unix vg11-egl13-unix vg11-unix gles11-vg101-egl13-unix gles11-vg11-vgu11-egl13-unix vg11-vgu11-egl13-unix gles20-egl13-unix gles20-vg11-egl13-unix gles11-egl13-unix vgu11-unix gles11-egl11-unix gles20-vg11-vgu11-egl13-unix egl13-unix gles11-unix gles20-unix gles11-vg11-egl13-symbian vg11-egl13-symbian vg11-symbian gles11-vg101-egl13-symbian gles11-vg11-vgu11-egl13-symbian vg11-vgu11-egl13-symbian gles20-egl13-symbian gles20-vg11-egl13-symbian gles11-egl13-symbian vgu11-symbian gles11-egl11-symbian gles20-vg11-vgu11-egl13-symbian egl13-symbian gles11-symbian gles20-symbian gles11-vg11-egl13-win32 vg11-egl13-win32 vg11-win32 gles11-vg101-egl13-win32 gles11-vg11-vgu11-egl13-win32 vg11-vgu11-egl13-win32 gles20-egl13-win32 gles20-vg11-egl13-win32 gles11-egl13-win32 vgu11-win32 gles11-egl11-win32 gles20-vg11-vgu11-egl13-win32 egl13-win32 gles11-win32 gles20-win32
+targets: gles11-vg11-egl13-tracer-android vg11-egl13-tracer-android vg11-tracer-android gles11-vg101-egl13-tracer-android gles11-vg11-vgu11-egl13-tracer-android vg11-vgu11-egl13-tracer-android gles20-egl13-tracer-android gles20-vg11-egl13-tracer-android gles11-egl13-tracer-android vgu11-tracer-android gles11-egl11-tracer-android gles20-vg11-vgu11-egl13-tracer-android egl13-tracer-android gles11-tracer-android gles20-tracer-android gles11-vg11-egl13-passthrough_tracer-android vg11-egl13-passthrough_tracer-android vg11-passthrough_tracer-android gles11-vg101-egl13-passthrough_tracer-android gles11-vg11-vgu11-egl13-passthrough_tracer-android vg11-vgu11-egl13-passthrough_tracer-android gles20-egl13-passthrough_tracer-android gles20-vg11-egl13-passthrough_tracer-android gles11-egl13-passthrough_tracer-android vgu11-passthrough_tracer-android gles11-egl11-passthrough_tracer-android gles20-vg11-vgu11-egl13-passthrough_tracer-android egl13-passthrough_tracer-android gles11-passthrough_tracer-android gles20-passthrough_tracer-android gles11-vg11-egl13-player-android vg11-egl13-player-android vg11-player-android gles11-vg101-egl13-player-android gles11-vg11-vgu11-egl13-player-android vg11-vgu11-egl13-player-android gles20-egl13-player-android gles20-vg11-egl13-player-android gles11-egl13-player-android vgu11-player-android gles11-egl11-player-android gles20-vg11-vgu11-egl13-player-android egl13-player-android gles11-player-android gles20-player-android gles11-vg11-egl13-tracer-unix vg11-egl13-tracer-unix vg11-tracer-unix gles11-vg101-egl13-tracer-unix gles11-vg11-vgu11-egl13-tracer-unix vg11-vgu11-egl13-tracer-unix gles20-egl13-tracer-unix gles20-vg11-egl13-tracer-unix gles11-egl13-tracer-unix vgu11-tracer-unix gles11-egl11-tracer-unix gles20-vg11-vgu11-egl13-tracer-unix egl13-tracer-unix gles11-tracer-unix gles20-tracer-unix gles11-vg11-egl13-passthrough_tracer-unix vg11-egl13-passthrough_tracer-unix vg11-passthrough_tracer-unix gles11-vg101-egl13-passthrough_tracer-unix gles11-vg11-vgu11-egl13-passthrough_tracer-unix vg11-vgu11-egl13-passthrough_tracer-unix gles20-egl13-passthrough_tracer-unix gles20-vg11-egl13-passthrough_tracer-unix gles11-egl13-passthrough_tracer-unix vgu11-passthrough_tracer-unix gles11-egl11-passthrough_tracer-unix gles20-vg11-vgu11-egl13-passthrough_tracer-unix egl13-passthrough_tracer-unix gles11-passthrough_tracer-unix gles20-passthrough_tracer-unix gles11-vg11-egl13-player-unix vg11-egl13-player-unix vg11-player-unix gles11-vg101-egl13-player-unix gles11-vg11-vgu11-egl13-player-unix vg11-vgu11-egl13-player-unix gles20-egl13-player-unix gles20-vg11-egl13-player-unix gles11-egl13-player-unix vgu11-player-unix gles11-egl11-player-unix gles20-vg11-vgu11-egl13-player-unix egl13-player-unix gles11-player-unix gles20-player-unix gles11-vg11-egl13-tracer-symbian vg11-egl13-tracer-symbian vg11-tracer-symbian gles11-vg101-egl13-tracer-symbian gles11-vg11-vgu11-egl13-tracer-symbian vg11-vgu11-egl13-tracer-symbian gles20-egl13-tracer-symbian gles20-vg11-egl13-tracer-symbian gles11-egl13-tracer-symbian vgu11-tracer-symbian gles11-egl11-tracer-symbian gles20-vg11-vgu11-egl13-tracer-symbian egl13-tracer-symbian gles11-tracer-symbian gles20-tracer-symbian gles11-vg11-egl13-passthrough_tracer-symbian vg11-egl13-passthrough_tracer-symbian vg11-passthrough_tracer-symbian gles11-vg101-egl13-passthrough_tracer-symbian gles11-vg11-vgu11-egl13-passthrough_tracer-symbian vg11-vgu11-egl13-passthrough_tracer-symbian gles20-egl13-passthrough_tracer-symbian gles20-vg11-egl13-passthrough_tracer-symbian gles11-egl13-passthrough_tracer-symbian vgu11-passthrough_tracer-symbian gles11-egl11-passthrough_tracer-symbian gles20-vg11-vgu11-egl13-passthrough_tracer-symbian egl13-passthrough_tracer-symbian gles11-passthrough_tracer-symbian gles20-passthrough_tracer-symbian gles11-vg11-egl13-player-symbian vg11-egl13-player-symbian vg11-player-symbian gles11-vg101-egl13-player-symbian gles11-vg11-vgu11-egl13-player-symbian vg11-vgu11-egl13-player-symbian gles20-egl13-player-symbian gles20-vg11-egl13-player-symbian gles11-egl13-player-symbian vgu11-player-symbian gles11-egl11-player-symbian gles20-vg11-vgu11-egl13-player-symbian egl13-player-symbian gles11-player-symbian gles20-player-symbian gles11-vg11-egl13-tracer-win32 vg11-egl13-tracer-win32 vg11-tracer-win32 gles11-vg101-egl13-tracer-win32 gles11-vg11-vgu11-egl13-tracer-win32 vg11-vgu11-egl13-tracer-win32 gles20-egl13-tracer-win32 gles20-vg11-egl13-tracer-win32 gles11-egl13-tracer-win32 vgu11-tracer-win32 gles11-egl11-tracer-win32 gles20-vg11-vgu11-egl13-tracer-win32 egl13-tracer-win32 gles11-tracer-win32 gles20-tracer-win32 gles11-vg11-egl13-passthrough_tracer-win32 vg11-egl13-passthrough_tracer-win32 vg11-passthrough_tracer-win32 gles11-vg101-egl13-passthrough_tracer-win32 gles11-vg11-vgu11-egl13-passthrough_tracer-win32 vg11-vgu11-egl13-passthrough_tracer-win32 gles20-egl13-passthrough_tracer-win32 gles20-vg11-egl13-passthrough_tracer-win32 gles11-egl13-passthrough_tracer-win32 vgu11-passthrough_tracer-win32 gles11-egl11-passthrough_tracer-win32 gles20-vg11-vgu11-egl13-passthrough_tracer-win32 egl13-passthrough_tracer-win32 gles11-passthrough_tracer-win32 gles20-passthrough_tracer-win32 gles11-vg11-egl13-player-win32 vg11-egl13-player-win32 vg11-player-win32 gles11-vg101-egl13-player-win32 gles11-vg11-vgu11-egl13-player-win32 vg11-vgu11-egl13-player-win32 gles20-egl13-player-win32 gles20-vg11-egl13-player-win32 gles11-egl13-player-win32 vgu11-player-win32 gles11-egl11-player-win32 gles20-vg11-vgu11-egl13-player-win32 egl13-player-win32 gles11-player-win32 gles20-player-win32
 .PHONY: all projects targets
 
-projects_clean: gles11-vg11-egl13-unix_clean vg11-vgu11-vgi10-unix_clean vg11-egl13-unix_clean vg10-vgi10-unix_clean gles20-vg11-vgu11-egl13-unix_clean gles11-egl13-unix_clean vgu11-unix_clean gles11-egl11-unix_clean vg11-vgi10-unix_clean gles20-vg11-egl13-unix_clean vg11-unix_clean egl13-unix_clean vg101-vgi10-unix_clean gles20-egl13-unix_clean gles11-vg101-egl13-unix_clean gles11-vg11-vgu11-egl13-unix_clean gles11-unix_clean vg11-vgu11-egl13-unix_clean vgi10-unix_clean gles20-unix_clean comp10-unix_clean gles11-vg11-egl13-symbian_clean vg11-vgu11-vgi10-symbian_clean vg11-egl13-symbian_clean vg10-vgi10-symbian_clean gles20-vg11-vgu11-egl13-symbian_clean gles11-egl13-symbian_clean vgu11-symbian_clean gles11-egl11-symbian_clean vg11-vgi10-symbian_clean gles20-vg11-egl13-symbian_clean vg11-symbian_clean egl13-symbian_clean vg101-vgi10-symbian_clean gles20-egl13-symbian_clean gles11-vg101-egl13-symbian_clean gles11-vg11-vgu11-egl13-symbian_clean gles11-symbian_clean vg11-vgu11-egl13-symbian_clean vgi10-symbian_clean gles20-symbian_clean comp10-symbian_clean gles11-vg11-egl13-win32_clean vg11-vgu11-vgi10-win32_clean vg11-egl13-win32_clean vg10-vgi10-win32_clean gles20-vg11-vgu11-egl13-win32_clean gles11-egl13-win32_clean vgu11-win32_clean gles11-egl11-win32_clean vg11-vgi10-win32_clean gles20-vg11-egl13-win32_clean vg11-win32_clean egl13-win32_clean vg101-vgi10-win32_clean gles20-egl13-win32_clean gles11-vg101-egl13-win32_clean gles11-vg11-vgu11-egl13-win32_clean gles11-win32_clean vg11-vgu11-egl13-win32_clean vgi10-win32_clean gles20-win32_clean comp10-win32_clean
-targets_clean: gles11-vg11-egl13-tracer-unix_clean vg11-vgu11-vgi10-tracer-unix_clean vg11-egl13-tracer-unix_clean vg10-vgi10-tracer-unix_clean gles20-vg11-vgu11-egl13-tracer-unix_clean gles11-egl13-tracer-unix_clean vgu11-tracer-unix_clean gles11-egl11-tracer-unix_clean vg11-vgi10-tracer-unix_clean gles20-vg11-egl13-tracer-unix_clean vg11-tracer-unix_clean egl13-tracer-unix_clean vg101-vgi10-tracer-unix_clean gles20-egl13-tracer-unix_clean gles11-vg101-egl13-tracer-unix_clean gles11-vg11-vgu11-egl13-tracer-unix_clean gles11-tracer-unix_clean vg11-vgu11-egl13-tracer-unix_clean vgi10-tracer-unix_clean gles20-tracer-unix_clean comp10-tracer-unix_clean gles11-vg11-egl13-passthrough_tracer-unix_clean vg11-vgu11-vgi10-passthrough_tracer-unix_clean vg11-egl13-passthrough_tracer-unix_clean vg10-vgi10-passthrough_tracer-unix_clean gles20-vg11-vgu11-egl13-passthrough_tracer-unix_clean gles11-egl13-passthrough_tracer-unix_clean vgu11-passthrough_tracer-unix_clean gles11-egl11-passthrough_tracer-unix_clean vg11-vgi10-passthrough_tracer-unix_clean gles20-vg11-egl13-passthrough_tracer-unix_clean vg11-passthrough_tracer-unix_clean egl13-passthrough_tracer-unix_clean vg101-vgi10-passthrough_tracer-unix_clean gles20-egl13-passthrough_tracer-unix_clean gles11-vg101-egl13-passthrough_tracer-unix_clean gles11-vg11-vgu11-egl13-passthrough_tracer-unix_clean gles11-passthrough_tracer-unix_clean vg11-vgu11-egl13-passthrough_tracer-unix_clean vgi10-passthrough_tracer-unix_clean gles20-passthrough_tracer-unix_clean comp10-passthrough_tracer-unix_clean gles11-vg11-egl13-player-unix_clean vg11-vgu11-vgi10-player-unix_clean vg11-egl13-player-unix_clean vg10-vgi10-player-unix_clean gles20-vg11-vgu11-egl13-player-unix_clean gles11-egl13-player-unix_clean vgu11-player-unix_clean gles11-egl11-player-unix_clean vg11-vgi10-player-unix_clean gles20-vg11-egl13-player-unix_clean vg11-player-unix_clean egl13-player-unix_clean vg101-vgi10-player-unix_clean gles20-egl13-player-unix_clean gles11-vg101-egl13-player-unix_clean gles11-vg11-vgu11-egl13-player-unix_clean gles11-player-unix_clean vg11-vgu11-egl13-player-unix_clean vgi10-player-unix_clean gles20-player-unix_clean comp10-player-unix_clean gles11-vg11-egl13-tracer-symbian_clean vg11-vgu11-vgi10-tracer-symbian_clean vg11-egl13-tracer-symbian_clean vg10-vgi10-tracer-symbian_clean gles20-vg11-vgu11-egl13-tracer-symbian_clean gles11-egl13-tracer-symbian_clean vgu11-tracer-symbian_clean gles11-egl11-tracer-symbian_clean vg11-vgi10-tracer-symbian_clean gles20-vg11-egl13-tracer-symbian_clean vg11-tracer-symbian_clean egl13-tracer-symbian_clean vg101-vgi10-tracer-symbian_clean gles20-egl13-tracer-symbian_clean gles11-vg101-egl13-tracer-symbian_clean gles11-vg11-vgu11-egl13-tracer-symbian_clean gles11-tracer-symbian_clean vg11-vgu11-egl13-tracer-symbian_clean vgi10-tracer-symbian_clean gles20-tracer-symbian_clean comp10-tracer-symbian_clean gles11-vg11-egl13-passthrough_tracer-symbian_clean vg11-vgu11-vgi10-passthrough_tracer-symbian_clean vg11-egl13-passthrough_tracer-symbian_clean vg10-vgi10-passthrough_tracer-symbian_clean gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_clean gles11-egl13-passthrough_tracer-symbian_clean vgu11-passthrough_tracer-symbian_clean gles11-egl11-passthrough_tracer-symbian_clean vg11-vgi10-passthrough_tracer-symbian_clean gles20-vg11-egl13-passthrough_tracer-symbian_clean vg11-passthrough_tracer-symbian_clean egl13-passthrough_tracer-symbian_clean vg101-vgi10-passthrough_tracer-symbian_clean gles20-egl13-passthrough_tracer-symbian_clean gles11-vg101-egl13-passthrough_tracer-symbian_clean gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_clean gles11-passthrough_tracer-symbian_clean vg11-vgu11-egl13-passthrough_tracer-symbian_clean vgi10-passthrough_tracer-symbian_clean gles20-passthrough_tracer-symbian_clean comp10-passthrough_tracer-symbian_clean gles11-vg11-egl13-player-symbian_clean vg11-vgu11-vgi10-player-symbian_clean vg11-egl13-player-symbian_clean vg10-vgi10-player-symbian_clean gles20-vg11-vgu11-egl13-player-symbian_clean gles11-egl13-player-symbian_clean vgu11-player-symbian_clean gles11-egl11-player-symbian_clean vg11-vgi10-player-symbian_clean gles20-vg11-egl13-player-symbian_clean vg11-player-symbian_clean egl13-player-symbian_clean vg101-vgi10-player-symbian_clean gles20-egl13-player-symbian_clean gles11-vg101-egl13-player-symbian_clean gles11-vg11-vgu11-egl13-player-symbian_clean gles11-player-symbian_clean vg11-vgu11-egl13-player-symbian_clean vgi10-player-symbian_clean gles20-player-symbian_clean comp10-player-symbian_clean gles11-vg11-egl13-tracer-win32_clean vg11-vgu11-vgi10-tracer-win32_clean vg11-egl13-tracer-win32_clean vg10-vgi10-tracer-win32_clean gles20-vg11-vgu11-egl13-tracer-win32_clean gles11-egl13-tracer-win32_clean vgu11-tracer-win32_clean gles11-egl11-tracer-win32_clean vg11-vgi10-tracer-win32_clean gles20-vg11-egl13-tracer-win32_clean vg11-tracer-win32_clean egl13-tracer-win32_clean vg101-vgi10-tracer-win32_clean gles20-egl13-tracer-win32_clean gles11-vg101-egl13-tracer-win32_clean gles11-vg11-vgu11-egl13-tracer-win32_clean gles11-tracer-win32_clean vg11-vgu11-egl13-tracer-win32_clean vgi10-tracer-win32_clean gles20-tracer-win32_clean comp10-tracer-win32_clean gles11-vg11-egl13-passthrough_tracer-win32_clean vg11-vgu11-vgi10-passthrough_tracer-win32_clean vg11-egl13-passthrough_tracer-win32_clean vg10-vgi10-passthrough_tracer-win32_clean gles20-vg11-vgu11-egl13-passthrough_tracer-win32_clean gles11-egl13-passthrough_tracer-win32_clean vgu11-passthrough_tracer-win32_clean gles11-egl11-passthrough_tracer-win32_clean vg11-vgi10-passthrough_tracer-win32_clean gles20-vg11-egl13-passthrough_tracer-win32_clean vg11-passthrough_tracer-win32_clean egl13-passthrough_tracer-win32_clean vg101-vgi10-passthrough_tracer-win32_clean gles20-egl13-passthrough_tracer-win32_clean gles11-vg101-egl13-passthrough_tracer-win32_clean gles11-vg11-vgu11-egl13-passthrough_tracer-win32_clean gles11-passthrough_tracer-win32_clean vg11-vgu11-egl13-passthrough_tracer-win32_clean vgi10-passthrough_tracer-win32_clean gles20-passthrough_tracer-win32_clean comp10-passthrough_tracer-win32_clean gles11-vg11-egl13-player-win32_clean vg11-vgu11-vgi10-player-win32_clean vg11-egl13-player-win32_clean vg10-vgi10-player-win32_clean gles20-vg11-vgu11-egl13-player-win32_clean gles11-egl13-player-win32_clean vgu11-player-win32_clean gles11-egl11-player-win32_clean vg11-vgi10-player-win32_clean gles20-vg11-egl13-player-win32_clean vg11-player-win32_clean egl13-player-win32_clean vg101-vgi10-player-win32_clean gles20-egl13-player-win32_clean gles11-vg101-egl13-player-win32_clean gles11-vg11-vgu11-egl13-player-win32_clean gles11-player-win32_clean vg11-vgu11-egl13-player-win32_clean vgi10-player-win32_clean gles20-player-win32_clean comp10-player-win32_clean
+projects_clean: gles11-vg11-egl13-android_clean vg11-egl13-android_clean vg11-android_clean gles11-vg101-egl13-android_clean gles11-vg11-vgu11-egl13-android_clean vg11-vgu11-egl13-android_clean gles20-egl13-android_clean gles20-vg11-egl13-android_clean gles11-egl13-android_clean vgu11-android_clean gles11-egl11-android_clean gles20-vg11-vgu11-egl13-android_clean egl13-android_clean gles11-android_clean gles20-android_clean gles11-vg11-egl13-unix_clean vg11-egl13-unix_clean vg11-unix_clean gles11-vg101-egl13-unix_clean gles11-vg11-vgu11-egl13-unix_clean vg11-vgu11-egl13-unix_clean gles20-egl13-unix_clean gles20-vg11-egl13-unix_clean gles11-egl13-unix_clean vgu11-unix_clean gles11-egl11-unix_clean gles20-vg11-vgu11-egl13-unix_clean egl13-unix_clean gles11-unix_clean gles20-unix_clean gles11-vg11-egl13-symbian_clean vg11-egl13-symbian_clean vg11-symbian_clean gles11-vg101-egl13-symbian_clean gles11-vg11-vgu11-egl13-symbian_clean vg11-vgu11-egl13-symbian_clean gles20-egl13-symbian_clean gles20-vg11-egl13-symbian_clean gles11-egl13-symbian_clean vgu11-symbian_clean gles11-egl11-symbian_clean gles20-vg11-vgu11-egl13-symbian_clean egl13-symbian_clean gles11-symbian_clean gles20-symbian_clean gles11-vg11-egl13-win32_clean vg11-egl13-win32_clean vg11-win32_clean gles11-vg101-egl13-win32_clean gles11-vg11-vgu11-egl13-win32_clean vg11-vgu11-egl13-win32_clean gles20-egl13-win32_clean gles20-vg11-egl13-win32_clean gles11-egl13-win32_clean vgu11-win32_clean gles11-egl11-win32_clean gles20-vg11-vgu11-egl13-win32_clean egl13-win32_clean gles11-win32_clean gles20-win32_clean
+targets_clean: gles11-vg11-egl13-tracer-android_clean vg11-egl13-tracer-android_clean vg11-tracer-android_clean gles11-vg101-egl13-tracer-android_clean gles11-vg11-vgu11-egl13-tracer-android_clean vg11-vgu11-egl13-tracer-android_clean gles20-egl13-tracer-android_clean gles20-vg11-egl13-tracer-android_clean gles11-egl13-tracer-android_clean vgu11-tracer-android_clean gles11-egl11-tracer-android_clean gles20-vg11-vgu11-egl13-tracer-android_clean egl13-tracer-android_clean gles11-tracer-android_clean gles20-tracer-android_clean gles11-vg11-egl13-passthrough_tracer-android_clean vg11-egl13-passthrough_tracer-android_clean vg11-passthrough_tracer-android_clean gles11-vg101-egl13-passthrough_tracer-android_clean gles11-vg11-vgu11-egl13-passthrough_tracer-android_clean vg11-vgu11-egl13-passthrough_tracer-android_clean gles20-egl13-passthrough_tracer-android_clean gles20-vg11-egl13-passthrough_tracer-android_clean gles11-egl13-passthrough_tracer-android_clean vgu11-passthrough_tracer-android_clean gles11-egl11-passthrough_tracer-android_clean gles20-vg11-vgu11-egl13-passthrough_tracer-android_clean egl13-passthrough_tracer-android_clean gles11-passthrough_tracer-android_clean gles20-passthrough_tracer-android_clean gles11-vg11-egl13-player-android_clean vg11-egl13-player-android_clean vg11-player-android_clean gles11-vg101-egl13-player-android_clean gles11-vg11-vgu11-egl13-player-android_clean vg11-vgu11-egl13-player-android_clean gles20-egl13-player-android_clean gles20-vg11-egl13-player-android_clean gles11-egl13-player-android_clean vgu11-player-android_clean gles11-egl11-player-android_clean gles20-vg11-vgu11-egl13-player-android_clean egl13-player-android_clean gles11-player-android_clean gles20-player-android_clean gles11-vg11-egl13-tracer-unix_clean vg11-egl13-tracer-unix_clean vg11-tracer-unix_clean gles11-vg101-egl13-tracer-unix_clean gles11-vg11-vgu11-egl13-tracer-unix_clean vg11-vgu11-egl13-tracer-unix_clean gles20-egl13-tracer-unix_clean gles20-vg11-egl13-tracer-unix_clean gles11-egl13-tracer-unix_clean vgu11-tracer-unix_clean gles11-egl11-tracer-unix_clean gles20-vg11-vgu11-egl13-tracer-unix_clean egl13-tracer-unix_clean gles11-tracer-unix_clean gles20-tracer-unix_clean gles11-vg11-egl13-passthrough_tracer-unix_clean vg11-egl13-passthrough_tracer-unix_clean vg11-passthrough_tracer-unix_clean gles11-vg101-egl13-passthrough_tracer-unix_clean gles11-vg11-vgu11-egl13-passthrough_tracer-unix_clean vg11-vgu11-egl13-passthrough_tracer-unix_clean gles20-egl13-passthrough_tracer-unix_clean gles20-vg11-egl13-passthrough_tracer-unix_clean gles11-egl13-passthrough_tracer-unix_clean vgu11-passthrough_tracer-unix_clean gles11-egl11-passthrough_tracer-unix_clean gles20-vg11-vgu11-egl13-passthrough_tracer-unix_clean egl13-passthrough_tracer-unix_clean gles11-passthrough_tracer-unix_clean gles20-passthrough_tracer-unix_clean gles11-vg11-egl13-player-unix_clean vg11-egl13-player-unix_clean vg11-player-unix_clean gles11-vg101-egl13-player-unix_clean gles11-vg11-vgu11-egl13-player-unix_clean vg11-vgu11-egl13-player-unix_clean gles20-egl13-player-unix_clean gles20-vg11-egl13-player-unix_clean gles11-egl13-player-unix_clean vgu11-player-unix_clean gles11-egl11-player-unix_clean gles20-vg11-vgu11-egl13-player-unix_clean egl13-player-unix_clean gles11-player-unix_clean gles20-player-unix_clean gles11-vg11-egl13-tracer-symbian_clean vg11-egl13-tracer-symbian_clean vg11-tracer-symbian_clean gles11-vg101-egl13-tracer-symbian_clean gles11-vg11-vgu11-egl13-tracer-symbian_clean vg11-vgu11-egl13-tracer-symbian_clean gles20-egl13-tracer-symbian_clean gles20-vg11-egl13-tracer-symbian_clean gles11-egl13-tracer-symbian_clean vgu11-tracer-symbian_clean gles11-egl11-tracer-symbian_clean gles20-vg11-vgu11-egl13-tracer-symbian_clean egl13-tracer-symbian_clean gles11-tracer-symbian_clean gles20-tracer-symbian_clean gles11-vg11-egl13-passthrough_tracer-symbian_clean vg11-egl13-passthrough_tracer-symbian_clean vg11-passthrough_tracer-symbian_clean gles11-vg101-egl13-passthrough_tracer-symbian_clean gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_clean vg11-vgu11-egl13-passthrough_tracer-symbian_clean gles20-egl13-passthrough_tracer-symbian_clean gles20-vg11-egl13-passthrough_tracer-symbian_clean gles11-egl13-passthrough_tracer-symbian_clean vgu11-passthrough_tracer-symbian_clean gles11-egl11-passthrough_tracer-symbian_clean gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_clean egl13-passthrough_tracer-symbian_clean gles11-passthrough_tracer-symbian_clean gles20-passthrough_tracer-symbian_clean gles11-vg11-egl13-player-symbian_clean vg11-egl13-player-symbian_clean vg11-player-symbian_clean gles11-vg101-egl13-player-symbian_clean gles11-vg11-vgu11-egl13-player-symbian_clean vg11-vgu11-egl13-player-symbian_clean gles20-egl13-player-symbian_clean gles20-vg11-egl13-player-symbian_clean gles11-egl13-player-symbian_clean vgu11-player-symbian_clean gles11-egl11-player-symbian_clean gles20-vg11-vgu11-egl13-player-symbian_clean egl13-player-symbian_clean gles11-player-symbian_clean gles20-player-symbian_clean gles11-vg11-egl13-tracer-win32_clean vg11-egl13-tracer-win32_clean vg11-tracer-win32_clean gles11-vg101-egl13-tracer-win32_clean gles11-vg11-vgu11-egl13-tracer-win32_clean vg11-vgu11-egl13-tracer-win32_clean gles20-egl13-tracer-win32_clean gles20-vg11-egl13-tracer-win32_clean gles11-egl13-tracer-win32_clean vgu11-tracer-win32_clean gles11-egl11-tracer-win32_clean gles20-vg11-vgu11-egl13-tracer-win32_clean egl13-tracer-win32_clean gles11-tracer-win32_clean gles20-tracer-win32_clean gles11-vg11-egl13-passthrough_tracer-win32_clean vg11-egl13-passthrough_tracer-win32_clean vg11-passthrough_tracer-win32_clean gles11-vg101-egl13-passthrough_tracer-win32_clean gles11-vg11-vgu11-egl13-passthrough_tracer-win32_clean vg11-vgu11-egl13-passthrough_tracer-win32_clean gles20-egl13-passthrough_tracer-win32_clean gles20-vg11-egl13-passthrough_tracer-win32_clean gles11-egl13-passthrough_tracer-win32_clean vgu11-passthrough_tracer-win32_clean gles11-egl11-passthrough_tracer-win32_clean gles20-vg11-vgu11-egl13-passthrough_tracer-win32_clean egl13-passthrough_tracer-win32_clean gles11-passthrough_tracer-win32_clean gles20-passthrough_tracer-win32_clean gles11-vg11-egl13-player-win32_clean vg11-egl13-player-win32_clean vg11-player-win32_clean gles11-vg101-egl13-player-win32_clean gles11-vg11-vgu11-egl13-player-win32_clean vg11-vgu11-egl13-player-win32_clean gles20-egl13-player-win32_clean gles20-vg11-egl13-player-win32_clean gles11-egl13-player-win32_clean vgu11-player-win32_clean gles11-egl11-player-win32_clean gles20-vg11-vgu11-egl13-player-win32_clean egl13-player-win32_clean gles11-player-win32_clean gles20-player-win32_clean
 clean: targets_clean projects_clean output-dirs_clean
 .PHONY: clean projects_clean targets_clean
 
@@ -74,6 +74,8 @@ help:
 	@echo "    symbian_clean       - Remove all generated files for symbian"
 	@echo
 	@echo The following platforms are available:
+	@echo
+	@echo "    android"
 	@echo "    unix"
 	@echo "    symbian"
 	@echo "    win32"
@@ -81,26 +83,20 @@ help:
 	@echo The following API configurations are available:
 	@echo
 	@echo "    gles11-vg11-egl13"
-	@echo "    vg11-vgu11-vgi10"
 	@echo "    vg11-egl13"
-	@echo "    vg10-vgi10"
-	@echo "    gles20-vg11-vgu11-egl13"
+	@echo "    vg11"
+	@echo "    gles11-vg101-egl13"
+	@echo "    gles11-vg11-vgu11-egl13"
+	@echo "    vg11-vgu11-egl13"
+	@echo "    gles20-egl13"
+	@echo "    gles20-vg11-egl13"
 	@echo "    gles11-egl13"
 	@echo "    vgu11"
 	@echo "    gles11-egl11"
-	@echo "    vg11-vgi10"
-	@echo "    gles20-vg11-egl13"
-	@echo "    vg11"
+	@echo "    gles20-vg11-vgu11-egl13"
 	@echo "    egl13"
-	@echo "    vg101-vgi10"
-	@echo "    gles20-egl13"
-	@echo "    gles11-vg101-egl13"
-	@echo "    gles11-vg11-vgu11-egl13"
 	@echo "    gles11"
-	@echo "    vg11-vgu11-egl13"
-	@echo "    vgi10"
 	@echo "    gles20"
-	@echo "    comp10"
 	@echo
 	@echo The following configuration targets are available:
 	@echo
@@ -135,6 +131,186 @@ output-dirs_clean:
 
 
 #---------------------------------------------------------------------------
+# Project gles11-vg11-egl13-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles11-vg11-egl13-android.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles11-vg11-egl13.conf -p android -o $@ $(TRACY_ARGS)
+gles11-vg11-egl13-android: $(TRACY_TARGET_PATH)/gles11-vg11-egl13-android.tcy
+gles11-vg11-egl13-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg11-egl13-android.tcy
+gles11-vg11-egl13-android_dump: gles11-vg11-egl13-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg11-egl13-android.tcy
+.PHONY: gles11-vg11-egl13-android gles11-vg11-egl13-android_clean gles11-vg11-egl13-android_dump
+
+#---------------------------------------------------------------------------
+# Project vg11-egl13-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/vg11-egl13-android.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-egl/vg11-egl13.conf -p android -o $@ $(TRACY_ARGS)
+vg11-egl13-android: $(TRACY_TARGET_PATH)/vg11-egl13-android.tcy
+vg11-egl13-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-egl13-android.tcy
+vg11-egl13-android_dump: vg11-egl13-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-egl13-android.tcy
+.PHONY: vg11-egl13-android vg11-egl13-android_clean vg11-egl13-android_dump
+
+#---------------------------------------------------------------------------
+# Project vg11-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/vg11-android.tcy: $(TRACY_TARGET_PATH) config/vg/v1.1/*
+	@$(PYTHON) TracyGenerator.py create config/vg/v1.1/vg.conf -p android -o $@ $(TRACY_ARGS)
+vg11-android: $(TRACY_TARGET_PATH)/vg11-android.tcy
+vg11-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-android.tcy
+vg11-android_dump: vg11-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-android.tcy
+.PHONY: vg11-android vg11-android_clean vg11-android_dump
+
+#---------------------------------------------------------------------------
+# Project gles11-vg101-egl13-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles11-vg101-egl13-android.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles-vg-egl.conf -p android -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-android: $(TRACY_TARGET_PATH)/gles11-vg101-egl13-android.tcy
+gles11-vg101-egl13-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg101-egl13-android.tcy
+gles11-vg101-egl13-android_dump: gles11-vg101-egl13-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-android.tcy
+.PHONY: gles11-vg101-egl13-android gles11-vg101-egl13-android_clean gles11-vg101-egl13-android_dump
+
+#---------------------------------------------------------------------------
+# Project gles11-vg11-vgu11-egl13-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-android.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles11-vg11-vgu11-egl13.conf -p android -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-android: $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-android.tcy
+gles11-vg11-vgu11-egl13-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-android.tcy
+gles11-vg11-vgu11-egl13-android_dump: gles11-vg11-vgu11-egl13-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-android.tcy
+.PHONY: gles11-vg11-vgu11-egl13-android gles11-vg11-vgu11-egl13-android_clean gles11-vg11-vgu11-egl13-android_dump
+
+#---------------------------------------------------------------------------
+# Project vg11-vgu11-egl13-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/vg11-vgu11-egl13-android.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgu-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgu-egl/vg11-vgu11-egl13.conf -p android -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-android: $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-android.tcy
+vg11-vgu11-egl13-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-android.tcy
+vg11-vgu11-egl13-android_dump: vg11-vgu11-egl13-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-android.tcy
+.PHONY: vg11-vgu11-egl13-android vg11-vgu11-egl13-android_clean vg11-vgu11-egl13-android_dump
+
+#---------------------------------------------------------------------------
+# Project gles20-egl13-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles20-egl13-android.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-egl/gles20-egl13.conf -p android -o $@ $(TRACY_ARGS)
+gles20-egl13-android: $(TRACY_TARGET_PATH)/gles20-egl13-android.tcy
+gles20-egl13-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-egl13-android.tcy
+gles20-egl13-android_dump: gles20-egl13-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-egl13-android.tcy
+.PHONY: gles20-egl13-android gles20-egl13-android_clean gles20-egl13-android_dump
+
+#---------------------------------------------------------------------------
+# Project gles20-vg11-egl13-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles20-vg11-egl13-android.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles20-vg11-egl13.conf -p android -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-android: $(TRACY_TARGET_PATH)/gles20-vg11-egl13-android.tcy
+gles20-vg11-egl13-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-egl13-android.tcy
+gles20-vg11-egl13-android_dump: gles20-vg11-egl13-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-android.tcy
+.PHONY: gles20-vg11-egl13-android gles20-vg11-egl13-android_clean gles20-vg11-egl13-android_dump
+
+#---------------------------------------------------------------------------
+# Project gles11-egl13-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles11-egl13-android.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-egl/gles11-egl13.conf -p android -o $@ $(TRACY_ARGS)
+gles11-egl13-android: $(TRACY_TARGET_PATH)/gles11-egl13-android.tcy
+gles11-egl13-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-egl13-android.tcy
+gles11-egl13-android_dump: gles11-egl13-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-egl13-android.tcy
+.PHONY: gles11-egl13-android gles11-egl13-android_clean gles11-egl13-android_dump
+
+#---------------------------------------------------------------------------
+# Project vgu11-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/vgu11-android.tcy: $(TRACY_TARGET_PATH) config/vgu/v1.1/*
+	@$(PYTHON) TracyGenerator.py create config/vgu/v1.1/vgu.conf -p android -o $@ $(TRACY_ARGS)
+vgu11-android: $(TRACY_TARGET_PATH)/vgu11-android.tcy
+vgu11-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/vgu11-android.tcy
+vgu11-android_dump: vgu11-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vgu11-android.tcy
+.PHONY: vgu11-android vgu11-android_clean vgu11-android_dump
+
+#---------------------------------------------------------------------------
+# Project gles11-egl11-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles11-egl11-android.tcy: $(TRACY_TARGET_PATH) config/gles/v1.1/*
+	@$(PYTHON) TracyGenerator.py create config/gles/v1.1/gles-egl.conf -p android -o $@ $(TRACY_ARGS)
+gles11-egl11-android: $(TRACY_TARGET_PATH)/gles11-egl11-android.tcy
+gles11-egl11-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-egl11-android.tcy
+gles11-egl11-android_dump: gles11-egl11-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-egl11-android.tcy
+.PHONY: gles11-egl11-android gles11-egl11-android_clean gles11-egl11-android_dump
+
+#---------------------------------------------------------------------------
+# Project gles20-vg11-vgu11-egl13-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-android.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles20-vg11-vgu11-egl13.conf -p android -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-android: $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-android.tcy
+gles20-vg11-vgu11-egl13-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-android.tcy
+gles20-vg11-vgu11-egl13-android_dump: gles20-vg11-vgu11-egl13-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-android.tcy
+.PHONY: gles20-vg11-vgu11-egl13-android gles20-vg11-vgu11-egl13-android_clean gles20-vg11-vgu11-egl13-android_dump
+
+#---------------------------------------------------------------------------
+# Project egl13-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/egl13-android.tcy: $(TRACY_TARGET_PATH) config/egl/v1.3/*
+	@$(PYTHON) TracyGenerator.py create config/egl/v1.3/egl.conf -p android -o $@ $(TRACY_ARGS)
+egl13-android: $(TRACY_TARGET_PATH)/egl13-android.tcy
+egl13-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/egl13-android.tcy
+egl13-android_dump: egl13-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/egl13-android.tcy
+.PHONY: egl13-android egl13-android_clean egl13-android_dump
+
+#---------------------------------------------------------------------------
+# Project gles11-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles11-android.tcy: $(TRACY_TARGET_PATH) config/gles/v1.1/*
+	@$(PYTHON) TracyGenerator.py create config/gles/v1.1/gles.conf -p android -o $@ $(TRACY_ARGS)
+gles11-android: $(TRACY_TARGET_PATH)/gles11-android.tcy
+gles11-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-android.tcy
+gles11-android_dump: gles11-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-android.tcy
+.PHONY: gles11-android gles11-android_clean gles11-android_dump
+
+#---------------------------------------------------------------------------
+# Project gles20-android
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles20-android.tcy: $(TRACY_TARGET_PATH) config/gles/v2.0/*
+	@$(PYTHON) TracyGenerator.py create config/gles/v2.0/gles.conf -p android -o $@ $(TRACY_ARGS)
+gles20-android: $(TRACY_TARGET_PATH)/gles20-android.tcy
+gles20-android_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-android.tcy
+gles20-android_dump: gles20-android
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-android.tcy
+.PHONY: gles20-android gles20-android_clean gles20-android_dump
+
+#---------------------------------------------------------------------------
 # Project gles11-vg11-egl13-unix
 #---------------------------------------------------------------------------
 $(TRACY_TARGET_PATH)/gles11-vg11-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
@@ -145,18 +321,6 @@ gles11-vg11-egl13-unix_clean:
 gles11-vg11-egl13-unix_dump: gles11-vg11-egl13-unix
 	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg11-egl13-unix.tcy
 .PHONY: gles11-vg11-egl13-unix gles11-vg11-egl13-unix_clean gles11-vg11-egl13-unix_dump
-
-#---------------------------------------------------------------------------
-# Project vg11-vgu11-vgi10-unix
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgu-vgi/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgu-vgi/vg11-vgu11-vgi.conf -p unix -o $@ $(TRACY_ARGS)
-vg11-vgu11-vgi10-unix: $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-unix.tcy
-vg11-vgu11-vgi10-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-unix.tcy
-vg11-vgu11-vgi10-unix_dump: vg11-vgu11-vgi10-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-unix.tcy
-.PHONY: vg11-vgu11-vgi10-unix vg11-vgu11-vgi10-unix_clean vg11-vgu11-vgi10-unix_dump
 
 #---------------------------------------------------------------------------
 # Project vg11-egl13-unix
@@ -171,28 +335,76 @@ vg11-egl13-unix_dump: vg11-egl13-unix
 .PHONY: vg11-egl13-unix vg11-egl13-unix_clean vg11-egl13-unix_dump
 
 #---------------------------------------------------------------------------
-# Project vg10-vgi10-unix
+# Project vg11-unix
 #---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg10-vgi10-unix.tcy: $(TRACY_TARGET_PATH) config/vg/v1.0/*
-	@$(PYTHON) TracyGenerator.py create config/vg/v1.0/vg-vgi.conf -p unix -o $@ $(TRACY_ARGS)
-vg10-vgi10-unix: $(TRACY_TARGET_PATH)/vg10-vgi10-unix.tcy
-vg10-vgi10-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg10-vgi10-unix.tcy
-vg10-vgi10-unix_dump: vg10-vgi10-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg10-vgi10-unix.tcy
-.PHONY: vg10-vgi10-unix vg10-vgi10-unix_clean vg10-vgi10-unix_dump
+$(TRACY_TARGET_PATH)/vg11-unix.tcy: $(TRACY_TARGET_PATH) config/vg/v1.1/*
+	@$(PYTHON) TracyGenerator.py create config/vg/v1.1/vg.conf -p unix -o $@ $(TRACY_ARGS)
+vg11-unix: $(TRACY_TARGET_PATH)/vg11-unix.tcy
+vg11-unix_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-unix.tcy
+vg11-unix_dump: vg11-unix
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-unix.tcy
+.PHONY: vg11-unix vg11-unix_clean vg11-unix_dump
 
 #---------------------------------------------------------------------------
-# Project gles20-vg11-vgu11-egl13-unix
+# Project gles11-vg101-egl13-unix
 #---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles20-vg11-vgu11-egl13.conf -p unix -o $@ $(TRACY_ARGS)
-gles20-vg11-vgu11-egl13-unix: $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy
-gles20-vg11-vgu11-egl13-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy
-gles20-vg11-vgu11-egl13-unix_dump: gles20-vg11-vgu11-egl13-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy
-.PHONY: gles20-vg11-vgu11-egl13-unix gles20-vg11-vgu11-egl13-unix_clean gles20-vg11-vgu11-egl13-unix_dump
+$(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles-vg-egl.conf -p unix -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-unix: $(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy
+gles11-vg101-egl13-unix_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy
+gles11-vg101-egl13-unix_dump: gles11-vg101-egl13-unix
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy
+.PHONY: gles11-vg101-egl13-unix gles11-vg101-egl13-unix_clean gles11-vg101-egl13-unix_dump
+
+#---------------------------------------------------------------------------
+# Project gles11-vg11-vgu11-egl13-unix
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles11-vg11-vgu11-egl13.conf -p unix -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-unix: $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy
+gles11-vg11-vgu11-egl13-unix_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy
+gles11-vg11-vgu11-egl13-unix_dump: gles11-vg11-vgu11-egl13-unix
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy
+.PHONY: gles11-vg11-vgu11-egl13-unix gles11-vg11-vgu11-egl13-unix_clean gles11-vg11-vgu11-egl13-unix_dump
+
+#---------------------------------------------------------------------------
+# Project vg11-vgu11-egl13-unix
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgu-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgu-egl/vg11-vgu11-egl13.conf -p unix -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-unix: $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy
+vg11-vgu11-egl13-unix_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy
+vg11-vgu11-egl13-unix_dump: vg11-vgu11-egl13-unix
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy
+.PHONY: vg11-vgu11-egl13-unix vg11-vgu11-egl13-unix_clean vg11-vgu11-egl13-unix_dump
+
+#---------------------------------------------------------------------------
+# Project gles20-egl13-unix
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-egl/gles20-egl13.conf -p unix -o $@ $(TRACY_ARGS)
+gles20-egl13-unix: $(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy
+gles20-egl13-unix_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy
+gles20-egl13-unix_dump: gles20-egl13-unix
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy
+.PHONY: gles20-egl13-unix gles20-egl13-unix_clean gles20-egl13-unix_dump
+
+#---------------------------------------------------------------------------
+# Project gles20-vg11-egl13-unix
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles20-vg11-egl13.conf -p unix -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-unix: $(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy
+gles20-vg11-egl13-unix_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy
+gles20-vg11-egl13-unix_dump: gles20-vg11-egl13-unix
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy
+.PHONY: gles20-vg11-egl13-unix gles20-vg11-egl13-unix_clean gles20-vg11-egl13-unix_dump
 
 #---------------------------------------------------------------------------
 # Project gles11-egl13-unix
@@ -231,40 +443,16 @@ gles11-egl11-unix_dump: gles11-egl11-unix
 .PHONY: gles11-egl11-unix gles11-egl11-unix_clean gles11-egl11-unix_dump
 
 #---------------------------------------------------------------------------
-# Project vg11-vgi10-unix
+# Project gles20-vg11-vgu11-egl13-unix
 #---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg11-vgi10-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgi/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgi/vg11-vgi.conf -p unix -o $@ $(TRACY_ARGS)
-vg11-vgi10-unix: $(TRACY_TARGET_PATH)/vg11-vgi10-unix.tcy
-vg11-vgi10-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgi10-unix.tcy
-vg11-vgi10-unix_dump: vg11-vgi10-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgi10-unix.tcy
-.PHONY: vg11-vgi10-unix vg11-vgi10-unix_clean vg11-vgi10-unix_dump
-
-#---------------------------------------------------------------------------
-# Project gles20-vg11-egl13-unix
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles20-vg11-egl13.conf -p unix -o $@ $(TRACY_ARGS)
-gles20-vg11-egl13-unix: $(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy
-gles20-vg11-egl13-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy
-gles20-vg11-egl13-unix_dump: gles20-vg11-egl13-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy
-.PHONY: gles20-vg11-egl13-unix gles20-vg11-egl13-unix_clean gles20-vg11-egl13-unix_dump
-
-#---------------------------------------------------------------------------
-# Project vg11-unix
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg11-unix.tcy: $(TRACY_TARGET_PATH) config/vg/v1.1/*
-	@$(PYTHON) TracyGenerator.py create config/vg/v1.1/vg.conf -p unix -o $@ $(TRACY_ARGS)
-vg11-unix: $(TRACY_TARGET_PATH)/vg11-unix.tcy
-vg11-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-unix.tcy
-vg11-unix_dump: vg11-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-unix.tcy
-.PHONY: vg11-unix vg11-unix_clean vg11-unix_dump
+$(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles20-vg11-vgu11-egl13.conf -p unix -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-unix: $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy
+gles20-vg11-vgu11-egl13-unix_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy
+gles20-vg11-vgu11-egl13-unix_dump: gles20-vg11-vgu11-egl13-unix
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy
+.PHONY: gles20-vg11-vgu11-egl13-unix gles20-vg11-vgu11-egl13-unix_clean gles20-vg11-vgu11-egl13-unix_dump
 
 #---------------------------------------------------------------------------
 # Project egl13-unix
@@ -279,54 +467,6 @@ egl13-unix_dump: egl13-unix
 .PHONY: egl13-unix egl13-unix_clean egl13-unix_dump
 
 #---------------------------------------------------------------------------
-# Project vg101-vgi10-unix
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg101-vgi10-unix.tcy: $(TRACY_TARGET_PATH) config/vg/v1.0.1/*
-	@$(PYTHON) TracyGenerator.py create config/vg/v1.0.1/vg-vgi.conf -p unix -o $@ $(TRACY_ARGS)
-vg101-vgi10-unix: $(TRACY_TARGET_PATH)/vg101-vgi10-unix.tcy
-vg101-vgi10-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg101-vgi10-unix.tcy
-vg101-vgi10-unix_dump: vg101-vgi10-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg101-vgi10-unix.tcy
-.PHONY: vg101-vgi10-unix vg101-vgi10-unix_clean vg101-vgi10-unix_dump
-
-#---------------------------------------------------------------------------
-# Project gles20-egl13-unix
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-egl/gles20-egl13.conf -p unix -o $@ $(TRACY_ARGS)
-gles20-egl13-unix: $(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy
-gles20-egl13-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy
-gles20-egl13-unix_dump: gles20-egl13-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy
-.PHONY: gles20-egl13-unix gles20-egl13-unix_clean gles20-egl13-unix_dump
-
-#---------------------------------------------------------------------------
-# Project gles11-vg101-egl13-unix
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles-vg-egl.conf -p unix -o $@ $(TRACY_ARGS)
-gles11-vg101-egl13-unix: $(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy
-gles11-vg101-egl13-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy
-gles11-vg101-egl13-unix_dump: gles11-vg101-egl13-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy
-.PHONY: gles11-vg101-egl13-unix gles11-vg101-egl13-unix_clean gles11-vg101-egl13-unix_dump
-
-#---------------------------------------------------------------------------
-# Project gles11-vg11-vgu11-egl13-unix
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles11-vg11-vgu11-egl13.conf -p unix -o $@ $(TRACY_ARGS)
-gles11-vg11-vgu11-egl13-unix: $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy
-gles11-vg11-vgu11-egl13-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy
-gles11-vg11-vgu11-egl13-unix_dump: gles11-vg11-vgu11-egl13-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy
-.PHONY: gles11-vg11-vgu11-egl13-unix gles11-vg11-vgu11-egl13-unix_clean gles11-vg11-vgu11-egl13-unix_dump
-
-#---------------------------------------------------------------------------
 # Project gles11-unix
 #---------------------------------------------------------------------------
 $(TRACY_TARGET_PATH)/gles11-unix.tcy: $(TRACY_TARGET_PATH) config/gles/v1.1/*
@@ -337,30 +477,6 @@ gles11-unix_clean:
 gles11-unix_dump: gles11-unix
 	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-unix.tcy
 .PHONY: gles11-unix gles11-unix_clean gles11-unix_dump
-
-#---------------------------------------------------------------------------
-# Project vg11-vgu11-egl13-unix
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgu-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgu-egl/vg11-vgu11-egl13.conf -p unix -o $@ $(TRACY_ARGS)
-vg11-vgu11-egl13-unix: $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy
-vg11-vgu11-egl13-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy
-vg11-vgu11-egl13-unix_dump: vg11-vgu11-egl13-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy
-.PHONY: vg11-vgu11-egl13-unix vg11-vgu11-egl13-unix_clean vg11-vgu11-egl13-unix_dump
-
-#---------------------------------------------------------------------------
-# Project vgi10-unix
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vgi10-unix.tcy: $(TRACY_TARGET_PATH) config/vgi/v1.0/*
-	@$(PYTHON) TracyGenerator.py create config/vgi/v1.0/vgi.conf -p unix -o $@ $(TRACY_ARGS)
-vgi10-unix: $(TRACY_TARGET_PATH)/vgi10-unix.tcy
-vgi10-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vgi10-unix.tcy
-vgi10-unix_dump: vgi10-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vgi10-unix.tcy
-.PHONY: vgi10-unix vgi10-unix_clean vgi10-unix_dump
 
 #---------------------------------------------------------------------------
 # Project gles20-unix
@@ -375,18 +491,6 @@ gles20-unix_dump: gles20-unix
 .PHONY: gles20-unix gles20-unix_clean gles20-unix_dump
 
 #---------------------------------------------------------------------------
-# Project comp10-unix
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/comp10-unix.tcy: $(TRACY_TARGET_PATH) config/composition/v1.0/*
-	@$(PYTHON) TracyGenerator.py create config/composition/v1.0/composition.conf -p unix -o $@ $(TRACY_ARGS)
-comp10-unix: $(TRACY_TARGET_PATH)/comp10-unix.tcy
-comp10-unix_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/comp10-unix.tcy
-comp10-unix_dump: comp10-unix
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/comp10-unix.tcy
-.PHONY: comp10-unix comp10-unix_clean comp10-unix_dump
-
-#---------------------------------------------------------------------------
 # Project gles11-vg11-egl13-symbian
 #---------------------------------------------------------------------------
 $(TRACY_TARGET_PATH)/gles11-vg11-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
@@ -397,18 +501,6 @@ gles11-vg11-egl13-symbian_clean:
 gles11-vg11-egl13-symbian_dump: gles11-vg11-egl13-symbian
 	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg11-egl13-symbian.tcy
 .PHONY: gles11-vg11-egl13-symbian gles11-vg11-egl13-symbian_clean gles11-vg11-egl13-symbian_dump
-
-#---------------------------------------------------------------------------
-# Project vg11-vgu11-vgi10-symbian
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgu-vgi/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgu-vgi/vg11-vgu11-vgi.conf -p symbian -o $@ $(TRACY_ARGS)
-vg11-vgu11-vgi10-symbian: $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-symbian.tcy
-vg11-vgu11-vgi10-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-symbian.tcy
-vg11-vgu11-vgi10-symbian_dump: vg11-vgu11-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-symbian.tcy
-.PHONY: vg11-vgu11-vgi10-symbian vg11-vgu11-vgi10-symbian_clean vg11-vgu11-vgi10-symbian_dump
 
 #---------------------------------------------------------------------------
 # Project vg11-egl13-symbian
@@ -423,28 +515,76 @@ vg11-egl13-symbian_dump: vg11-egl13-symbian
 .PHONY: vg11-egl13-symbian vg11-egl13-symbian_clean vg11-egl13-symbian_dump
 
 #---------------------------------------------------------------------------
-# Project vg10-vgi10-symbian
+# Project vg11-symbian
 #---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg10-vgi10-symbian.tcy: $(TRACY_TARGET_PATH) config/vg/v1.0/*
-	@$(PYTHON) TracyGenerator.py create config/vg/v1.0/vg-vgi.conf -p symbian -o $@ $(TRACY_ARGS)
-vg10-vgi10-symbian: $(TRACY_TARGET_PATH)/vg10-vgi10-symbian.tcy
-vg10-vgi10-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg10-vgi10-symbian.tcy
-vg10-vgi10-symbian_dump: vg10-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg10-vgi10-symbian.tcy
-.PHONY: vg10-vgi10-symbian vg10-vgi10-symbian_clean vg10-vgi10-symbian_dump
+$(TRACY_TARGET_PATH)/vg11-symbian.tcy: $(TRACY_TARGET_PATH) config/vg/v1.1/*
+	@$(PYTHON) TracyGenerator.py create config/vg/v1.1/vg.conf -p symbian -o $@ $(TRACY_ARGS)
+vg11-symbian: $(TRACY_TARGET_PATH)/vg11-symbian.tcy
+vg11-symbian_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-symbian.tcy
+vg11-symbian_dump: vg11-symbian
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-symbian.tcy
+.PHONY: vg11-symbian vg11-symbian_clean vg11-symbian_dump
 
 #---------------------------------------------------------------------------
-# Project gles20-vg11-vgu11-egl13-symbian
+# Project gles11-vg101-egl13-symbian
 #---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles20-vg11-vgu11-egl13.conf -p symbian -o $@ $(TRACY_ARGS)
-gles20-vg11-vgu11-egl13-symbian: $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy
-gles20-vg11-vgu11-egl13-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy
-gles20-vg11-vgu11-egl13-symbian_dump: gles20-vg11-vgu11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy
-.PHONY: gles20-vg11-vgu11-egl13-symbian gles20-vg11-vgu11-egl13-symbian_clean gles20-vg11-vgu11-egl13-symbian_dump
+$(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles-vg-egl.conf -p symbian -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-symbian: $(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy
+gles11-vg101-egl13-symbian_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy
+gles11-vg101-egl13-symbian_dump: gles11-vg101-egl13-symbian
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy
+.PHONY: gles11-vg101-egl13-symbian gles11-vg101-egl13-symbian_clean gles11-vg101-egl13-symbian_dump
+
+#---------------------------------------------------------------------------
+# Project gles11-vg11-vgu11-egl13-symbian
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles11-vg11-vgu11-egl13.conf -p symbian -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-symbian: $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy
+gles11-vg11-vgu11-egl13-symbian_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy
+gles11-vg11-vgu11-egl13-symbian_dump: gles11-vg11-vgu11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy
+.PHONY: gles11-vg11-vgu11-egl13-symbian gles11-vg11-vgu11-egl13-symbian_clean gles11-vg11-vgu11-egl13-symbian_dump
+
+#---------------------------------------------------------------------------
+# Project vg11-vgu11-egl13-symbian
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgu-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgu-egl/vg11-vgu11-egl13.conf -p symbian -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-symbian: $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy
+vg11-vgu11-egl13-symbian_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy
+vg11-vgu11-egl13-symbian_dump: vg11-vgu11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy
+.PHONY: vg11-vgu11-egl13-symbian vg11-vgu11-egl13-symbian_clean vg11-vgu11-egl13-symbian_dump
+
+#---------------------------------------------------------------------------
+# Project gles20-egl13-symbian
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-egl/gles20-egl13.conf -p symbian -o $@ $(TRACY_ARGS)
+gles20-egl13-symbian: $(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy
+gles20-egl13-symbian_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy
+gles20-egl13-symbian_dump: gles20-egl13-symbian
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy
+.PHONY: gles20-egl13-symbian gles20-egl13-symbian_clean gles20-egl13-symbian_dump
+
+#---------------------------------------------------------------------------
+# Project gles20-vg11-egl13-symbian
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles20-vg11-egl13.conf -p symbian -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-symbian: $(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy
+gles20-vg11-egl13-symbian_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy
+gles20-vg11-egl13-symbian_dump: gles20-vg11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy
+.PHONY: gles20-vg11-egl13-symbian gles20-vg11-egl13-symbian_clean gles20-vg11-egl13-symbian_dump
 
 #---------------------------------------------------------------------------
 # Project gles11-egl13-symbian
@@ -483,40 +623,16 @@ gles11-egl11-symbian_dump: gles11-egl11-symbian
 .PHONY: gles11-egl11-symbian gles11-egl11-symbian_clean gles11-egl11-symbian_dump
 
 #---------------------------------------------------------------------------
-# Project vg11-vgi10-symbian
+# Project gles20-vg11-vgu11-egl13-symbian
 #---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg11-vgi10-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgi/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgi/vg11-vgi.conf -p symbian -o $@ $(TRACY_ARGS)
-vg11-vgi10-symbian: $(TRACY_TARGET_PATH)/vg11-vgi10-symbian.tcy
-vg11-vgi10-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgi10-symbian.tcy
-vg11-vgi10-symbian_dump: vg11-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgi10-symbian.tcy
-.PHONY: vg11-vgi10-symbian vg11-vgi10-symbian_clean vg11-vgi10-symbian_dump
-
-#---------------------------------------------------------------------------
-# Project gles20-vg11-egl13-symbian
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles20-vg11-egl13.conf -p symbian -o $@ $(TRACY_ARGS)
-gles20-vg11-egl13-symbian: $(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy
-gles20-vg11-egl13-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy
-gles20-vg11-egl13-symbian_dump: gles20-vg11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy
-.PHONY: gles20-vg11-egl13-symbian gles20-vg11-egl13-symbian_clean gles20-vg11-egl13-symbian_dump
-
-#---------------------------------------------------------------------------
-# Project vg11-symbian
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg11-symbian.tcy: $(TRACY_TARGET_PATH) config/vg/v1.1/*
-	@$(PYTHON) TracyGenerator.py create config/vg/v1.1/vg.conf -p symbian -o $@ $(TRACY_ARGS)
-vg11-symbian: $(TRACY_TARGET_PATH)/vg11-symbian.tcy
-vg11-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-symbian.tcy
-vg11-symbian_dump: vg11-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-symbian.tcy
-.PHONY: vg11-symbian vg11-symbian_clean vg11-symbian_dump
+$(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles20-vg11-vgu11-egl13.conf -p symbian -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-symbian: $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy
+gles20-vg11-vgu11-egl13-symbian_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy
+gles20-vg11-vgu11-egl13-symbian_dump: gles20-vg11-vgu11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy
+.PHONY: gles20-vg11-vgu11-egl13-symbian gles20-vg11-vgu11-egl13-symbian_clean gles20-vg11-vgu11-egl13-symbian_dump
 
 #---------------------------------------------------------------------------
 # Project egl13-symbian
@@ -531,54 +647,6 @@ egl13-symbian_dump: egl13-symbian
 .PHONY: egl13-symbian egl13-symbian_clean egl13-symbian_dump
 
 #---------------------------------------------------------------------------
-# Project vg101-vgi10-symbian
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg101-vgi10-symbian.tcy: $(TRACY_TARGET_PATH) config/vg/v1.0.1/*
-	@$(PYTHON) TracyGenerator.py create config/vg/v1.0.1/vg-vgi.conf -p symbian -o $@ $(TRACY_ARGS)
-vg101-vgi10-symbian: $(TRACY_TARGET_PATH)/vg101-vgi10-symbian.tcy
-vg101-vgi10-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg101-vgi10-symbian.tcy
-vg101-vgi10-symbian_dump: vg101-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg101-vgi10-symbian.tcy
-.PHONY: vg101-vgi10-symbian vg101-vgi10-symbian_clean vg101-vgi10-symbian_dump
-
-#---------------------------------------------------------------------------
-# Project gles20-egl13-symbian
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-egl/gles20-egl13.conf -p symbian -o $@ $(TRACY_ARGS)
-gles20-egl13-symbian: $(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy
-gles20-egl13-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy
-gles20-egl13-symbian_dump: gles20-egl13-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy
-.PHONY: gles20-egl13-symbian gles20-egl13-symbian_clean gles20-egl13-symbian_dump
-
-#---------------------------------------------------------------------------
-# Project gles11-vg101-egl13-symbian
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles-vg-egl.conf -p symbian -o $@ $(TRACY_ARGS)
-gles11-vg101-egl13-symbian: $(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy
-gles11-vg101-egl13-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy
-gles11-vg101-egl13-symbian_dump: gles11-vg101-egl13-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy
-.PHONY: gles11-vg101-egl13-symbian gles11-vg101-egl13-symbian_clean gles11-vg101-egl13-symbian_dump
-
-#---------------------------------------------------------------------------
-# Project gles11-vg11-vgu11-egl13-symbian
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles11-vg11-vgu11-egl13.conf -p symbian -o $@ $(TRACY_ARGS)
-gles11-vg11-vgu11-egl13-symbian: $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy
-gles11-vg11-vgu11-egl13-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy
-gles11-vg11-vgu11-egl13-symbian_dump: gles11-vg11-vgu11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy
-.PHONY: gles11-vg11-vgu11-egl13-symbian gles11-vg11-vgu11-egl13-symbian_clean gles11-vg11-vgu11-egl13-symbian_dump
-
-#---------------------------------------------------------------------------
 # Project gles11-symbian
 #---------------------------------------------------------------------------
 $(TRACY_TARGET_PATH)/gles11-symbian.tcy: $(TRACY_TARGET_PATH) config/gles/v1.1/*
@@ -589,30 +657,6 @@ gles11-symbian_clean:
 gles11-symbian_dump: gles11-symbian
 	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-symbian.tcy
 .PHONY: gles11-symbian gles11-symbian_clean gles11-symbian_dump
-
-#---------------------------------------------------------------------------
-# Project vg11-vgu11-egl13-symbian
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgu-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgu-egl/vg11-vgu11-egl13.conf -p symbian -o $@ $(TRACY_ARGS)
-vg11-vgu11-egl13-symbian: $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy
-vg11-vgu11-egl13-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy
-vg11-vgu11-egl13-symbian_dump: vg11-vgu11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy
-.PHONY: vg11-vgu11-egl13-symbian vg11-vgu11-egl13-symbian_clean vg11-vgu11-egl13-symbian_dump
-
-#---------------------------------------------------------------------------
-# Project vgi10-symbian
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vgi10-symbian.tcy: $(TRACY_TARGET_PATH) config/vgi/v1.0/*
-	@$(PYTHON) TracyGenerator.py create config/vgi/v1.0/vgi.conf -p symbian -o $@ $(TRACY_ARGS)
-vgi10-symbian: $(TRACY_TARGET_PATH)/vgi10-symbian.tcy
-vgi10-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vgi10-symbian.tcy
-vgi10-symbian_dump: vgi10-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vgi10-symbian.tcy
-.PHONY: vgi10-symbian vgi10-symbian_clean vgi10-symbian_dump
 
 #---------------------------------------------------------------------------
 # Project gles20-symbian
@@ -627,18 +671,6 @@ gles20-symbian_dump: gles20-symbian
 .PHONY: gles20-symbian gles20-symbian_clean gles20-symbian_dump
 
 #---------------------------------------------------------------------------
-# Project comp10-symbian
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/comp10-symbian.tcy: $(TRACY_TARGET_PATH) config/composition/v1.0/*
-	@$(PYTHON) TracyGenerator.py create config/composition/v1.0/composition.conf -p symbian -o $@ $(TRACY_ARGS)
-comp10-symbian: $(TRACY_TARGET_PATH)/comp10-symbian.tcy
-comp10-symbian_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/comp10-symbian.tcy
-comp10-symbian_dump: comp10-symbian
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/comp10-symbian.tcy
-.PHONY: comp10-symbian comp10-symbian_clean comp10-symbian_dump
-
-#---------------------------------------------------------------------------
 # Project gles11-vg11-egl13-win32
 #---------------------------------------------------------------------------
 $(TRACY_TARGET_PATH)/gles11-vg11-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
@@ -649,18 +681,6 @@ gles11-vg11-egl13-win32_clean:
 gles11-vg11-egl13-win32_dump: gles11-vg11-egl13-win32
 	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg11-egl13-win32.tcy
 .PHONY: gles11-vg11-egl13-win32 gles11-vg11-egl13-win32_clean gles11-vg11-egl13-win32_dump
-
-#---------------------------------------------------------------------------
-# Project vg11-vgu11-vgi10-win32
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgu-vgi/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgu-vgi/vg11-vgu11-vgi.conf -p win32 -o $@ $(TRACY_ARGS)
-vg11-vgu11-vgi10-win32: $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-win32.tcy
-vg11-vgu11-vgi10-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-win32.tcy
-vg11-vgu11-vgi10-win32_dump: vg11-vgu11-vgi10-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-win32.tcy
-.PHONY: vg11-vgu11-vgi10-win32 vg11-vgu11-vgi10-win32_clean vg11-vgu11-vgi10-win32_dump
 
 #---------------------------------------------------------------------------
 # Project vg11-egl13-win32
@@ -675,28 +695,76 @@ vg11-egl13-win32_dump: vg11-egl13-win32
 .PHONY: vg11-egl13-win32 vg11-egl13-win32_clean vg11-egl13-win32_dump
 
 #---------------------------------------------------------------------------
-# Project vg10-vgi10-win32
+# Project vg11-win32
 #---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg10-vgi10-win32.tcy: $(TRACY_TARGET_PATH) config/vg/v1.0/*
-	@$(PYTHON) TracyGenerator.py create config/vg/v1.0/vg-vgi.conf -p win32 -o $@ $(TRACY_ARGS)
-vg10-vgi10-win32: $(TRACY_TARGET_PATH)/vg10-vgi10-win32.tcy
-vg10-vgi10-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg10-vgi10-win32.tcy
-vg10-vgi10-win32_dump: vg10-vgi10-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg10-vgi10-win32.tcy
-.PHONY: vg10-vgi10-win32 vg10-vgi10-win32_clean vg10-vgi10-win32_dump
+$(TRACY_TARGET_PATH)/vg11-win32.tcy: $(TRACY_TARGET_PATH) config/vg/v1.1/*
+	@$(PYTHON) TracyGenerator.py create config/vg/v1.1/vg.conf -p win32 -o $@ $(TRACY_ARGS)
+vg11-win32: $(TRACY_TARGET_PATH)/vg11-win32.tcy
+vg11-win32_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-win32.tcy
+vg11-win32_dump: vg11-win32
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-win32.tcy
+.PHONY: vg11-win32 vg11-win32_clean vg11-win32_dump
 
 #---------------------------------------------------------------------------
-# Project gles20-vg11-vgu11-egl13-win32
+# Project gles11-vg101-egl13-win32
 #---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles20-vg11-vgu11-egl13.conf -p win32 -o $@ $(TRACY_ARGS)
-gles20-vg11-vgu11-egl13-win32: $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy
-gles20-vg11-vgu11-egl13-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy
-gles20-vg11-vgu11-egl13-win32_dump: gles20-vg11-vgu11-egl13-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy
-.PHONY: gles20-vg11-vgu11-egl13-win32 gles20-vg11-vgu11-egl13-win32_clean gles20-vg11-vgu11-egl13-win32_dump
+$(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles-vg-egl.conf -p win32 -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-win32: $(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy
+gles11-vg101-egl13-win32_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy
+gles11-vg101-egl13-win32_dump: gles11-vg101-egl13-win32
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy
+.PHONY: gles11-vg101-egl13-win32 gles11-vg101-egl13-win32_clean gles11-vg101-egl13-win32_dump
+
+#---------------------------------------------------------------------------
+# Project gles11-vg11-vgu11-egl13-win32
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles11-vg11-vgu11-egl13.conf -p win32 -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-win32: $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy
+gles11-vg11-vgu11-egl13-win32_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy
+gles11-vg11-vgu11-egl13-win32_dump: gles11-vg11-vgu11-egl13-win32
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy
+.PHONY: gles11-vg11-vgu11-egl13-win32 gles11-vg11-vgu11-egl13-win32_clean gles11-vg11-vgu11-egl13-win32_dump
+
+#---------------------------------------------------------------------------
+# Project vg11-vgu11-egl13-win32
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgu-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgu-egl/vg11-vgu11-egl13.conf -p win32 -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-win32: $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy
+vg11-vgu11-egl13-win32_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy
+vg11-vgu11-egl13-win32_dump: vg11-vgu11-egl13-win32
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy
+.PHONY: vg11-vgu11-egl13-win32 vg11-vgu11-egl13-win32_clean vg11-vgu11-egl13-win32_dump
+
+#---------------------------------------------------------------------------
+# Project gles20-egl13-win32
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-egl/gles20-egl13.conf -p win32 -o $@ $(TRACY_ARGS)
+gles20-egl13-win32: $(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy
+gles20-egl13-win32_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy
+gles20-egl13-win32_dump: gles20-egl13-win32
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy
+.PHONY: gles20-egl13-win32 gles20-egl13-win32_clean gles20-egl13-win32_dump
+
+#---------------------------------------------------------------------------
+# Project gles20-vg11-egl13-win32
+#---------------------------------------------------------------------------
+$(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles20-vg11-egl13.conf -p win32 -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-win32: $(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy
+gles20-vg11-egl13-win32_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy
+gles20-vg11-egl13-win32_dump: gles20-vg11-egl13-win32
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy
+.PHONY: gles20-vg11-egl13-win32 gles20-vg11-egl13-win32_clean gles20-vg11-egl13-win32_dump
 
 #---------------------------------------------------------------------------
 # Project gles11-egl13-win32
@@ -735,40 +803,16 @@ gles11-egl11-win32_dump: gles11-egl11-win32
 .PHONY: gles11-egl11-win32 gles11-egl11-win32_clean gles11-egl11-win32_dump
 
 #---------------------------------------------------------------------------
-# Project vg11-vgi10-win32
+# Project gles20-vg11-vgu11-egl13-win32
 #---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg11-vgi10-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgi/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgi/vg11-vgi.conf -p win32 -o $@ $(TRACY_ARGS)
-vg11-vgi10-win32: $(TRACY_TARGET_PATH)/vg11-vgi10-win32.tcy
-vg11-vgi10-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgi10-win32.tcy
-vg11-vgi10-win32_dump: vg11-vgi10-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgi10-win32.tcy
-.PHONY: vg11-vgi10-win32 vg11-vgi10-win32_clean vg11-vgi10-win32_dump
-
-#---------------------------------------------------------------------------
-# Project gles20-vg11-egl13-win32
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles20-vg11-egl13.conf -p win32 -o $@ $(TRACY_ARGS)
-gles20-vg11-egl13-win32: $(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy
-gles20-vg11-egl13-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy
-gles20-vg11-egl13-win32_dump: gles20-vg11-egl13-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy
-.PHONY: gles20-vg11-egl13-win32 gles20-vg11-egl13-win32_clean gles20-vg11-egl13-win32_dump
-
-#---------------------------------------------------------------------------
-# Project vg11-win32
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg11-win32.tcy: $(TRACY_TARGET_PATH) config/vg/v1.1/*
-	@$(PYTHON) TracyGenerator.py create config/vg/v1.1/vg.conf -p win32 -o $@ $(TRACY_ARGS)
-vg11-win32: $(TRACY_TARGET_PATH)/vg11-win32.tcy
-vg11-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-win32.tcy
-vg11-win32_dump: vg11-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-win32.tcy
-.PHONY: vg11-win32 vg11-win32_clean vg11-win32_dump
+$(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
+	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles20-vg11-vgu11-egl13.conf -p win32 -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-win32: $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy
+gles20-vg11-vgu11-egl13-win32_clean:
+	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy
+gles20-vg11-vgu11-egl13-win32_dump: gles20-vg11-vgu11-egl13-win32
+	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy
+.PHONY: gles20-vg11-vgu11-egl13-win32 gles20-vg11-vgu11-egl13-win32_clean gles20-vg11-vgu11-egl13-win32_dump
 
 #---------------------------------------------------------------------------
 # Project egl13-win32
@@ -783,54 +827,6 @@ egl13-win32_dump: egl13-win32
 .PHONY: egl13-win32 egl13-win32_clean egl13-win32_dump
 
 #---------------------------------------------------------------------------
-# Project vg101-vgi10-win32
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg101-vgi10-win32.tcy: $(TRACY_TARGET_PATH) config/vg/v1.0.1/*
-	@$(PYTHON) TracyGenerator.py create config/vg/v1.0.1/vg-vgi.conf -p win32 -o $@ $(TRACY_ARGS)
-vg101-vgi10-win32: $(TRACY_TARGET_PATH)/vg101-vgi10-win32.tcy
-vg101-vgi10-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg101-vgi10-win32.tcy
-vg101-vgi10-win32_dump: vg101-vgi10-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg101-vgi10-win32.tcy
-.PHONY: vg101-vgi10-win32 vg101-vgi10-win32_clean vg101-vgi10-win32_dump
-
-#---------------------------------------------------------------------------
-# Project gles20-egl13-win32
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-egl/gles20-egl13.conf -p win32 -o $@ $(TRACY_ARGS)
-gles20-egl13-win32: $(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy
-gles20-egl13-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy
-gles20-egl13-win32_dump: gles20-egl13-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy
-.PHONY: gles20-egl13-win32 gles20-egl13-win32_clean gles20-egl13-win32_dump
-
-#---------------------------------------------------------------------------
-# Project gles11-vg101-egl13-win32
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-egl/gles-vg-egl.conf -p win32 -o $@ $(TRACY_ARGS)
-gles11-vg101-egl13-win32: $(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy
-gles11-vg101-egl13-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy
-gles11-vg101-egl13-win32_dump: gles11-vg101-egl13-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy
-.PHONY: gles11-vg101-egl13-win32 gles11-vg101-egl13-win32_clean gles11-vg101-egl13-win32_dump
-
-#---------------------------------------------------------------------------
-# Project gles11-vg11-vgu11-egl13-win32
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/gles-vg-vgu-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/gles-vg-vgu-egl/gles11-vg11-vgu11-egl13.conf -p win32 -o $@ $(TRACY_ARGS)
-gles11-vg11-vgu11-egl13-win32: $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy
-gles11-vg11-vgu11-egl13-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy
-gles11-vg11-vgu11-egl13-win32_dump: gles11-vg11-vgu11-egl13-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy
-.PHONY: gles11-vg11-vgu11-egl13-win32 gles11-vg11-vgu11-egl13-win32_clean gles11-vg11-vgu11-egl13-win32_dump
-
-#---------------------------------------------------------------------------
 # Project gles11-win32
 #---------------------------------------------------------------------------
 $(TRACY_TARGET_PATH)/gles11-win32.tcy: $(TRACY_TARGET_PATH) config/gles/v1.1/*
@@ -841,30 +837,6 @@ gles11-win32_clean:
 gles11-win32_dump: gles11-win32
 	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles11-win32.tcy
 .PHONY: gles11-win32 gles11-win32_clean gles11-win32_dump
-
-#---------------------------------------------------------------------------
-# Project vg11-vgu11-egl13-win32
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy: $(TRACY_TARGET_PATH) config/cross-api/vg-vgu-egl/*
-	@$(PYTHON) TracyGenerator.py create config/cross-api/vg-vgu-egl/vg11-vgu11-egl13.conf -p win32 -o $@ $(TRACY_ARGS)
-vg11-vgu11-egl13-win32: $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy
-vg11-vgu11-egl13-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy
-vg11-vgu11-egl13-win32_dump: vg11-vgu11-egl13-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy
-.PHONY: vg11-vgu11-egl13-win32 vg11-vgu11-egl13-win32_clean vg11-vgu11-egl13-win32_dump
-
-#---------------------------------------------------------------------------
-# Project vgi10-win32
-#---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/vgi10-win32.tcy: $(TRACY_TARGET_PATH) config/vgi/v1.0/*
-	@$(PYTHON) TracyGenerator.py create config/vgi/v1.0/vgi.conf -p win32 -o $@ $(TRACY_ARGS)
-vgi10-win32: $(TRACY_TARGET_PATH)/vgi10-win32.tcy
-vgi10-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/vgi10-win32.tcy
-vgi10-win32_dump: vgi10-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/vgi10-win32.tcy
-.PHONY: vgi10-win32 vgi10-win32_clean vgi10-win32_dump
 
 #---------------------------------------------------------------------------
 # Project gles20-win32
@@ -878,23 +850,506 @@ gles20-win32_dump: gles20-win32
 	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/gles20-win32.tcy
 .PHONY: gles20-win32 gles20-win32_clean gles20-win32_dump
 
+
+
+
+
+
+
 #---------------------------------------------------------------------------
-# Project comp10-win32
+# Target gles11-vg11-egl13-tracer-android
 #---------------------------------------------------------------------------
-$(TRACY_TARGET_PATH)/comp10-win32.tcy: $(TRACY_TARGET_PATH) config/composition/v1.0/*
-	@$(PYTHON) TracyGenerator.py create config/composition/v1.0/composition.conf -p win32 -o $@ $(TRACY_ARGS)
-comp10-win32: $(TRACY_TARGET_PATH)/comp10-win32.tcy
-comp10-win32_clean:
-	@-$(RM) -f $(TRACY_TARGET_PATH)/comp10-win32.tcy
-comp10-win32_dump: comp10-win32
-	@$(PYTHON) TracyGenerator.py show all -c $(TRACY_TARGET_PATH)/comp10-win32.tcy
-.PHONY: comp10-win32 comp10-win32_clean comp10-win32_dump
+$(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-egl13-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles11-vg11-egl13-tracer-android_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-tracer-android
+gles11-vg11-egl13-tracer-android: gles11-vg11-egl13-tracer-android_build
+gles11-vg11-egl13-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-tracer-android
+.PHONY: gles11-vg11-egl13-tracer-android gles11-vg11-egl13-tracer-android_build gles11-vg11-egl13-tracer-android_clean
 
+#---------------------------------------------------------------------------
+# Target vg11-egl13-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-egl13-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-egl13-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+vg11-egl13-tracer-android_build: $(TRACY_CODEGEN_PATH)/vg11-egl13-tracer-android
+vg11-egl13-tracer-android: vg11-egl13-tracer-android_build
+vg11-egl13-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-egl13-tracer-android
+.PHONY: vg11-egl13-tracer-android vg11-egl13-tracer-android_build vg11-egl13-tracer-android_clean
 
+#---------------------------------------------------------------------------
+# Target vg11-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+vg11-tracer-android_build: $(TRACY_CODEGEN_PATH)/vg11-tracer-android
+vg11-tracer-android: vg11-tracer-android_build
+vg11-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-tracer-android
+.PHONY: vg11-tracer-android vg11-tracer-android_build vg11-tracer-android_clean
 
+#---------------------------------------------------------------------------
+# Target gles11-vg101-egl13-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-tracer-android_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-android
+gles11-vg101-egl13-tracer-android: gles11-vg101-egl13-tracer-android_build
+gles11-vg101-egl13-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-android
+.PHONY: gles11-vg101-egl13-tracer-android gles11-vg101-egl13-tracer-android_build gles11-vg101-egl13-tracer-android_clean
 
+#---------------------------------------------------------------------------
+# Target gles11-vg11-vgu11-egl13-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-tracer-android_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-android
+gles11-vg11-vgu11-egl13-tracer-android: gles11-vg11-vgu11-egl13-tracer-android_build
+gles11-vg11-vgu11-egl13-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-android
+.PHONY: gles11-vg11-vgu11-egl13-tracer-android gles11-vg11-vgu11-egl13-tracer-android_build gles11-vg11-vgu11-egl13-tracer-android_clean
 
+#---------------------------------------------------------------------------
+# Target vg11-vgu11-egl13-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-tracer-android_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-android
+vg11-vgu11-egl13-tracer-android: vg11-vgu11-egl13-tracer-android_build
+vg11-vgu11-egl13-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-android
+.PHONY: vg11-vgu11-egl13-tracer-android vg11-vgu11-egl13-tracer-android_build vg11-vgu11-egl13-tracer-android_clean
 
+#---------------------------------------------------------------------------
+# Target gles20-egl13-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-egl13-tracer-android_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-android
+gles20-egl13-tracer-android: gles20-egl13-tracer-android_build
+gles20-egl13-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-android
+.PHONY: gles20-egl13-tracer-android gles20-egl13-tracer-android_build gles20-egl13-tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-egl13-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-tracer-android_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-android
+gles20-vg11-egl13-tracer-android: gles20-vg11-egl13-tracer-android_build
+gles20-vg11-egl13-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-android
+.PHONY: gles20-vg11-egl13-tracer-android gles20-vg11-egl13-tracer-android_build gles20-vg11-egl13-tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-egl13-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-egl13-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-egl13-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles11-egl13-tracer-android_build: $(TRACY_CODEGEN_PATH)/gles11-egl13-tracer-android
+gles11-egl13-tracer-android: gles11-egl13-tracer-android_build
+gles11-egl13-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-egl13-tracer-android
+.PHONY: gles11-egl13-tracer-android gles11-egl13-tracer-android_build gles11-egl13-tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target vgu11-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vgu11-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vgu11-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vgu11-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+vgu11-tracer-android_build: $(TRACY_CODEGEN_PATH)/vgu11-tracer-android
+vgu11-tracer-android: vgu11-tracer-android_build
+vgu11-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vgu11-tracer-android
+.PHONY: vgu11-tracer-android vgu11-tracer-android_build vgu11-tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-egl11-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-egl11-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-egl11-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-egl11-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles11-egl11-tracer-android_build: $(TRACY_CODEGEN_PATH)/gles11-egl11-tracer-android
+gles11-egl11-tracer-android: gles11-egl11-tracer-android_build
+gles11-egl11-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-egl11-tracer-android
+.PHONY: gles11-egl11-tracer-android gles11-egl11-tracer-android_build gles11-egl11-tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-vgu11-egl13-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-tracer-android_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-android
+gles20-vg11-vgu11-egl13-tracer-android: gles20-vg11-vgu11-egl13-tracer-android_build
+gles20-vg11-vgu11-egl13-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-android
+.PHONY: gles20-vg11-vgu11-egl13-tracer-android gles20-vg11-vgu11-egl13-tracer-android_build gles20-vg11-vgu11-egl13-tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target egl13-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/egl13-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/egl13-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+egl13-tracer-android_build: $(TRACY_CODEGEN_PATH)/egl13-tracer-android
+egl13-tracer-android: egl13-tracer-android_build
+egl13-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/egl13-tracer-android
+.PHONY: egl13-tracer-android egl13-tracer-android_build egl13-tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles11-tracer-android_build: $(TRACY_CODEGEN_PATH)/gles11-tracer-android
+gles11-tracer-android: gles11-tracer-android_build
+gles11-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-tracer-android
+.PHONY: gles11-tracer-android gles11-tracer-android_build gles11-tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-android.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-tracer-android_build: $(TRACY_CODEGEN_PATH)/gles20-tracer-android
+gles20-tracer-android: gles20-tracer-android_build
+gles20-tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-tracer-android
+.PHONY: gles20-tracer-android gles20-tracer-android_build gles20-tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-egl13-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-egl13-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles11-vg11-egl13-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-android
+gles11-vg11-egl13-passthrough_tracer-android: gles11-vg11-egl13-passthrough_tracer-android_build
+gles11-vg11-egl13-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-android
+.PHONY: gles11-vg11-egl13-passthrough_tracer-android gles11-vg11-egl13-passthrough_tracer-android_build gles11-vg11-egl13-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-egl13-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-egl13-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-egl13-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+vg11-egl13-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/vg11-egl13-passthrough_tracer-android
+vg11-egl13-passthrough_tracer-android: vg11-egl13-passthrough_tracer-android_build
+vg11-egl13-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-egl13-passthrough_tracer-android
+.PHONY: vg11-egl13-passthrough_tracer-android vg11-egl13-passthrough_tracer-android_build vg11-egl13-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+vg11-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-android
+vg11-passthrough_tracer-android: vg11-passthrough_tracer-android_build
+vg11-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-android
+.PHONY: vg11-passthrough_tracer-android vg11-passthrough_tracer-android_build vg11-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg101-egl13-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-android
+gles11-vg101-egl13-passthrough_tracer-android: gles11-vg101-egl13-passthrough_tracer-android_build
+gles11-vg101-egl13-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-android
+.PHONY: gles11-vg101-egl13-passthrough_tracer-android gles11-vg101-egl13-passthrough_tracer-android_build gles11-vg101-egl13-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-vgu11-egl13-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-android
+gles11-vg11-vgu11-egl13-passthrough_tracer-android: gles11-vg11-vgu11-egl13-passthrough_tracer-android_build
+gles11-vg11-vgu11-egl13-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-android
+.PHONY: gles11-vg11-vgu11-egl13-passthrough_tracer-android gles11-vg11-vgu11-egl13-passthrough_tracer-android_build gles11-vg11-vgu11-egl13-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-vgu11-egl13-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-android
+vg11-vgu11-egl13-passthrough_tracer-android: vg11-vgu11-egl13-passthrough_tracer-android_build
+vg11-vgu11-egl13-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-android
+.PHONY: vg11-vgu11-egl13-passthrough_tracer-android vg11-vgu11-egl13-passthrough_tracer-android_build vg11-vgu11-egl13-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-egl13-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-egl13-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-android
+gles20-egl13-passthrough_tracer-android: gles20-egl13-passthrough_tracer-android_build
+gles20-egl13-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-android
+.PHONY: gles20-egl13-passthrough_tracer-android gles20-egl13-passthrough_tracer-android_build gles20-egl13-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-egl13-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-android
+gles20-vg11-egl13-passthrough_tracer-android: gles20-vg11-egl13-passthrough_tracer-android_build
+gles20-vg11-egl13-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-android
+.PHONY: gles20-vg11-egl13-passthrough_tracer-android gles20-vg11-egl13-passthrough_tracer-android_build gles20-vg11-egl13-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-egl13-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-egl13-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-egl13-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles11-egl13-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/gles11-egl13-passthrough_tracer-android
+gles11-egl13-passthrough_tracer-android: gles11-egl13-passthrough_tracer-android_build
+gles11-egl13-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-egl13-passthrough_tracer-android
+.PHONY: gles11-egl13-passthrough_tracer-android gles11-egl13-passthrough_tracer-android_build gles11-egl13-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target vgu11-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vgu11-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vgu11-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vgu11-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+vgu11-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/vgu11-passthrough_tracer-android
+vgu11-passthrough_tracer-android: vgu11-passthrough_tracer-android_build
+vgu11-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vgu11-passthrough_tracer-android
+.PHONY: vgu11-passthrough_tracer-android vgu11-passthrough_tracer-android_build vgu11-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-egl11-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-egl11-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-egl11-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-egl11-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles11-egl11-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/gles11-egl11-passthrough_tracer-android
+gles11-egl11-passthrough_tracer-android: gles11-egl11-passthrough_tracer-android_build
+gles11-egl11-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-egl11-passthrough_tracer-android
+.PHONY: gles11-egl11-passthrough_tracer-android gles11-egl11-passthrough_tracer-android_build gles11-egl11-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-vgu11-egl13-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-android
+gles20-vg11-vgu11-egl13-passthrough_tracer-android: gles20-vg11-vgu11-egl13-passthrough_tracer-android_build
+gles20-vg11-vgu11-egl13-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-android
+.PHONY: gles20-vg11-vgu11-egl13-passthrough_tracer-android gles20-vg11-vgu11-egl13-passthrough_tracer-android_build gles20-vg11-vgu11-egl13-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target egl13-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/egl13-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/egl13-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+egl13-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/egl13-passthrough_tracer-android
+egl13-passthrough_tracer-android: egl13-passthrough_tracer-android_build
+egl13-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/egl13-passthrough_tracer-android
+.PHONY: egl13-passthrough_tracer-android egl13-passthrough_tracer-android_build egl13-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles11-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-android
+gles11-passthrough_tracer-android: gles11-passthrough_tracer-android_build
+gles11-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-android
+.PHONY: gles11-passthrough_tracer-android gles11-passthrough_tracer-android_build gles11-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-passthrough_tracer-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-passthrough_tracer-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-android.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-passthrough_tracer-android_build: $(TRACY_CODEGEN_PATH)/gles20-passthrough_tracer-android
+gles20-passthrough_tracer-android: gles20-passthrough_tracer-android_build
+gles20-passthrough_tracer-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-passthrough_tracer-android
+.PHONY: gles20-passthrough_tracer-android gles20-passthrough_tracer-android_build gles20-passthrough_tracer-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-egl13-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-egl13-android.tcy generate player -o $@ $(TRACY_ARGS)
+gles11-vg11-egl13-player-android_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-android
+gles11-vg11-egl13-player-android: gles11-vg11-egl13-player-android_build
+gles11-vg11-egl13-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-android
+.PHONY: gles11-vg11-egl13-player-android gles11-vg11-egl13-player-android_build gles11-vg11-egl13-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-egl13-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-egl13-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-egl13-android.tcy generate player -o $@ $(TRACY_ARGS)
+vg11-egl13-player-android_build: $(TRACY_CODEGEN_PATH)/vg11-egl13-player-android
+vg11-egl13-player-android: vg11-egl13-player-android_build
+vg11-egl13-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-egl13-player-android
+.PHONY: vg11-egl13-player-android vg11-egl13-player-android_build vg11-egl13-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-android.tcy generate player -o $@ $(TRACY_ARGS)
+vg11-player-android_build: $(TRACY_CODEGEN_PATH)/vg11-player-android
+vg11-player-android: vg11-player-android_build
+vg11-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-player-android
+.PHONY: vg11-player-android vg11-player-android_build vg11-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg101-egl13-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-android.tcy generate player -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-player-android_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-android
+gles11-vg101-egl13-player-android: gles11-vg101-egl13-player-android_build
+gles11-vg101-egl13-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-android
+.PHONY: gles11-vg101-egl13-player-android gles11-vg101-egl13-player-android_build gles11-vg101-egl13-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-vgu11-egl13-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-android.tcy generate player -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-player-android_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-android
+gles11-vg11-vgu11-egl13-player-android: gles11-vg11-vgu11-egl13-player-android_build
+gles11-vg11-vgu11-egl13-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-android
+.PHONY: gles11-vg11-vgu11-egl13-player-android gles11-vg11-vgu11-egl13-player-android_build gles11-vg11-vgu11-egl13-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-vgu11-egl13-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-android.tcy generate player -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-player-android_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-android
+vg11-vgu11-egl13-player-android: vg11-vgu11-egl13-player-android_build
+vg11-vgu11-egl13-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-android
+.PHONY: vg11-vgu11-egl13-player-android vg11-vgu11-egl13-player-android_build vg11-vgu11-egl13-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-egl13-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-egl13-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-android.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-egl13-player-android_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-player-android
+gles20-egl13-player-android: gles20-egl13-player-android_build
+gles20-egl13-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-player-android
+.PHONY: gles20-egl13-player-android gles20-egl13-player-android_build gles20-egl13-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-egl13-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-android.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-player-android_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-android
+gles20-vg11-egl13-player-android: gles20-vg11-egl13-player-android_build
+gles20-vg11-egl13-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-android
+.PHONY: gles20-vg11-egl13-player-android gles20-vg11-egl13-player-android_build gles20-vg11-egl13-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-egl13-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-egl13-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-egl13-android.tcy generate player -o $@ $(TRACY_ARGS)
+gles11-egl13-player-android_build: $(TRACY_CODEGEN_PATH)/gles11-egl13-player-android
+gles11-egl13-player-android: gles11-egl13-player-android_build
+gles11-egl13-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-egl13-player-android
+.PHONY: gles11-egl13-player-android gles11-egl13-player-android_build gles11-egl13-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target vgu11-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vgu11-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vgu11-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vgu11-android.tcy generate player -o $@ $(TRACY_ARGS)
+vgu11-player-android_build: $(TRACY_CODEGEN_PATH)/vgu11-player-android
+vgu11-player-android: vgu11-player-android_build
+vgu11-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vgu11-player-android
+.PHONY: vgu11-player-android vgu11-player-android_build vgu11-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-egl11-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-egl11-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-egl11-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-egl11-android.tcy generate player -o $@ $(TRACY_ARGS)
+gles11-egl11-player-android_build: $(TRACY_CODEGEN_PATH)/gles11-egl11-player-android
+gles11-egl11-player-android: gles11-egl11-player-android_build
+gles11-egl11-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-egl11-player-android
+.PHONY: gles11-egl11-player-android gles11-egl11-player-android_build gles11-egl11-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-vgu11-egl13-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-android.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-player-android_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-android
+gles20-vg11-vgu11-egl13-player-android: gles20-vg11-vgu11-egl13-player-android_build
+gles20-vg11-vgu11-egl13-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-android
+.PHONY: gles20-vg11-vgu11-egl13-player-android gles20-vg11-vgu11-egl13-player-android_build gles20-vg11-vgu11-egl13-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target egl13-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/egl13-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl egl13-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/egl13-android.tcy generate player -o $@ $(TRACY_ARGS)
+egl13-player-android_build: $(TRACY_CODEGEN_PATH)/egl13-player-android
+egl13-player-android: egl13-player-android_build
+egl13-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/egl13-player-android
+.PHONY: egl13-player-android egl13-player-android_build egl13-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-android.tcy generate player -o $@ $(TRACY_ARGS)
+gles11-player-android_build: $(TRACY_CODEGEN_PATH)/gles11-player-android
+gles11-player-android: gles11-player-android_build
+gles11-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-player-android
+.PHONY: gles11-player-android gles11-player-android_build gles11-player-android_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-player-android
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-player-android: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-android
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-android.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-player-android_build: $(TRACY_CODEGEN_PATH)/gles20-player-android
+gles20-player-android: gles20-player-android_build
+gles20-player-android_clean:
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-player-android
+.PHONY: gles20-player-android gles20-player-android_build gles20-player-android_clean
 
 #---------------------------------------------------------------------------
 # Target gles11-vg11-egl13-tracer-unix
@@ -910,19 +1365,6 @@ gles11-vg11-egl13-tracer-unix_clean:
 .PHONY: gles11-vg11-egl13-tracer-unix gles11-vg11-egl13-tracer-unix_build gles11-vg11-egl13-tracer-unix_clean
 
 #---------------------------------------------------------------------------
-# Target vg11-vgu11-vgi10-tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg11-vgu11-vgi10-tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-unix && $(MAKE)
-vg11-vgu11-vgi10-tracer-unix: vg11-vgu11-vgi10-tracer-unix_build
-vg11-vgu11-vgi10-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-unix
-.PHONY: vg11-vgu11-vgi10-tracer-unix vg11-vgu11-vgi10-tracer-unix_build vg11-vgu11-vgi10-tracer-unix_clean
-
-#---------------------------------------------------------------------------
 # Target vg11-egl13-tracer-unix
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/vg11-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-egl13-unix
@@ -936,30 +1378,82 @@ vg11-egl13-tracer-unix_clean:
 .PHONY: vg11-egl13-tracer-unix vg11-egl13-tracer-unix_build vg11-egl13-tracer-unix_clean
 
 #---------------------------------------------------------------------------
-# Target vg10-vgi10-tracer-unix
+# Target vg11-tracer-unix
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg10-vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg10-vgi10-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg10-vgi10-tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-unix && $(MAKE)
-vg10-vgi10-tracer-unix: vg10-vgi10-tracer-unix_build
-vg10-vgi10-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-unix
-.PHONY: vg10-vgi10-tracer-unix vg10-vgi10-tracer-unix_build vg10-vgi10-tracer-unix_clean
+$(TRACY_CODEGEN_PATH)/vg11-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
+vg11-tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg11-tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/vg11-tracer-unix && $(MAKE)
+vg11-tracer-unix: vg11-tracer-unix_build
+vg11-tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg11-tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-tracer-unix
+.PHONY: vg11-tracer-unix vg11-tracer-unix_build vg11-tracer-unix_clean
 
 #---------------------------------------------------------------------------
-# Target gles20-vg11-vgu11-egl13-tracer-unix
+# Target gles11-vg101-egl13-tracer-unix
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles20-vg11-vgu11-egl13-tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-unix && $(MAKE)
-gles20-vg11-vgu11-egl13-tracer-unix: gles20-vg11-vgu11-egl13-tracer-unix_build
-gles20-vg11-vgu11-egl13-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-unix
-.PHONY: gles20-vg11-vgu11-egl13-tracer-unix gles20-vg11-vgu11-egl13-tracer-unix_build gles20-vg11-vgu11-egl13-tracer-unix_clean
+$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-unix && $(MAKE)
+gles11-vg101-egl13-tracer-unix: gles11-vg101-egl13-tracer-unix_build
+gles11-vg101-egl13-tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-unix
+.PHONY: gles11-vg101-egl13-tracer-unix gles11-vg101-egl13-tracer-unix_build gles11-vg101-egl13-tracer-unix_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-vgu11-egl13-tracer-unix
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-unix && $(MAKE)
+gles11-vg11-vgu11-egl13-tracer-unix: gles11-vg11-vgu11-egl13-tracer-unix_build
+gles11-vg11-vgu11-egl13-tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-unix
+.PHONY: gles11-vg11-vgu11-egl13-tracer-unix gles11-vg11-vgu11-egl13-tracer-unix_build gles11-vg11-vgu11-egl13-tracer-unix_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-vgu11-egl13-tracer-unix
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-unix && $(MAKE)
+vg11-vgu11-egl13-tracer-unix: vg11-vgu11-egl13-tracer-unix_build
+vg11-vgu11-egl13-tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-unix
+.PHONY: vg11-vgu11-egl13-tracer-unix vg11-vgu11-egl13-tracer-unix_build vg11-vgu11-egl13-tracer-unix_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-egl13-tracer-unix
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-egl13-tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-unix && $(MAKE)
+gles20-egl13-tracer-unix: gles20-egl13-tracer-unix_build
+gles20-egl13-tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-unix
+.PHONY: gles20-egl13-tracer-unix gles20-egl13-tracer-unix_build gles20-egl13-tracer-unix_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-egl13-tracer-unix
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-unix && $(MAKE)
+gles20-vg11-egl13-tracer-unix: gles20-vg11-egl13-tracer-unix_build
+gles20-vg11-egl13-tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-unix
+.PHONY: gles20-vg11-egl13-tracer-unix gles20-vg11-egl13-tracer-unix_build gles20-vg11-egl13-tracer-unix_clean
 
 #---------------------------------------------------------------------------
 # Target gles11-egl13-tracer-unix
@@ -1001,43 +1495,17 @@ gles11-egl11-tracer-unix_clean:
 .PHONY: gles11-egl11-tracer-unix gles11-egl11-tracer-unix_build gles11-egl11-tracer-unix_clean
 
 #---------------------------------------------------------------------------
-# Target vg11-vgi10-tracer-unix
+# Target gles20-vg11-vgu11-egl13-tracer-unix
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgi10-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg11-vgi10-tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-unix && $(MAKE)
-vg11-vgi10-tracer-unix: vg11-vgi10-tracer-unix_build
-vg11-vgi10-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-unix
-.PHONY: vg11-vgi10-tracer-unix vg11-vgi10-tracer-unix_build vg11-vgi10-tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-vg11-egl13-tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles20-vg11-egl13-tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-unix && $(MAKE)
-gles20-vg11-egl13-tracer-unix: gles20-vg11-egl13-tracer-unix_build
-gles20-vg11-egl13-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-unix
-.PHONY: gles20-vg11-egl13-tracer-unix gles20-vg11-egl13-tracer-unix_build gles20-vg11-egl13-tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg11-tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg11-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg11-tracer-unix && $(MAKE)
-vg11-tracer-unix: vg11-tracer-unix_build
-vg11-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg11-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-tracer-unix
-.PHONY: vg11-tracer-unix vg11-tracer-unix_build vg11-tracer-unix_clean
+$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-unix && $(MAKE)
+gles20-vg11-vgu11-egl13-tracer-unix: gles20-vg11-vgu11-egl13-tracer-unix_build
+gles20-vg11-vgu11-egl13-tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-unix
+.PHONY: gles20-vg11-vgu11-egl13-tracer-unix gles20-vg11-vgu11-egl13-tracer-unix_build gles20-vg11-vgu11-egl13-tracer-unix_clean
 
 #---------------------------------------------------------------------------
 # Target egl13-tracer-unix
@@ -1053,58 +1521,6 @@ egl13-tracer-unix_clean:
 .PHONY: egl13-tracer-unix egl13-tracer-unix_build egl13-tracer-unix_clean
 
 #---------------------------------------------------------------------------
-# Target vg101-vgi10-tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg101-vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg101-vgi10-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg101-vgi10-tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-unix && $(MAKE)
-vg101-vgi10-tracer-unix: vg101-vgi10-tracer-unix_build
-vg101-vgi10-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-unix
-.PHONY: vg101-vgi10-tracer-unix vg101-vgi10-tracer-unix_build vg101-vgi10-tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-egl13-tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles20-egl13-tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-unix && $(MAKE)
-gles20-egl13-tracer-unix: gles20-egl13-tracer-unix_build
-gles20-egl13-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-unix
-.PHONY: gles20-egl13-tracer-unix gles20-egl13-tracer-unix_build gles20-egl13-tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg101-egl13-tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles11-vg101-egl13-tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-unix && $(MAKE)
-gles11-vg101-egl13-tracer-unix: gles11-vg101-egl13-tracer-unix_build
-gles11-vg101-egl13-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-unix
-.PHONY: gles11-vg101-egl13-tracer-unix gles11-vg101-egl13-tracer-unix_build gles11-vg101-egl13-tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg11-vgu11-egl13-tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles11-vg11-vgu11-egl13-tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-unix && $(MAKE)
-gles11-vg11-vgu11-egl13-tracer-unix: gles11-vg11-vgu11-egl13-tracer-unix_build
-gles11-vg11-vgu11-egl13-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-unix
-.PHONY: gles11-vg11-vgu11-egl13-tracer-unix gles11-vg11-vgu11-egl13-tracer-unix_build gles11-vg11-vgu11-egl13-tracer-unix_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-tracer-unix
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-unix
@@ -1116,32 +1532,6 @@ gles11-tracer-unix_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles11-tracer-unix && $(MAKE) clean) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-tracer-unix
 .PHONY: gles11-tracer-unix gles11-tracer-unix_build gles11-tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-egl13-tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg11-vgu11-egl13-tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-unix && $(MAKE)
-vg11-vgu11-egl13-tracer-unix: vg11-vgu11-egl13-tracer-unix_build
-vg11-vgu11-egl13-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-unix
-.PHONY: vg11-vgu11-egl13-tracer-unix vg11-vgu11-egl13-tracer-unix_build vg11-vgu11-egl13-tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target vgi10-tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vgi10-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vgi10-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-vgi10-tracer-unix_build: $(TRACY_CODEGEN_PATH)/vgi10-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vgi10-tracer-unix && $(MAKE)
-vgi10-tracer-unix: vgi10-tracer-unix_build
-vgi10-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vgi10-tracer-unix && cd $(TRACY_CODEGEN_PATH)/vgi10-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vgi10-tracer-unix
-.PHONY: vgi10-tracer-unix vgi10-tracer-unix_build vgi10-tracer-unix_clean
 
 #---------------------------------------------------------------------------
 # Target gles20-tracer-unix
@@ -1157,19 +1547,6 @@ gles20-tracer-unix_clean:
 .PHONY: gles20-tracer-unix gles20-tracer-unix_build gles20-tracer-unix_clean
 
 #---------------------------------------------------------------------------
-# Target comp10-tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/comp10-tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl comp10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/comp10-unix.tcy generate tracer -o $@ $(TRACY_ARGS)
-comp10-tracer-unix_build: $(TRACY_CODEGEN_PATH)/comp10-tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/comp10-tracer-unix && $(MAKE)
-comp10-tracer-unix: comp10-tracer-unix_build
-comp10-tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/comp10-tracer-unix && cd $(TRACY_CODEGEN_PATH)/comp10-tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/comp10-tracer-unix
-.PHONY: comp10-tracer-unix comp10-tracer-unix_build comp10-tracer-unix_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-vg11-egl13-passthrough_tracer-unix
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-egl13-unix
@@ -1181,19 +1558,6 @@ gles11-vg11-egl13-passthrough_tracer-unix_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-unix
 .PHONY: gles11-vg11-egl13-passthrough_tracer-unix gles11-vg11-egl13-passthrough_tracer-unix_build gles11-vg11-egl13-passthrough_tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-vgi10-passthrough_tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg11-vgu11-vgi10-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-unix && $(MAKE)
-vg11-vgu11-vgi10-passthrough_tracer-unix: vg11-vgu11-vgi10-passthrough_tracer-unix_build
-vg11-vgu11-vgi10-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-unix
-.PHONY: vg11-vgu11-vgi10-passthrough_tracer-unix vg11-vgu11-vgi10-passthrough_tracer-unix_build vg11-vgu11-vgi10-passthrough_tracer-unix_clean
 
 #---------------------------------------------------------------------------
 # Target vg11-egl13-passthrough_tracer-unix
@@ -1209,30 +1573,82 @@ vg11-egl13-passthrough_tracer-unix_clean:
 .PHONY: vg11-egl13-passthrough_tracer-unix vg11-egl13-passthrough_tracer-unix_build vg11-egl13-passthrough_tracer-unix_clean
 
 #---------------------------------------------------------------------------
-# Target vg10-vgi10-passthrough_tracer-unix
+# Target vg11-passthrough_tracer-unix
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg10-vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg10-vgi10-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg10-vgi10-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-unix && $(MAKE)
-vg10-vgi10-passthrough_tracer-unix: vg10-vgi10-passthrough_tracer-unix_build
-vg10-vgi10-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-unix
-.PHONY: vg10-vgi10-passthrough_tracer-unix vg10-vgi10-passthrough_tracer-unix_build vg10-vgi10-passthrough_tracer-unix_clean
+$(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+vg11-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-unix && $(MAKE)
+vg11-passthrough_tracer-unix: vg11-passthrough_tracer-unix_build
+vg11-passthrough_tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-unix
+.PHONY: vg11-passthrough_tracer-unix vg11-passthrough_tracer-unix_build vg11-passthrough_tracer-unix_clean
 
 #---------------------------------------------------------------------------
-# Target gles20-vg11-vgu11-egl13-passthrough_tracer-unix
+# Target gles11-vg101-egl13-passthrough_tracer-unix
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles20-vg11-vgu11-egl13-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-unix && $(MAKE)
-gles20-vg11-vgu11-egl13-passthrough_tracer-unix: gles20-vg11-vgu11-egl13-passthrough_tracer-unix_build
-gles20-vg11-vgu11-egl13-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-unix
-.PHONY: gles20-vg11-vgu11-egl13-passthrough_tracer-unix gles20-vg11-vgu11-egl13-passthrough_tracer-unix_build gles20-vg11-vgu11-egl13-passthrough_tracer-unix_clean
+$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-unix && $(MAKE)
+gles11-vg101-egl13-passthrough_tracer-unix: gles11-vg101-egl13-passthrough_tracer-unix_build
+gles11-vg101-egl13-passthrough_tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-unix
+.PHONY: gles11-vg101-egl13-passthrough_tracer-unix gles11-vg101-egl13-passthrough_tracer-unix_build gles11-vg101-egl13-passthrough_tracer-unix_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-vgu11-egl13-passthrough_tracer-unix
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-unix && $(MAKE)
+gles11-vg11-vgu11-egl13-passthrough_tracer-unix: gles11-vg11-vgu11-egl13-passthrough_tracer-unix_build
+gles11-vg11-vgu11-egl13-passthrough_tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-unix
+.PHONY: gles11-vg11-vgu11-egl13-passthrough_tracer-unix gles11-vg11-vgu11-egl13-passthrough_tracer-unix_build gles11-vg11-vgu11-egl13-passthrough_tracer-unix_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-vgu11-egl13-passthrough_tracer-unix
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-unix && $(MAKE)
+vg11-vgu11-egl13-passthrough_tracer-unix: vg11-vgu11-egl13-passthrough_tracer-unix_build
+vg11-vgu11-egl13-passthrough_tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-unix
+.PHONY: vg11-vgu11-egl13-passthrough_tracer-unix vg11-vgu11-egl13-passthrough_tracer-unix_build vg11-vgu11-egl13-passthrough_tracer-unix_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-egl13-passthrough_tracer-unix
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-egl13-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-unix && $(MAKE)
+gles20-egl13-passthrough_tracer-unix: gles20-egl13-passthrough_tracer-unix_build
+gles20-egl13-passthrough_tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-unix
+.PHONY: gles20-egl13-passthrough_tracer-unix gles20-egl13-passthrough_tracer-unix_build gles20-egl13-passthrough_tracer-unix_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-egl13-passthrough_tracer-unix
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-unix && $(MAKE)
+gles20-vg11-egl13-passthrough_tracer-unix: gles20-vg11-egl13-passthrough_tracer-unix_build
+gles20-vg11-egl13-passthrough_tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-unix
+.PHONY: gles20-vg11-egl13-passthrough_tracer-unix gles20-vg11-egl13-passthrough_tracer-unix_build gles20-vg11-egl13-passthrough_tracer-unix_clean
 
 #---------------------------------------------------------------------------
 # Target gles11-egl13-passthrough_tracer-unix
@@ -1274,43 +1690,17 @@ gles11-egl11-passthrough_tracer-unix_clean:
 .PHONY: gles11-egl11-passthrough_tracer-unix gles11-egl11-passthrough_tracer-unix_build gles11-egl11-passthrough_tracer-unix_clean
 
 #---------------------------------------------------------------------------
-# Target vg11-vgi10-passthrough_tracer-unix
+# Target gles20-vg11-vgu11-egl13-passthrough_tracer-unix
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgi10-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg11-vgi10-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-unix && $(MAKE)
-vg11-vgi10-passthrough_tracer-unix: vg11-vgi10-passthrough_tracer-unix_build
-vg11-vgi10-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-unix
-.PHONY: vg11-vgi10-passthrough_tracer-unix vg11-vgi10-passthrough_tracer-unix_build vg11-vgi10-passthrough_tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-vg11-egl13-passthrough_tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles20-vg11-egl13-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-unix && $(MAKE)
-gles20-vg11-egl13-passthrough_tracer-unix: gles20-vg11-egl13-passthrough_tracer-unix_build
-gles20-vg11-egl13-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-unix
-.PHONY: gles20-vg11-egl13-passthrough_tracer-unix gles20-vg11-egl13-passthrough_tracer-unix_build gles20-vg11-egl13-passthrough_tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-passthrough_tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg11-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-unix && $(MAKE)
-vg11-passthrough_tracer-unix: vg11-passthrough_tracer-unix_build
-vg11-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-unix
-.PHONY: vg11-passthrough_tracer-unix vg11-passthrough_tracer-unix_build vg11-passthrough_tracer-unix_clean
+$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-unix && $(MAKE)
+gles20-vg11-vgu11-egl13-passthrough_tracer-unix: gles20-vg11-vgu11-egl13-passthrough_tracer-unix_build
+gles20-vg11-vgu11-egl13-passthrough_tracer-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-unix
+.PHONY: gles20-vg11-vgu11-egl13-passthrough_tracer-unix gles20-vg11-vgu11-egl13-passthrough_tracer-unix_build gles20-vg11-vgu11-egl13-passthrough_tracer-unix_clean
 
 #---------------------------------------------------------------------------
 # Target egl13-passthrough_tracer-unix
@@ -1326,58 +1716,6 @@ egl13-passthrough_tracer-unix_clean:
 .PHONY: egl13-passthrough_tracer-unix egl13-passthrough_tracer-unix_build egl13-passthrough_tracer-unix_clean
 
 #---------------------------------------------------------------------------
-# Target vg101-vgi10-passthrough_tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg101-vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg101-vgi10-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg101-vgi10-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-unix && $(MAKE)
-vg101-vgi10-passthrough_tracer-unix: vg101-vgi10-passthrough_tracer-unix_build
-vg101-vgi10-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-unix
-.PHONY: vg101-vgi10-passthrough_tracer-unix vg101-vgi10-passthrough_tracer-unix_build vg101-vgi10-passthrough_tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-egl13-passthrough_tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles20-egl13-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-unix && $(MAKE)
-gles20-egl13-passthrough_tracer-unix: gles20-egl13-passthrough_tracer-unix_build
-gles20-egl13-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-unix
-.PHONY: gles20-egl13-passthrough_tracer-unix gles20-egl13-passthrough_tracer-unix_build gles20-egl13-passthrough_tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg101-egl13-passthrough_tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles11-vg101-egl13-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-unix && $(MAKE)
-gles11-vg101-egl13-passthrough_tracer-unix: gles11-vg101-egl13-passthrough_tracer-unix_build
-gles11-vg101-egl13-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-unix
-.PHONY: gles11-vg101-egl13-passthrough_tracer-unix gles11-vg101-egl13-passthrough_tracer-unix_build gles11-vg101-egl13-passthrough_tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg11-vgu11-egl13-passthrough_tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles11-vg11-vgu11-egl13-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-unix && $(MAKE)
-gles11-vg11-vgu11-egl13-passthrough_tracer-unix: gles11-vg11-vgu11-egl13-passthrough_tracer-unix_build
-gles11-vg11-vgu11-egl13-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-unix
-.PHONY: gles11-vg11-vgu11-egl13-passthrough_tracer-unix gles11-vg11-vgu11-egl13-passthrough_tracer-unix_build gles11-vg11-vgu11-egl13-passthrough_tracer-unix_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-passthrough_tracer-unix
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-unix
@@ -1389,32 +1727,6 @@ gles11-passthrough_tracer-unix_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-unix && $(MAKE) clean) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-unix
 .PHONY: gles11-passthrough_tracer-unix gles11-passthrough_tracer-unix_build gles11-passthrough_tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-egl13-passthrough_tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg11-vgu11-egl13-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-unix && $(MAKE)
-vg11-vgu11-egl13-passthrough_tracer-unix: vg11-vgu11-egl13-passthrough_tracer-unix_build
-vg11-vgu11-egl13-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-unix
-.PHONY: vg11-vgu11-egl13-passthrough_tracer-unix vg11-vgu11-egl13-passthrough_tracer-unix_build vg11-vgu11-egl13-passthrough_tracer-unix_clean
-
-#---------------------------------------------------------------------------
-# Target vgi10-passthrough_tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vgi10-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vgi10-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-unix && $(MAKE)
-vgi10-passthrough_tracer-unix: vgi10-passthrough_tracer-unix_build
-vgi10-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-unix
-.PHONY: vgi10-passthrough_tracer-unix vgi10-passthrough_tracer-unix_build vgi10-passthrough_tracer-unix_clean
 
 #---------------------------------------------------------------------------
 # Target gles20-passthrough_tracer-unix
@@ -1430,19 +1742,6 @@ gles20-passthrough_tracer-unix_clean:
 .PHONY: gles20-passthrough_tracer-unix gles20-passthrough_tracer-unix_build gles20-passthrough_tracer-unix_clean
 
 #---------------------------------------------------------------------------
-# Target comp10-passthrough_tracer-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl comp10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/comp10-unix.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-comp10-passthrough_tracer-unix_build: $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-unix
-	@cd $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-unix && $(MAKE)
-comp10-passthrough_tracer-unix: comp10-passthrough_tracer-unix_build
-comp10-passthrough_tracer-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-unix && cd $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-unix
-.PHONY: comp10-passthrough_tracer-unix comp10-passthrough_tracer-unix_build comp10-passthrough_tracer-unix_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-vg11-egl13-player-unix
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-egl13-unix
@@ -1454,19 +1753,6 @@ gles11-vg11-egl13-player-unix_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-unix && $(MAKE) clean) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-unix
 .PHONY: gles11-vg11-egl13-player-unix gles11-vg11-egl13-player-unix_build gles11-vg11-egl13-player-unix_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-vgi10-player-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-unix.tcy generate player -o $@ $(TRACY_ARGS)
-vg11-vgu11-vgi10-player-unix_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-unix && $(MAKE)
-vg11-vgu11-vgi10-player-unix: vg11-vgu11-vgi10-player-unix_build
-vg11-vgu11-vgi10-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-unix && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-unix
-.PHONY: vg11-vgu11-vgi10-player-unix vg11-vgu11-vgi10-player-unix_build vg11-vgu11-vgi10-player-unix_clean
 
 #---------------------------------------------------------------------------
 # Target vg11-egl13-player-unix
@@ -1482,30 +1768,82 @@ vg11-egl13-player-unix_clean:
 .PHONY: vg11-egl13-player-unix vg11-egl13-player-unix_build vg11-egl13-player-unix_clean
 
 #---------------------------------------------------------------------------
-# Target vg10-vgi10-player-unix
+# Target vg11-player-unix
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg10-vgi10-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg10-vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg10-vgi10-unix.tcy generate player -o $@ $(TRACY_ARGS)
-vg10-vgi10-player-unix_build: $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-unix && $(MAKE)
-vg10-vgi10-player-unix: vg10-vgi10-player-unix_build
-vg10-vgi10-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-unix && cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-unix
-.PHONY: vg10-vgi10-player-unix vg10-vgi10-player-unix_build vg10-vgi10-player-unix_clean
+$(TRACY_CODEGEN_PATH)/vg11-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-unix.tcy generate player -o $@ $(TRACY_ARGS)
+vg11-player-unix_build: $(TRACY_CODEGEN_PATH)/vg11-player-unix
+	@cd $(TRACY_CODEGEN_PATH)/vg11-player-unix && $(MAKE)
+vg11-player-unix: vg11-player-unix_build
+vg11-player-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-player-unix && cd $(TRACY_CODEGEN_PATH)/vg11-player-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-player-unix
+.PHONY: vg11-player-unix vg11-player-unix_build vg11-player-unix_clean
 
 #---------------------------------------------------------------------------
-# Target gles20-vg11-vgu11-egl13-player-unix
+# Target gles11-vg101-egl13-player-unix
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy generate player -o $@ $(TRACY_ARGS)
-gles20-vg11-vgu11-egl13-player-unix_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-unix && $(MAKE)
-gles20-vg11-vgu11-egl13-player-unix: gles20-vg11-vgu11-egl13-player-unix_build
-gles20-vg11-vgu11-egl13-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-unix
-.PHONY: gles20-vg11-vgu11-egl13-player-unix gles20-vg11-vgu11-egl13-player-unix_build gles20-vg11-vgu11-egl13-player-unix_clean
+$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy generate player -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-player-unix_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-unix && $(MAKE)
+gles11-vg101-egl13-player-unix: gles11-vg101-egl13-player-unix_build
+gles11-vg101-egl13-player-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-unix
+.PHONY: gles11-vg101-egl13-player-unix gles11-vg101-egl13-player-unix_build gles11-vg101-egl13-player-unix_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-vgu11-egl13-player-unix
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy generate player -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-player-unix_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-unix && $(MAKE)
+gles11-vg11-vgu11-egl13-player-unix: gles11-vg11-vgu11-egl13-player-unix_build
+gles11-vg11-vgu11-egl13-player-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-unix
+.PHONY: gles11-vg11-vgu11-egl13-player-unix gles11-vg11-vgu11-egl13-player-unix_build gles11-vg11-vgu11-egl13-player-unix_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-vgu11-egl13-player-unix
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy generate player -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-player-unix_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-unix
+	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-unix && $(MAKE)
+vg11-vgu11-egl13-player-unix: vg11-vgu11-egl13-player-unix_build
+vg11-vgu11-egl13-player-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-unix
+.PHONY: vg11-vgu11-egl13-player-unix vg11-vgu11-egl13-player-unix_build vg11-vgu11-egl13-player-unix_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-egl13-player-unix
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-egl13-player-unix_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-player-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles20-egl13-player-unix && $(MAKE)
+gles20-egl13-player-unix: gles20-egl13-player-unix_build
+gles20-egl13-player-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-player-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-player-unix
+.PHONY: gles20-egl13-player-unix gles20-egl13-player-unix_build gles20-egl13-player-unix_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-egl13-player-unix
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-player-unix_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-unix && $(MAKE)
+gles20-vg11-egl13-player-unix: gles20-vg11-egl13-player-unix_build
+gles20-vg11-egl13-player-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-unix
+.PHONY: gles20-vg11-egl13-player-unix gles20-vg11-egl13-player-unix_build gles20-vg11-egl13-player-unix_clean
 
 #---------------------------------------------------------------------------
 # Target gles11-egl13-player-unix
@@ -1547,43 +1885,17 @@ gles11-egl11-player-unix_clean:
 .PHONY: gles11-egl11-player-unix gles11-egl11-player-unix_build gles11-egl11-player-unix_clean
 
 #---------------------------------------------------------------------------
-# Target vg11-vgi10-player-unix
+# Target gles20-vg11-vgu11-egl13-player-unix
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgi10-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgi10-unix.tcy generate player -o $@ $(TRACY_ARGS)
-vg11-vgi10-player-unix_build: $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-unix && $(MAKE)
-vg11-vgi10-player-unix: vg11-vgi10-player-unix_build
-vg11-vgi10-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-unix && cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-unix
-.PHONY: vg11-vgi10-player-unix vg11-vgi10-player-unix_build vg11-vgi10-player-unix_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-vg11-egl13-player-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-unix.tcy generate player -o $@ $(TRACY_ARGS)
-gles20-vg11-egl13-player-unix_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-unix && $(MAKE)
-gles20-vg11-egl13-player-unix: gles20-vg11-egl13-player-unix_build
-gles20-vg11-egl13-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-unix
-.PHONY: gles20-vg11-egl13-player-unix gles20-vg11-egl13-player-unix_build gles20-vg11-egl13-player-unix_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-player-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-unix.tcy generate player -o $@ $(TRACY_ARGS)
-vg11-player-unix_build: $(TRACY_CODEGEN_PATH)/vg11-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg11-player-unix && $(MAKE)
-vg11-player-unix: vg11-player-unix_build
-vg11-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-player-unix && cd $(TRACY_CODEGEN_PATH)/vg11-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-player-unix
-.PHONY: vg11-player-unix vg11-player-unix_build vg11-player-unix_clean
+$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-unix
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-unix.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-player-unix_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-unix
+	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-unix && $(MAKE)
+gles20-vg11-vgu11-egl13-player-unix: gles20-vg11-vgu11-egl13-player-unix_build
+gles20-vg11-vgu11-egl13-player-unix_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-unix && $(MAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-unix
+.PHONY: gles20-vg11-vgu11-egl13-player-unix gles20-vg11-vgu11-egl13-player-unix_build gles20-vg11-vgu11-egl13-player-unix_clean
 
 #---------------------------------------------------------------------------
 # Target egl13-player-unix
@@ -1599,58 +1911,6 @@ egl13-player-unix_clean:
 .PHONY: egl13-player-unix egl13-player-unix_build egl13-player-unix_clean
 
 #---------------------------------------------------------------------------
-# Target vg101-vgi10-player-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg101-vgi10-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg101-vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg101-vgi10-unix.tcy generate player -o $@ $(TRACY_ARGS)
-vg101-vgi10-player-unix_build: $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-unix && $(MAKE)
-vg101-vgi10-player-unix: vg101-vgi10-player-unix_build
-vg101-vgi10-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-unix && cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-unix
-.PHONY: vg101-vgi10-player-unix vg101-vgi10-player-unix_build vg101-vgi10-player-unix_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-egl13-player-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-unix.tcy generate player -o $@ $(TRACY_ARGS)
-gles20-egl13-player-unix_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles20-egl13-player-unix && $(MAKE)
-gles20-egl13-player-unix: gles20-egl13-player-unix_build
-gles20-egl13-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-player-unix
-.PHONY: gles20-egl13-player-unix gles20-egl13-player-unix_build gles20-egl13-player-unix_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg101-egl13-player-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-unix.tcy generate player -o $@ $(TRACY_ARGS)
-gles11-vg101-egl13-player-unix_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-unix && $(MAKE)
-gles11-vg101-egl13-player-unix: gles11-vg101-egl13-player-unix_build
-gles11-vg101-egl13-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-unix
-.PHONY: gles11-vg101-egl13-player-unix gles11-vg101-egl13-player-unix_build gles11-vg101-egl13-player-unix_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg11-vgu11-egl13-player-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-unix.tcy generate player -o $@ $(TRACY_ARGS)
-gles11-vg11-vgu11-egl13-player-unix_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-unix && $(MAKE)
-gles11-vg11-vgu11-egl13-player-unix: gles11-vg11-vgu11-egl13-player-unix_build
-gles11-vg11-vgu11-egl13-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-unix
-.PHONY: gles11-vg11-vgu11-egl13-player-unix gles11-vg11-vgu11-egl13-player-unix_build gles11-vg11-vgu11-egl13-player-unix_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-player-unix
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-unix
@@ -1662,32 +1922,6 @@ gles11-player-unix_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-player-unix && cd $(TRACY_CODEGEN_PATH)/gles11-player-unix && $(MAKE) clean) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-player-unix
 .PHONY: gles11-player-unix gles11-player-unix_build gles11-player-unix_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-egl13-player-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-unix.tcy generate player -o $@ $(TRACY_ARGS)
-vg11-vgu11-egl13-player-unix_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-unix && $(MAKE)
-vg11-vgu11-egl13-player-unix: vg11-vgu11-egl13-player-unix_build
-vg11-vgu11-egl13-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-unix && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-unix
-.PHONY: vg11-vgu11-egl13-player-unix vg11-vgu11-egl13-player-unix_build vg11-vgu11-egl13-player-unix_clean
-
-#---------------------------------------------------------------------------
-# Target vgi10-player-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vgi10-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vgi10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vgi10-unix.tcy generate player -o $@ $(TRACY_ARGS)
-vgi10-player-unix_build: $(TRACY_CODEGEN_PATH)/vgi10-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/vgi10-player-unix && $(MAKE)
-vgi10-player-unix: vgi10-player-unix_build
-vgi10-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vgi10-player-unix && cd $(TRACY_CODEGEN_PATH)/vgi10-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vgi10-player-unix
-.PHONY: vgi10-player-unix vgi10-player-unix_build vgi10-player-unix_clean
 
 #---------------------------------------------------------------------------
 # Target gles20-player-unix
@@ -1703,19 +1937,6 @@ gles20-player-unix_clean:
 .PHONY: gles20-player-unix gles20-player-unix_build gles20-player-unix_clean
 
 #---------------------------------------------------------------------------
-# Target comp10-player-unix
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/comp10-player-unix: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl comp10-unix
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/comp10-unix.tcy generate player -o $@ $(TRACY_ARGS)
-comp10-player-unix_build: $(TRACY_CODEGEN_PATH)/comp10-player-unix
-	@cd $(TRACY_CODEGEN_PATH)/comp10-player-unix && $(MAKE)
-comp10-player-unix: comp10-player-unix_build
-comp10-player-unix_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/comp10-player-unix && cd $(TRACY_CODEGEN_PATH)/comp10-player-unix && $(MAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/comp10-player-unix
-.PHONY: comp10-player-unix comp10-player-unix_build comp10-player-unix_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-vg11-egl13-tracer-symbian
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-egl13-symbian
@@ -1727,19 +1948,6 @@ gles11-vg11-egl13-tracer-symbian_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-tracer-symbian
 .PHONY: gles11-vg11-egl13-tracer-symbian gles11-vg11-egl13-tracer-symbian_build gles11-vg11-egl13-tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-vgi10-tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg11-vgu11-vgi10-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-symbian/group && $(BUILD_COMMAND)
-vg11-vgu11-vgi10-tracer-symbian: vg11-vgu11-vgi10-tracer-symbian_build
-vg11-vgu11-vgi10-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-symbian
-.PHONY: vg11-vgu11-vgi10-tracer-symbian vg11-vgu11-vgi10-tracer-symbian_build vg11-vgu11-vgi10-tracer-symbian_clean
 
 #---------------------------------------------------------------------------
 # Target vg11-egl13-tracer-symbian
@@ -1755,30 +1963,82 @@ vg11-egl13-tracer-symbian_clean:
 .PHONY: vg11-egl13-tracer-symbian vg11-egl13-tracer-symbian_build vg11-egl13-tracer-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target vg10-vgi10-tracer-symbian
+# Target vg11-tracer-symbian
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg10-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg10-vgi10-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg10-vgi10-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-symbian/group && $(BUILD_COMMAND)
-vg10-vgi10-tracer-symbian: vg10-vgi10-tracer-symbian_build
-vg10-vgi10-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-symbian
-.PHONY: vg10-vgi10-tracer-symbian vg10-vgi10-tracer-symbian_build vg10-vgi10-tracer-symbian_clean
+$(TRACY_CODEGEN_PATH)/vg11-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
+vg11-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/vg11-tracer-symbian/group && $(BUILD_COMMAND)
+vg11-tracer-symbian: vg11-tracer-symbian_build
+vg11-tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-tracer-symbian
+.PHONY: vg11-tracer-symbian vg11-tracer-symbian_build vg11-tracer-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target gles20-vg11-vgu11-egl13-tracer-symbian
+# Target gles11-vg101-egl13-tracer-symbian
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles20-vg11-vgu11-egl13-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-symbian/group && $(BUILD_COMMAND)
-gles20-vg11-vgu11-egl13-tracer-symbian: gles20-vg11-vgu11-egl13-tracer-symbian_build
-gles20-vg11-vgu11-egl13-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-symbian
-.PHONY: gles20-vg11-vgu11-egl13-tracer-symbian gles20-vg11-vgu11-egl13-tracer-symbian_build gles20-vg11-vgu11-egl13-tracer-symbian_clean
+$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-symbian/group && $(BUILD_COMMAND)
+gles11-vg101-egl13-tracer-symbian: gles11-vg101-egl13-tracer-symbian_build
+gles11-vg101-egl13-tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-symbian
+.PHONY: gles11-vg101-egl13-tracer-symbian gles11-vg101-egl13-tracer-symbian_build gles11-vg101-egl13-tracer-symbian_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-vgu11-egl13-tracer-symbian
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-symbian/group && $(BUILD_COMMAND)
+gles11-vg11-vgu11-egl13-tracer-symbian: gles11-vg11-vgu11-egl13-tracer-symbian_build
+gles11-vg11-vgu11-egl13-tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-symbian
+.PHONY: gles11-vg11-vgu11-egl13-tracer-symbian gles11-vg11-vgu11-egl13-tracer-symbian_build gles11-vg11-vgu11-egl13-tracer-symbian_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-vgu11-egl13-tracer-symbian
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-symbian/group && $(BUILD_COMMAND)
+vg11-vgu11-egl13-tracer-symbian: vg11-vgu11-egl13-tracer-symbian_build
+vg11-vgu11-egl13-tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-symbian
+.PHONY: vg11-vgu11-egl13-tracer-symbian vg11-vgu11-egl13-tracer-symbian_build vg11-vgu11-egl13-tracer-symbian_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-egl13-tracer-symbian
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-egl13-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-symbian/group && $(BUILD_COMMAND)
+gles20-egl13-tracer-symbian: gles20-egl13-tracer-symbian_build
+gles20-egl13-tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-symbian
+.PHONY: gles20-egl13-tracer-symbian gles20-egl13-tracer-symbian_build gles20-egl13-tracer-symbian_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-egl13-tracer-symbian
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-symbian/group && $(BUILD_COMMAND)
+gles20-vg11-egl13-tracer-symbian: gles20-vg11-egl13-tracer-symbian_build
+gles20-vg11-egl13-tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-symbian
+.PHONY: gles20-vg11-egl13-tracer-symbian gles20-vg11-egl13-tracer-symbian_build gles20-vg11-egl13-tracer-symbian_clean
 
 #---------------------------------------------------------------------------
 # Target gles11-egl13-tracer-symbian
@@ -1820,43 +2080,17 @@ gles11-egl11-tracer-symbian_clean:
 .PHONY: gles11-egl11-tracer-symbian gles11-egl11-tracer-symbian_build gles11-egl11-tracer-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target vg11-vgi10-tracer-symbian
+# Target gles20-vg11-vgu11-egl13-tracer-symbian
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgi10-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg11-vgi10-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-symbian/group && $(BUILD_COMMAND)
-vg11-vgi10-tracer-symbian: vg11-vgi10-tracer-symbian_build
-vg11-vgi10-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-symbian
-.PHONY: vg11-vgi10-tracer-symbian vg11-vgi10-tracer-symbian_build vg11-vgi10-tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-vg11-egl13-tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles20-vg11-egl13-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-symbian/group && $(BUILD_COMMAND)
-gles20-vg11-egl13-tracer-symbian: gles20-vg11-egl13-tracer-symbian_build
-gles20-vg11-egl13-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-symbian
-.PHONY: gles20-vg11-egl13-tracer-symbian gles20-vg11-egl13-tracer-symbian_build gles20-vg11-egl13-tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg11-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg11-tracer-symbian/group && $(BUILD_COMMAND)
-vg11-tracer-symbian: vg11-tracer-symbian_build
-vg11-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-tracer-symbian
-.PHONY: vg11-tracer-symbian vg11-tracer-symbian_build vg11-tracer-symbian_clean
+$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-symbian/group && $(BUILD_COMMAND)
+gles20-vg11-vgu11-egl13-tracer-symbian: gles20-vg11-vgu11-egl13-tracer-symbian_build
+gles20-vg11-vgu11-egl13-tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-symbian
+.PHONY: gles20-vg11-vgu11-egl13-tracer-symbian gles20-vg11-vgu11-egl13-tracer-symbian_build gles20-vg11-vgu11-egl13-tracer-symbian_clean
 
 #---------------------------------------------------------------------------
 # Target egl13-tracer-symbian
@@ -1872,58 +2106,6 @@ egl13-tracer-symbian_clean:
 .PHONY: egl13-tracer-symbian egl13-tracer-symbian_build egl13-tracer-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target vg101-vgi10-tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg101-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg101-vgi10-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg101-vgi10-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-symbian/group && $(BUILD_COMMAND)
-vg101-vgi10-tracer-symbian: vg101-vgi10-tracer-symbian_build
-vg101-vgi10-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-symbian
-.PHONY: vg101-vgi10-tracer-symbian vg101-vgi10-tracer-symbian_build vg101-vgi10-tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-egl13-tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles20-egl13-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-symbian/group && $(BUILD_COMMAND)
-gles20-egl13-tracer-symbian: gles20-egl13-tracer-symbian_build
-gles20-egl13-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-symbian
-.PHONY: gles20-egl13-tracer-symbian gles20-egl13-tracer-symbian_build gles20-egl13-tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg101-egl13-tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles11-vg101-egl13-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-symbian/group && $(BUILD_COMMAND)
-gles11-vg101-egl13-tracer-symbian: gles11-vg101-egl13-tracer-symbian_build
-gles11-vg101-egl13-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-symbian
-.PHONY: gles11-vg101-egl13-tracer-symbian gles11-vg101-egl13-tracer-symbian_build gles11-vg101-egl13-tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg11-vgu11-egl13-tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles11-vg11-vgu11-egl13-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-symbian/group && $(BUILD_COMMAND)
-gles11-vg11-vgu11-egl13-tracer-symbian: gles11-vg11-vgu11-egl13-tracer-symbian_build
-gles11-vg11-vgu11-egl13-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-symbian
-.PHONY: gles11-vg11-vgu11-egl13-tracer-symbian gles11-vg11-vgu11-egl13-tracer-symbian_build gles11-vg11-vgu11-egl13-tracer-symbian_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-tracer-symbian
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-symbian
@@ -1935,32 +2117,6 @@ gles11-tracer-symbian_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-tracer-symbian/group && $(CLEANCOMMAND)) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-tracer-symbian
 .PHONY: gles11-tracer-symbian gles11-tracer-symbian_build gles11-tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-egl13-tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg11-vgu11-egl13-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-symbian/group && $(BUILD_COMMAND)
-vg11-vgu11-egl13-tracer-symbian: vg11-vgu11-egl13-tracer-symbian_build
-vg11-vgu11-egl13-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-symbian
-.PHONY: vg11-vgu11-egl13-tracer-symbian vg11-vgu11-egl13-tracer-symbian_build vg11-vgu11-egl13-tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target vgi10-tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vgi10-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vgi10-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-vgi10-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vgi10-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vgi10-tracer-symbian/group && $(BUILD_COMMAND)
-vgi10-tracer-symbian: vgi10-tracer-symbian_build
-vgi10-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vgi10-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vgi10-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vgi10-tracer-symbian
-.PHONY: vgi10-tracer-symbian vgi10-tracer-symbian_build vgi10-tracer-symbian_clean
 
 #---------------------------------------------------------------------------
 # Target gles20-tracer-symbian
@@ -1976,19 +2132,6 @@ gles20-tracer-symbian_clean:
 .PHONY: gles20-tracer-symbian gles20-tracer-symbian_build gles20-tracer-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target comp10-tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/comp10-tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl comp10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/comp10-symbian.tcy generate tracer -o $@ $(TRACY_ARGS)
-comp10-tracer-symbian_build: $(TRACY_CODEGEN_PATH)/comp10-tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/comp10-tracer-symbian/group && $(BUILD_COMMAND)
-comp10-tracer-symbian: comp10-tracer-symbian_build
-comp10-tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/comp10-tracer-symbian && cd $(TRACY_CODEGEN_PATH)/comp10-tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/comp10-tracer-symbian
-.PHONY: comp10-tracer-symbian comp10-tracer-symbian_build comp10-tracer-symbian_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-vg11-egl13-passthrough_tracer-symbian
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-egl13-symbian
@@ -2000,19 +2143,6 @@ gles11-vg11-egl13-passthrough_tracer-symbian_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-symbian
 .PHONY: gles11-vg11-egl13-passthrough_tracer-symbian gles11-vg11-egl13-passthrough_tracer-symbian_build gles11-vg11-egl13-passthrough_tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-vgi10-passthrough_tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg11-vgu11-vgi10-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-vg11-vgu11-vgi10-passthrough_tracer-symbian: vg11-vgu11-vgi10-passthrough_tracer-symbian_build
-vg11-vgu11-vgi10-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-symbian
-.PHONY: vg11-vgu11-vgi10-passthrough_tracer-symbian vg11-vgu11-vgi10-passthrough_tracer-symbian_build vg11-vgu11-vgi10-passthrough_tracer-symbian_clean
 
 #---------------------------------------------------------------------------
 # Target vg11-egl13-passthrough_tracer-symbian
@@ -2028,30 +2158,82 @@ vg11-egl13-passthrough_tracer-symbian_clean:
 .PHONY: vg11-egl13-passthrough_tracer-symbian vg11-egl13-passthrough_tracer-symbian_build vg11-egl13-passthrough_tracer-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target vg10-vgi10-passthrough_tracer-symbian
+# Target vg11-passthrough_tracer-symbian
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg10-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg10-vgi10-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg10-vgi10-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-vg10-vgi10-passthrough_tracer-symbian: vg10-vgi10-passthrough_tracer-symbian_build
-vg10-vgi10-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-symbian
-.PHONY: vg10-vgi10-passthrough_tracer-symbian vg10-vgi10-passthrough_tracer-symbian_build vg10-vgi10-passthrough_tracer-symbian_clean
+$(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+vg11-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
+vg11-passthrough_tracer-symbian: vg11-passthrough_tracer-symbian_build
+vg11-passthrough_tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-symbian
+.PHONY: vg11-passthrough_tracer-symbian vg11-passthrough_tracer-symbian_build vg11-passthrough_tracer-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target gles20-vg11-vgu11-egl13-passthrough_tracer-symbian
+# Target gles11-vg101-egl13-passthrough_tracer-symbian
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-gles20-vg11-vgu11-egl13-passthrough_tracer-symbian: gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_build
-gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-symbian
-.PHONY: gles20-vg11-vgu11-egl13-passthrough_tracer-symbian gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_build gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_clean
+$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
+gles11-vg101-egl13-passthrough_tracer-symbian: gles11-vg101-egl13-passthrough_tracer-symbian_build
+gles11-vg101-egl13-passthrough_tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-symbian
+.PHONY: gles11-vg101-egl13-passthrough_tracer-symbian gles11-vg101-egl13-passthrough_tracer-symbian_build gles11-vg101-egl13-passthrough_tracer-symbian_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-vgu11-egl13-passthrough_tracer-symbian
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
+gles11-vg11-vgu11-egl13-passthrough_tracer-symbian: gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_build
+gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-symbian
+.PHONY: gles11-vg11-vgu11-egl13-passthrough_tracer-symbian gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_build gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-vgu11-egl13-passthrough_tracer-symbian
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
+vg11-vgu11-egl13-passthrough_tracer-symbian: vg11-vgu11-egl13-passthrough_tracer-symbian_build
+vg11-vgu11-egl13-passthrough_tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-symbian
+.PHONY: vg11-vgu11-egl13-passthrough_tracer-symbian vg11-vgu11-egl13-passthrough_tracer-symbian_build vg11-vgu11-egl13-passthrough_tracer-symbian_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-egl13-passthrough_tracer-symbian
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-egl13-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
+gles20-egl13-passthrough_tracer-symbian: gles20-egl13-passthrough_tracer-symbian_build
+gles20-egl13-passthrough_tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-symbian
+.PHONY: gles20-egl13-passthrough_tracer-symbian gles20-egl13-passthrough_tracer-symbian_build gles20-egl13-passthrough_tracer-symbian_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-egl13-passthrough_tracer-symbian
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
+gles20-vg11-egl13-passthrough_tracer-symbian: gles20-vg11-egl13-passthrough_tracer-symbian_build
+gles20-vg11-egl13-passthrough_tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-symbian
+.PHONY: gles20-vg11-egl13-passthrough_tracer-symbian gles20-vg11-egl13-passthrough_tracer-symbian_build gles20-vg11-egl13-passthrough_tracer-symbian_clean
 
 #---------------------------------------------------------------------------
 # Target gles11-egl13-passthrough_tracer-symbian
@@ -2093,43 +2275,17 @@ gles11-egl11-passthrough_tracer-symbian_clean:
 .PHONY: gles11-egl11-passthrough_tracer-symbian gles11-egl11-passthrough_tracer-symbian_build gles11-egl11-passthrough_tracer-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target vg11-vgi10-passthrough_tracer-symbian
+# Target gles20-vg11-vgu11-egl13-passthrough_tracer-symbian
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgi10-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg11-vgi10-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-vg11-vgi10-passthrough_tracer-symbian: vg11-vgi10-passthrough_tracer-symbian_build
-vg11-vgi10-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-symbian
-.PHONY: vg11-vgi10-passthrough_tracer-symbian vg11-vgi10-passthrough_tracer-symbian_build vg11-vgi10-passthrough_tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-vg11-egl13-passthrough_tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles20-vg11-egl13-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-gles20-vg11-egl13-passthrough_tracer-symbian: gles20-vg11-egl13-passthrough_tracer-symbian_build
-gles20-vg11-egl13-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-symbian
-.PHONY: gles20-vg11-egl13-passthrough_tracer-symbian gles20-vg11-egl13-passthrough_tracer-symbian_build gles20-vg11-egl13-passthrough_tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-passthrough_tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg11-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-vg11-passthrough_tracer-symbian: vg11-passthrough_tracer-symbian_build
-vg11-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-symbian
-.PHONY: vg11-passthrough_tracer-symbian vg11-passthrough_tracer-symbian_build vg11-passthrough_tracer-symbian_clean
+$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
+gles20-vg11-vgu11-egl13-passthrough_tracer-symbian: gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_build
+gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-symbian
+.PHONY: gles20-vg11-vgu11-egl13-passthrough_tracer-symbian gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_build gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_clean
 
 #---------------------------------------------------------------------------
 # Target egl13-passthrough_tracer-symbian
@@ -2145,58 +2301,6 @@ egl13-passthrough_tracer-symbian_clean:
 .PHONY: egl13-passthrough_tracer-symbian egl13-passthrough_tracer-symbian_build egl13-passthrough_tracer-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target vg101-vgi10-passthrough_tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg101-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg101-vgi10-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg101-vgi10-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-vg101-vgi10-passthrough_tracer-symbian: vg101-vgi10-passthrough_tracer-symbian_build
-vg101-vgi10-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-symbian
-.PHONY: vg101-vgi10-passthrough_tracer-symbian vg101-vgi10-passthrough_tracer-symbian_build vg101-vgi10-passthrough_tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-egl13-passthrough_tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles20-egl13-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-gles20-egl13-passthrough_tracer-symbian: gles20-egl13-passthrough_tracer-symbian_build
-gles20-egl13-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-symbian
-.PHONY: gles20-egl13-passthrough_tracer-symbian gles20-egl13-passthrough_tracer-symbian_build gles20-egl13-passthrough_tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg101-egl13-passthrough_tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles11-vg101-egl13-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-gles11-vg101-egl13-passthrough_tracer-symbian: gles11-vg101-egl13-passthrough_tracer-symbian_build
-gles11-vg101-egl13-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-symbian
-.PHONY: gles11-vg101-egl13-passthrough_tracer-symbian gles11-vg101-egl13-passthrough_tracer-symbian_build gles11-vg101-egl13-passthrough_tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg11-vgu11-egl13-passthrough_tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-gles11-vg11-vgu11-egl13-passthrough_tracer-symbian: gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_build
-gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-symbian
-.PHONY: gles11-vg11-vgu11-egl13-passthrough_tracer-symbian gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_build gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-passthrough_tracer-symbian
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-symbian
@@ -2208,32 +2312,6 @@ gles11-passthrough_tracer-symbian_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-symbian
 .PHONY: gles11-passthrough_tracer-symbian gles11-passthrough_tracer-symbian_build gles11-passthrough_tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-egl13-passthrough_tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg11-vgu11-egl13-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-vg11-vgu11-egl13-passthrough_tracer-symbian: vg11-vgu11-egl13-passthrough_tracer-symbian_build
-vg11-vgu11-egl13-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-symbian
-.PHONY: vg11-vgu11-egl13-passthrough_tracer-symbian vg11-vgu11-egl13-passthrough_tracer-symbian_build vg11-vgu11-egl13-passthrough_tracer-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target vgi10-passthrough_tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vgi10-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vgi10-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-vgi10-passthrough_tracer-symbian: vgi10-passthrough_tracer-symbian_build
-vgi10-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-symbian
-.PHONY: vgi10-passthrough_tracer-symbian vgi10-passthrough_tracer-symbian_build vgi10-passthrough_tracer-symbian_clean
 
 #---------------------------------------------------------------------------
 # Target gles20-passthrough_tracer-symbian
@@ -2249,19 +2327,6 @@ gles20-passthrough_tracer-symbian_clean:
 .PHONY: gles20-passthrough_tracer-symbian gles20-passthrough_tracer-symbian_build gles20-passthrough_tracer-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target comp10-passthrough_tracer-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl comp10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/comp10-symbian.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-comp10-passthrough_tracer-symbian_build: $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-symbian
-	 cd $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-symbian/group && $(BUILD_COMMAND)
-comp10-passthrough_tracer-symbian: comp10-passthrough_tracer-symbian_build
-comp10-passthrough_tracer-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-symbian && cd $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-symbian
-.PHONY: comp10-passthrough_tracer-symbian comp10-passthrough_tracer-symbian_build comp10-passthrough_tracer-symbian_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-vg11-egl13-player-symbian
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-egl13-symbian
@@ -2273,19 +2338,6 @@ gles11-vg11-egl13-player-symbian_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-symbian
 .PHONY: gles11-vg11-egl13-player-symbian gles11-vg11-egl13-player-symbian_build gles11-vg11-egl13-player-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-vgi10-player-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-vg11-vgu11-vgi10-player-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-symbian/group && $(BUILD_COMMAND)
-vg11-vgu11-vgi10-player-symbian: vg11-vgu11-vgi10-player-symbian_build
-vg11-vgu11-vgi10-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-symbian
-.PHONY: vg11-vgu11-vgi10-player-symbian vg11-vgu11-vgi10-player-symbian_build vg11-vgu11-vgi10-player-symbian_clean
 
 #---------------------------------------------------------------------------
 # Target vg11-egl13-player-symbian
@@ -2301,30 +2353,82 @@ vg11-egl13-player-symbian_clean:
 .PHONY: vg11-egl13-player-symbian vg11-egl13-player-symbian_build vg11-egl13-player-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target vg10-vgi10-player-symbian
+# Target vg11-player-symbian
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg10-vgi10-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg10-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg10-vgi10-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-vg10-vgi10-player-symbian_build: $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-symbian/group && $(BUILD_COMMAND)
-vg10-vgi10-player-symbian: vg10-vgi10-player-symbian_build
-vg10-vgi10-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-symbian && cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-symbian
-.PHONY: vg10-vgi10-player-symbian vg10-vgi10-player-symbian_build vg10-vgi10-player-symbian_clean
+$(TRACY_CODEGEN_PATH)/vg11-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-symbian.tcy generate player -o $@ $(TRACY_ARGS)
+vg11-player-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-player-symbian
+	 cd $(TRACY_CODEGEN_PATH)/vg11-player-symbian/group && $(BUILD_COMMAND)
+vg11-player-symbian: vg11-player-symbian_build
+vg11-player-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-player-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-player-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-player-symbian
+.PHONY: vg11-player-symbian vg11-player-symbian_build vg11-player-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target gles20-vg11-vgu11-egl13-player-symbian
+# Target gles11-vg101-egl13-player-symbian
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-gles20-vg11-vgu11-egl13-player-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-symbian/group && $(BUILD_COMMAND)
-gles20-vg11-vgu11-egl13-player-symbian: gles20-vg11-vgu11-egl13-player-symbian_build
-gles20-vg11-vgu11-egl13-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-symbian
-.PHONY: gles20-vg11-vgu11-egl13-player-symbian gles20-vg11-vgu11-egl13-player-symbian_build gles20-vg11-vgu11-egl13-player-symbian_clean
+$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy generate player -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-player-symbian_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-symbian/group && $(BUILD_COMMAND)
+gles11-vg101-egl13-player-symbian: gles11-vg101-egl13-player-symbian_build
+gles11-vg101-egl13-player-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-symbian
+.PHONY: gles11-vg101-egl13-player-symbian gles11-vg101-egl13-player-symbian_build gles11-vg101-egl13-player-symbian_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-vgu11-egl13-player-symbian
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy generate player -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-player-symbian_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-symbian/group && $(BUILD_COMMAND)
+gles11-vg11-vgu11-egl13-player-symbian: gles11-vg11-vgu11-egl13-player-symbian_build
+gles11-vg11-vgu11-egl13-player-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-symbian
+.PHONY: gles11-vg11-vgu11-egl13-player-symbian gles11-vg11-vgu11-egl13-player-symbian_build gles11-vg11-vgu11-egl13-player-symbian_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-vgu11-egl13-player-symbian
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy generate player -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-player-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-symbian
+	 cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-symbian/group && $(BUILD_COMMAND)
+vg11-vgu11-egl13-player-symbian: vg11-vgu11-egl13-player-symbian_build
+vg11-vgu11-egl13-player-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-symbian
+.PHONY: vg11-vgu11-egl13-player-symbian vg11-vgu11-egl13-player-symbian_build vg11-vgu11-egl13-player-symbian_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-egl13-player-symbian
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-egl13-player-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-player-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles20-egl13-player-symbian/group && $(BUILD_COMMAND)
+gles20-egl13-player-symbian: gles20-egl13-player-symbian_build
+gles20-egl13-player-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-player-symbian
+.PHONY: gles20-egl13-player-symbian gles20-egl13-player-symbian_build gles20-egl13-player-symbian_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-egl13-player-symbian
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-player-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-symbian/group && $(BUILD_COMMAND)
+gles20-vg11-egl13-player-symbian: gles20-vg11-egl13-player-symbian_build
+gles20-vg11-egl13-player-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-symbian
+.PHONY: gles20-vg11-egl13-player-symbian gles20-vg11-egl13-player-symbian_build gles20-vg11-egl13-player-symbian_clean
 
 #---------------------------------------------------------------------------
 # Target gles11-egl13-player-symbian
@@ -2366,43 +2470,17 @@ gles11-egl11-player-symbian_clean:
 .PHONY: gles11-egl11-player-symbian gles11-egl11-player-symbian_build gles11-egl11-player-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target vg11-vgi10-player-symbian
+# Target gles20-vg11-vgu11-egl13-player-symbian
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgi10-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgi10-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-vg11-vgi10-player-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-symbian/group && $(BUILD_COMMAND)
-vg11-vgi10-player-symbian: vg11-vgi10-player-symbian_build
-vg11-vgi10-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-symbian
-.PHONY: vg11-vgi10-player-symbian vg11-vgi10-player-symbian_build vg11-vgi10-player-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-vg11-egl13-player-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-gles20-vg11-egl13-player-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-symbian/group && $(BUILD_COMMAND)
-gles20-vg11-egl13-player-symbian: gles20-vg11-egl13-player-symbian_build
-gles20-vg11-egl13-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-symbian
-.PHONY: gles20-vg11-egl13-player-symbian gles20-vg11-egl13-player-symbian_build gles20-vg11-egl13-player-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-player-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-vg11-player-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg11-player-symbian/group && $(BUILD_COMMAND)
-vg11-player-symbian: vg11-player-symbian_build
-vg11-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-player-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-player-symbian
-.PHONY: vg11-player-symbian vg11-player-symbian_build vg11-player-symbian_clean
+$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-symbian
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-symbian.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-player-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-symbian
+	 cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-symbian/group && $(BUILD_COMMAND)
+gles20-vg11-vgu11-egl13-player-symbian: gles20-vg11-vgu11-egl13-player-symbian_build
+gles20-vg11-vgu11-egl13-player-symbian_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-symbian
+.PHONY: gles20-vg11-vgu11-egl13-player-symbian gles20-vg11-vgu11-egl13-player-symbian_build gles20-vg11-vgu11-egl13-player-symbian_clean
 
 #---------------------------------------------------------------------------
 # Target egl13-player-symbian
@@ -2418,58 +2496,6 @@ egl13-player-symbian_clean:
 .PHONY: egl13-player-symbian egl13-player-symbian_build egl13-player-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target vg101-vgi10-player-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg101-vgi10-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg101-vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg101-vgi10-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-vg101-vgi10-player-symbian_build: $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-symbian/group && $(BUILD_COMMAND)
-vg101-vgi10-player-symbian: vg101-vgi10-player-symbian_build
-vg101-vgi10-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-symbian && cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-symbian
-.PHONY: vg101-vgi10-player-symbian vg101-vgi10-player-symbian_build vg101-vgi10-player-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-egl13-player-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-gles20-egl13-player-symbian_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles20-egl13-player-symbian/group && $(BUILD_COMMAND)
-gles20-egl13-player-symbian: gles20-egl13-player-symbian_build
-gles20-egl13-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-player-symbian
-.PHONY: gles20-egl13-player-symbian gles20-egl13-player-symbian_build gles20-egl13-player-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg101-egl13-player-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-gles11-vg101-egl13-player-symbian_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-symbian/group && $(BUILD_COMMAND)
-gles11-vg101-egl13-player-symbian: gles11-vg101-egl13-player-symbian_build
-gles11-vg101-egl13-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-symbian
-.PHONY: gles11-vg101-egl13-player-symbian gles11-vg101-egl13-player-symbian_build gles11-vg101-egl13-player-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg11-vgu11-egl13-player-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-gles11-vg11-vgu11-egl13-player-symbian_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-symbian/group && $(BUILD_COMMAND)
-gles11-vg11-vgu11-egl13-player-symbian: gles11-vg11-vgu11-egl13-player-symbian_build
-gles11-vg11-vgu11-egl13-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-symbian
-.PHONY: gles11-vg11-vgu11-egl13-player-symbian gles11-vg11-vgu11-egl13-player-symbian_build gles11-vg11-vgu11-egl13-player-symbian_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-player-symbian
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-symbian
@@ -2481,32 +2507,6 @@ gles11-player-symbian_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-player-symbian && cd $(TRACY_CODEGEN_PATH)/gles11-player-symbian/group && $(CLEANCOMMAND)) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-player-symbian
 .PHONY: gles11-player-symbian gles11-player-symbian_build gles11-player-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-egl13-player-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-vg11-vgu11-egl13-player-symbian_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-symbian/group && $(BUILD_COMMAND)
-vg11-vgu11-egl13-player-symbian: vg11-vgu11-egl13-player-symbian_build
-vg11-vgu11-egl13-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-symbian && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-symbian
-.PHONY: vg11-vgu11-egl13-player-symbian vg11-vgu11-egl13-player-symbian_build vg11-vgu11-egl13-player-symbian_clean
-
-#---------------------------------------------------------------------------
-# Target vgi10-player-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vgi10-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vgi10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vgi10-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-vgi10-player-symbian_build: $(TRACY_CODEGEN_PATH)/vgi10-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/vgi10-player-symbian/group && $(BUILD_COMMAND)
-vgi10-player-symbian: vgi10-player-symbian_build
-vgi10-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vgi10-player-symbian && cd $(TRACY_CODEGEN_PATH)/vgi10-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vgi10-player-symbian
-.PHONY: vgi10-player-symbian vgi10-player-symbian_build vgi10-player-symbian_clean
 
 #---------------------------------------------------------------------------
 # Target gles20-player-symbian
@@ -2522,19 +2522,6 @@ gles20-player-symbian_clean:
 .PHONY: gles20-player-symbian gles20-player-symbian_build gles20-player-symbian_clean
 
 #---------------------------------------------------------------------------
-# Target comp10-player-symbian
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/comp10-player-symbian: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl comp10-symbian
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/comp10-symbian.tcy generate player -o $@ $(TRACY_ARGS)
-comp10-player-symbian_build: $(TRACY_CODEGEN_PATH)/comp10-player-symbian
-	 cd $(TRACY_CODEGEN_PATH)/comp10-player-symbian/group && $(BUILD_COMMAND)
-comp10-player-symbian: comp10-player-symbian_build
-comp10-player-symbian_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/comp10-player-symbian && cd $(TRACY_CODEGEN_PATH)/comp10-player-symbian/group && $(CLEANCOMMAND)) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/comp10-player-symbian
-.PHONY: comp10-player-symbian comp10-player-symbian_build comp10-player-symbian_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-vg11-egl13-tracer-win32
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-egl13-win32
@@ -2546,19 +2533,6 @@ gles11-vg11-egl13-tracer-win32_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-tracer-win32 && $(NMAKE) clean) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-tracer-win32
 .PHONY: gles11-vg11-egl13-tracer-win32 gles11-vg11-egl13-tracer-win32_build gles11-vg11-egl13-tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-vgi10-tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg11-vgu11-vgi10-tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-win32 && $(NMAKE)
-vg11-vgu11-vgi10-tracer-win32: vg11-vgu11-vgi10-tracer-win32_build
-vg11-vgu11-vgi10-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-tracer-win32
-.PHONY: vg11-vgu11-vgi10-tracer-win32 vg11-vgu11-vgi10-tracer-win32_build vg11-vgu11-vgi10-tracer-win32_clean
 
 #---------------------------------------------------------------------------
 # Target vg11-egl13-tracer-win32
@@ -2574,30 +2548,82 @@ vg11-egl13-tracer-win32_clean:
 .PHONY: vg11-egl13-tracer-win32 vg11-egl13-tracer-win32_build vg11-egl13-tracer-win32_clean
 
 #---------------------------------------------------------------------------
-# Target vg10-vgi10-tracer-win32
+# Target vg11-tracer-win32
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg10-vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg10-vgi10-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg10-vgi10-tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-win32 && $(NMAKE)
-vg10-vgi10-tracer-win32: vg10-vgi10-tracer-win32_build
-vg10-vgi10-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg10-vgi10-tracer-win32
-.PHONY: vg10-vgi10-tracer-win32 vg10-vgi10-tracer-win32_build vg10-vgi10-tracer-win32_clean
+$(TRACY_CODEGEN_PATH)/vg11-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
+vg11-tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg11-tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/vg11-tracer-win32 && $(NMAKE)
+vg11-tracer-win32: vg11-tracer-win32_build
+vg11-tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-tracer-win32
+.PHONY: vg11-tracer-win32 vg11-tracer-win32_build vg11-tracer-win32_clean
 
 #---------------------------------------------------------------------------
-# Target gles20-vg11-vgu11-egl13-tracer-win32
+# Target gles11-vg101-egl13-tracer-win32
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles20-vg11-vgu11-egl13-tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-win32 && $(NMAKE)
-gles20-vg11-vgu11-egl13-tracer-win32: gles20-vg11-vgu11-egl13-tracer-win32_build
-gles20-vg11-vgu11-egl13-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-win32
-.PHONY: gles20-vg11-vgu11-egl13-tracer-win32 gles20-vg11-vgu11-egl13-tracer-win32_build gles20-vg11-vgu11-egl13-tracer-win32_clean
+$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-win32 && $(NMAKE)
+gles11-vg101-egl13-tracer-win32: gles11-vg101-egl13-tracer-win32_build
+gles11-vg101-egl13-tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-win32
+.PHONY: gles11-vg101-egl13-tracer-win32 gles11-vg101-egl13-tracer-win32_build gles11-vg101-egl13-tracer-win32_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-vgu11-egl13-tracer-win32
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-win32 && $(NMAKE)
+gles11-vg11-vgu11-egl13-tracer-win32: gles11-vg11-vgu11-egl13-tracer-win32_build
+gles11-vg11-vgu11-egl13-tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-win32
+.PHONY: gles11-vg11-vgu11-egl13-tracer-win32 gles11-vg11-vgu11-egl13-tracer-win32_build gles11-vg11-vgu11-egl13-tracer-win32_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-vgu11-egl13-tracer-win32
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-win32 && $(NMAKE)
+vg11-vgu11-egl13-tracer-win32: vg11-vgu11-egl13-tracer-win32_build
+vg11-vgu11-egl13-tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-win32
+.PHONY: vg11-vgu11-egl13-tracer-win32 vg11-vgu11-egl13-tracer-win32_build vg11-vgu11-egl13-tracer-win32_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-egl13-tracer-win32
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-egl13-tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-win32 && $(NMAKE)
+gles20-egl13-tracer-win32: gles20-egl13-tracer-win32_build
+gles20-egl13-tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-win32
+.PHONY: gles20-egl13-tracer-win32 gles20-egl13-tracer-win32_build gles20-egl13-tracer-win32_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-egl13-tracer-win32
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-win32 && $(NMAKE)
+gles20-vg11-egl13-tracer-win32: gles20-vg11-egl13-tracer-win32_build
+gles20-vg11-egl13-tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-win32
+.PHONY: gles20-vg11-egl13-tracer-win32 gles20-vg11-egl13-tracer-win32_build gles20-vg11-egl13-tracer-win32_clean
 
 #---------------------------------------------------------------------------
 # Target gles11-egl13-tracer-win32
@@ -2639,43 +2665,17 @@ gles11-egl11-tracer-win32_clean:
 .PHONY: gles11-egl11-tracer-win32 gles11-egl11-tracer-win32_build gles11-egl11-tracer-win32_clean
 
 #---------------------------------------------------------------------------
-# Target vg11-vgi10-tracer-win32
+# Target gles20-vg11-vgu11-egl13-tracer-win32
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgi10-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg11-vgi10-tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-win32 && $(NMAKE)
-vg11-vgi10-tracer-win32: vg11-vgi10-tracer-win32_build
-vg11-vgi10-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgi10-tracer-win32
-.PHONY: vg11-vgi10-tracer-win32 vg11-vgi10-tracer-win32_build vg11-vgi10-tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-vg11-egl13-tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles20-vg11-egl13-tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-win32 && $(NMAKE)
-gles20-vg11-egl13-tracer-win32: gles20-vg11-egl13-tracer-win32_build
-gles20-vg11-egl13-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-tracer-win32
-.PHONY: gles20-vg11-egl13-tracer-win32 gles20-vg11-egl13-tracer-win32_build gles20-vg11-egl13-tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg11-tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg11-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg11-tracer-win32 && $(NMAKE)
-vg11-tracer-win32: vg11-tracer-win32_build
-vg11-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-tracer-win32
-.PHONY: vg11-tracer-win32 vg11-tracer-win32_build vg11-tracer-win32_clean
+$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-win32 && $(NMAKE)
+gles20-vg11-vgu11-egl13-tracer-win32: gles20-vg11-vgu11-egl13-tracer-win32_build
+gles20-vg11-vgu11-egl13-tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-tracer-win32
+.PHONY: gles20-vg11-vgu11-egl13-tracer-win32 gles20-vg11-vgu11-egl13-tracer-win32_build gles20-vg11-vgu11-egl13-tracer-win32_clean
 
 #---------------------------------------------------------------------------
 # Target egl13-tracer-win32
@@ -2691,58 +2691,6 @@ egl13-tracer-win32_clean:
 .PHONY: egl13-tracer-win32 egl13-tracer-win32_build egl13-tracer-win32_clean
 
 #---------------------------------------------------------------------------
-# Target vg101-vgi10-tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg101-vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg101-vgi10-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg101-vgi10-tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-win32 && $(NMAKE)
-vg101-vgi10-tracer-win32: vg101-vgi10-tracer-win32_build
-vg101-vgi10-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg101-vgi10-tracer-win32
-.PHONY: vg101-vgi10-tracer-win32 vg101-vgi10-tracer-win32_build vg101-vgi10-tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-egl13-tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles20-egl13-tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-win32 && $(NMAKE)
-gles20-egl13-tracer-win32: gles20-egl13-tracer-win32_build
-gles20-egl13-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-tracer-win32
-.PHONY: gles20-egl13-tracer-win32 gles20-egl13-tracer-win32_build gles20-egl13-tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg101-egl13-tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles11-vg101-egl13-tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-win32 && $(NMAKE)
-gles11-vg101-egl13-tracer-win32: gles11-vg101-egl13-tracer-win32_build
-gles11-vg101-egl13-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-tracer-win32
-.PHONY: gles11-vg101-egl13-tracer-win32 gles11-vg101-egl13-tracer-win32_build gles11-vg101-egl13-tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg11-vgu11-egl13-tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-gles11-vg11-vgu11-egl13-tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-win32 && $(NMAKE)
-gles11-vg11-vgu11-egl13-tracer-win32: gles11-vg11-vgu11-egl13-tracer-win32_build
-gles11-vg11-vgu11-egl13-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-tracer-win32
-.PHONY: gles11-vg11-vgu11-egl13-tracer-win32 gles11-vg11-vgu11-egl13-tracer-win32_build gles11-vg11-vgu11-egl13-tracer-win32_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-tracer-win32
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-win32
@@ -2754,32 +2702,6 @@ gles11-tracer-win32_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-tracer-win32 && $(NMAKE) clean) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-tracer-win32
 .PHONY: gles11-tracer-win32 gles11-tracer-win32_build gles11-tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-egl13-tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-vg11-vgu11-egl13-tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-win32 && $(NMAKE)
-vg11-vgu11-egl13-tracer-win32: vg11-vgu11-egl13-tracer-win32_build
-vg11-vgu11-egl13-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-tracer-win32
-.PHONY: vg11-vgu11-egl13-tracer-win32 vg11-vgu11-egl13-tracer-win32_build vg11-vgu11-egl13-tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target vgi10-tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vgi10-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vgi10-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-vgi10-tracer-win32_build: $(TRACY_CODEGEN_PATH)/vgi10-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vgi10-tracer-win32 && $(NMAKE)
-vgi10-tracer-win32: vgi10-tracer-win32_build
-vgi10-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vgi10-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vgi10-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vgi10-tracer-win32
-.PHONY: vgi10-tracer-win32 vgi10-tracer-win32_build vgi10-tracer-win32_clean
 
 #---------------------------------------------------------------------------
 # Target gles20-tracer-win32
@@ -2795,19 +2717,6 @@ gles20-tracer-win32_clean:
 .PHONY: gles20-tracer-win32 gles20-tracer-win32_build gles20-tracer-win32_clean
 
 #---------------------------------------------------------------------------
-# Target comp10-tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/comp10-tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl comp10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/comp10-win32.tcy generate tracer -o $@ $(TRACY_ARGS)
-comp10-tracer-win32_build: $(TRACY_CODEGEN_PATH)/comp10-tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/comp10-tracer-win32 && $(NMAKE)
-comp10-tracer-win32: comp10-tracer-win32_build
-comp10-tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/comp10-tracer-win32 && cd $(TRACY_CODEGEN_PATH)/comp10-tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/comp10-tracer-win32
-.PHONY: comp10-tracer-win32 comp10-tracer-win32_build comp10-tracer-win32_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-vg11-egl13-passthrough_tracer-win32
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-egl13-win32
@@ -2819,19 +2728,6 @@ gles11-vg11-egl13-passthrough_tracer-win32_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-passthrough_tracer-win32
 .PHONY: gles11-vg11-egl13-passthrough_tracer-win32 gles11-vg11-egl13-passthrough_tracer-win32_build gles11-vg11-egl13-passthrough_tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-vgi10-passthrough_tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg11-vgu11-vgi10-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-win32 && $(NMAKE)
-vg11-vgu11-vgi10-passthrough_tracer-win32: vg11-vgu11-vgi10-passthrough_tracer-win32_build
-vg11-vgu11-vgi10-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-passthrough_tracer-win32
-.PHONY: vg11-vgu11-vgi10-passthrough_tracer-win32 vg11-vgu11-vgi10-passthrough_tracer-win32_build vg11-vgu11-vgi10-passthrough_tracer-win32_clean
 
 #---------------------------------------------------------------------------
 # Target vg11-egl13-passthrough_tracer-win32
@@ -2847,30 +2743,82 @@ vg11-egl13-passthrough_tracer-win32_clean:
 .PHONY: vg11-egl13-passthrough_tracer-win32 vg11-egl13-passthrough_tracer-win32_build vg11-egl13-passthrough_tracer-win32_clean
 
 #---------------------------------------------------------------------------
-# Target vg10-vgi10-passthrough_tracer-win32
+# Target vg11-passthrough_tracer-win32
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg10-vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg10-vgi10-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg10-vgi10-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-win32 && $(NMAKE)
-vg10-vgi10-passthrough_tracer-win32: vg10-vgi10-passthrough_tracer-win32_build
-vg10-vgi10-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg10-vgi10-passthrough_tracer-win32
-.PHONY: vg10-vgi10-passthrough_tracer-win32 vg10-vgi10-passthrough_tracer-win32_build vg10-vgi10-passthrough_tracer-win32_clean
+$(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+vg11-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-win32 && $(NMAKE)
+vg11-passthrough_tracer-win32: vg11-passthrough_tracer-win32_build
+vg11-passthrough_tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-win32
+.PHONY: vg11-passthrough_tracer-win32 vg11-passthrough_tracer-win32_build vg11-passthrough_tracer-win32_clean
 
 #---------------------------------------------------------------------------
-# Target gles20-vg11-vgu11-egl13-passthrough_tracer-win32
+# Target gles11-vg101-egl13-passthrough_tracer-win32
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles20-vg11-vgu11-egl13-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-win32 && $(NMAKE)
-gles20-vg11-vgu11-egl13-passthrough_tracer-win32: gles20-vg11-vgu11-egl13-passthrough_tracer-win32_build
-gles20-vg11-vgu11-egl13-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-win32
-.PHONY: gles20-vg11-vgu11-egl13-passthrough_tracer-win32 gles20-vg11-vgu11-egl13-passthrough_tracer-win32_build gles20-vg11-vgu11-egl13-passthrough_tracer-win32_clean
+$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-win32 && $(NMAKE)
+gles11-vg101-egl13-passthrough_tracer-win32: gles11-vg101-egl13-passthrough_tracer-win32_build
+gles11-vg101-egl13-passthrough_tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-win32
+.PHONY: gles11-vg101-egl13-passthrough_tracer-win32 gles11-vg101-egl13-passthrough_tracer-win32_build gles11-vg101-egl13-passthrough_tracer-win32_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-vgu11-egl13-passthrough_tracer-win32
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-win32 && $(NMAKE)
+gles11-vg11-vgu11-egl13-passthrough_tracer-win32: gles11-vg11-vgu11-egl13-passthrough_tracer-win32_build
+gles11-vg11-vgu11-egl13-passthrough_tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-win32
+.PHONY: gles11-vg11-vgu11-egl13-passthrough_tracer-win32 gles11-vg11-vgu11-egl13-passthrough_tracer-win32_build gles11-vg11-vgu11-egl13-passthrough_tracer-win32_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-vgu11-egl13-passthrough_tracer-win32
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-win32 && $(NMAKE)
+vg11-vgu11-egl13-passthrough_tracer-win32: vg11-vgu11-egl13-passthrough_tracer-win32_build
+vg11-vgu11-egl13-passthrough_tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-win32
+.PHONY: vg11-vgu11-egl13-passthrough_tracer-win32 vg11-vgu11-egl13-passthrough_tracer-win32_build vg11-vgu11-egl13-passthrough_tracer-win32_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-egl13-passthrough_tracer-win32
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-egl13-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-win32 && $(NMAKE)
+gles20-egl13-passthrough_tracer-win32: gles20-egl13-passthrough_tracer-win32_build
+gles20-egl13-passthrough_tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-win32
+.PHONY: gles20-egl13-passthrough_tracer-win32 gles20-egl13-passthrough_tracer-win32_build gles20-egl13-passthrough_tracer-win32_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-egl13-passthrough_tracer-win32
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-win32 && $(NMAKE)
+gles20-vg11-egl13-passthrough_tracer-win32: gles20-vg11-egl13-passthrough_tracer-win32_build
+gles20-vg11-egl13-passthrough_tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-win32
+.PHONY: gles20-vg11-egl13-passthrough_tracer-win32 gles20-vg11-egl13-passthrough_tracer-win32_build gles20-vg11-egl13-passthrough_tracer-win32_clean
 
 #---------------------------------------------------------------------------
 # Target gles11-egl13-passthrough_tracer-win32
@@ -2912,43 +2860,17 @@ gles11-egl11-passthrough_tracer-win32_clean:
 .PHONY: gles11-egl11-passthrough_tracer-win32 gles11-egl11-passthrough_tracer-win32_build gles11-egl11-passthrough_tracer-win32_clean
 
 #---------------------------------------------------------------------------
-# Target vg11-vgi10-passthrough_tracer-win32
+# Target gles20-vg11-vgu11-egl13-passthrough_tracer-win32
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgi10-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg11-vgi10-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-win32 && $(NMAKE)
-vg11-vgi10-passthrough_tracer-win32: vg11-vgi10-passthrough_tracer-win32_build
-vg11-vgi10-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgi10-passthrough_tracer-win32
-.PHONY: vg11-vgi10-passthrough_tracer-win32 vg11-vgi10-passthrough_tracer-win32_build vg11-vgi10-passthrough_tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-vg11-egl13-passthrough_tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles20-vg11-egl13-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-win32 && $(NMAKE)
-gles20-vg11-egl13-passthrough_tracer-win32: gles20-vg11-egl13-passthrough_tracer-win32_build
-gles20-vg11-egl13-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-passthrough_tracer-win32
-.PHONY: gles20-vg11-egl13-passthrough_tracer-win32 gles20-vg11-egl13-passthrough_tracer-win32_build gles20-vg11-egl13-passthrough_tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-passthrough_tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg11-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-win32 && $(NMAKE)
-vg11-passthrough_tracer-win32: vg11-passthrough_tracer-win32_build
-vg11-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-passthrough_tracer-win32
-.PHONY: vg11-passthrough_tracer-win32 vg11-passthrough_tracer-win32_build vg11-passthrough_tracer-win32_clean
+$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-win32 && $(NMAKE)
+gles20-vg11-vgu11-egl13-passthrough_tracer-win32: gles20-vg11-vgu11-egl13-passthrough_tracer-win32_build
+gles20-vg11-vgu11-egl13-passthrough_tracer-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-passthrough_tracer-win32
+.PHONY: gles20-vg11-vgu11-egl13-passthrough_tracer-win32 gles20-vg11-vgu11-egl13-passthrough_tracer-win32_build gles20-vg11-vgu11-egl13-passthrough_tracer-win32_clean
 
 #---------------------------------------------------------------------------
 # Target egl13-passthrough_tracer-win32
@@ -2964,58 +2886,6 @@ egl13-passthrough_tracer-win32_clean:
 .PHONY: egl13-passthrough_tracer-win32 egl13-passthrough_tracer-win32_build egl13-passthrough_tracer-win32_clean
 
 #---------------------------------------------------------------------------
-# Target vg101-vgi10-passthrough_tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg101-vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg101-vgi10-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg101-vgi10-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-win32 && $(NMAKE)
-vg101-vgi10-passthrough_tracer-win32: vg101-vgi10-passthrough_tracer-win32_build
-vg101-vgi10-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg101-vgi10-passthrough_tracer-win32
-.PHONY: vg101-vgi10-passthrough_tracer-win32 vg101-vgi10-passthrough_tracer-win32_build vg101-vgi10-passthrough_tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-egl13-passthrough_tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles20-egl13-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-win32 && $(NMAKE)
-gles20-egl13-passthrough_tracer-win32: gles20-egl13-passthrough_tracer-win32_build
-gles20-egl13-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-passthrough_tracer-win32
-.PHONY: gles20-egl13-passthrough_tracer-win32 gles20-egl13-passthrough_tracer-win32_build gles20-egl13-passthrough_tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg101-egl13-passthrough_tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles11-vg101-egl13-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-win32 && $(NMAKE)
-gles11-vg101-egl13-passthrough_tracer-win32: gles11-vg101-egl13-passthrough_tracer-win32_build
-gles11-vg101-egl13-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-passthrough_tracer-win32
-.PHONY: gles11-vg101-egl13-passthrough_tracer-win32 gles11-vg101-egl13-passthrough_tracer-win32_build gles11-vg101-egl13-passthrough_tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg11-vgu11-egl13-passthrough_tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-gles11-vg11-vgu11-egl13-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-win32 && $(NMAKE)
-gles11-vg11-vgu11-egl13-passthrough_tracer-win32: gles11-vg11-vgu11-egl13-passthrough_tracer-win32_build
-gles11-vg11-vgu11-egl13-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-passthrough_tracer-win32
-.PHONY: gles11-vg11-vgu11-egl13-passthrough_tracer-win32 gles11-vg11-vgu11-egl13-passthrough_tracer-win32_build gles11-vg11-vgu11-egl13-passthrough_tracer-win32_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-passthrough_tracer-win32
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-win32
@@ -3027,32 +2897,6 @@ gles11-passthrough_tracer-win32_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-win32 && $(NMAKE) clean) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-passthrough_tracer-win32
 .PHONY: gles11-passthrough_tracer-win32 gles11-passthrough_tracer-win32_build gles11-passthrough_tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-egl13-passthrough_tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vg11-vgu11-egl13-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-win32 && $(NMAKE)
-vg11-vgu11-egl13-passthrough_tracer-win32: vg11-vgu11-egl13-passthrough_tracer-win32_build
-vg11-vgu11-egl13-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-passthrough_tracer-win32
-.PHONY: vg11-vgu11-egl13-passthrough_tracer-win32 vg11-vgu11-egl13-passthrough_tracer-win32_build vg11-vgu11-egl13-passthrough_tracer-win32_clean
-
-#---------------------------------------------------------------------------
-# Target vgi10-passthrough_tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vgi10-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-vgi10-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-win32 && $(NMAKE)
-vgi10-passthrough_tracer-win32: vgi10-passthrough_tracer-win32_build
-vgi10-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vgi10-passthrough_tracer-win32
-.PHONY: vgi10-passthrough_tracer-win32 vgi10-passthrough_tracer-win32_build vgi10-passthrough_tracer-win32_clean
 
 #---------------------------------------------------------------------------
 # Target gles20-passthrough_tracer-win32
@@ -3068,19 +2912,6 @@ gles20-passthrough_tracer-win32_clean:
 .PHONY: gles20-passthrough_tracer-win32 gles20-passthrough_tracer-win32_build gles20-passthrough_tracer-win32_clean
 
 #---------------------------------------------------------------------------
-# Target comp10-passthrough_tracer-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl comp10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/comp10-win32.tcy generate passthrough_tracer -o $@ $(TRACY_ARGS)
-comp10-passthrough_tracer-win32_build: $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-win32
-	@cd $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-win32 && $(NMAKE)
-comp10-passthrough_tracer-win32: comp10-passthrough_tracer-win32_build
-comp10-passthrough_tracer-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-win32 && cd $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/comp10-passthrough_tracer-win32
-.PHONY: comp10-passthrough_tracer-win32 comp10-passthrough_tracer-win32_build comp10-passthrough_tracer-win32_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-vg11-egl13-player-win32
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-egl13-win32
@@ -3092,19 +2923,6 @@ gles11-vg11-egl13-player-win32_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-win32 && $(NMAKE) clean) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-egl13-player-win32
 .PHONY: gles11-vg11-egl13-player-win32 gles11-vg11-egl13-player-win32_build gles11-vg11-egl13-player-win32_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-vgi10-player-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-vgi10-win32.tcy generate player -o $@ $(TRACY_ARGS)
-vg11-vgu11-vgi10-player-win32_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-win32 && $(NMAKE)
-vg11-vgu11-vgi10-player-win32: vg11-vgu11-vgi10-player-win32_build
-vg11-vgu11-vgi10-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-vgi10-player-win32
-.PHONY: vg11-vgu11-vgi10-player-win32 vg11-vgu11-vgi10-player-win32_build vg11-vgu11-vgi10-player-win32_clean
 
 #---------------------------------------------------------------------------
 # Target vg11-egl13-player-win32
@@ -3120,30 +2938,82 @@ vg11-egl13-player-win32_clean:
 .PHONY: vg11-egl13-player-win32 vg11-egl13-player-win32_build vg11-egl13-player-win32_clean
 
 #---------------------------------------------------------------------------
-# Target vg10-vgi10-player-win32
+# Target vg11-player-win32
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg10-vgi10-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg10-vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg10-vgi10-win32.tcy generate player -o $@ $(TRACY_ARGS)
-vg10-vgi10-player-win32_build: $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-win32 && $(NMAKE)
-vg10-vgi10-player-win32: vg10-vgi10-player-win32_build
-vg10-vgi10-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-win32 && cd $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg10-vgi10-player-win32
-.PHONY: vg10-vgi10-player-win32 vg10-vgi10-player-win32_build vg10-vgi10-player-win32_clean
+$(TRACY_CODEGEN_PATH)/vg11-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-win32.tcy generate player -o $@ $(TRACY_ARGS)
+vg11-player-win32_build: $(TRACY_CODEGEN_PATH)/vg11-player-win32
+	@cd $(TRACY_CODEGEN_PATH)/vg11-player-win32 && $(NMAKE)
+vg11-player-win32: vg11-player-win32_build
+vg11-player-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-player-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-player-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-player-win32
+.PHONY: vg11-player-win32 vg11-player-win32_build vg11-player-win32_clean
 
 #---------------------------------------------------------------------------
-# Target gles20-vg11-vgu11-egl13-player-win32
+# Target gles11-vg101-egl13-player-win32
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy generate player -o $@ $(TRACY_ARGS)
-gles20-vg11-vgu11-egl13-player-win32_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-win32 && $(NMAKE)
-gles20-vg11-vgu11-egl13-player-win32: gles20-vg11-vgu11-egl13-player-win32_build
-gles20-vg11-vgu11-egl13-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-win32
-.PHONY: gles20-vg11-vgu11-egl13-player-win32 gles20-vg11-vgu11-egl13-player-win32_build gles20-vg11-vgu11-egl13-player-win32_clean
+$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy generate player -o $@ $(TRACY_ARGS)
+gles11-vg101-egl13-player-win32_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-win32 && $(NMAKE)
+gles11-vg101-egl13-player-win32: gles11-vg101-egl13-player-win32_build
+gles11-vg101-egl13-player-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-win32
+.PHONY: gles11-vg101-egl13-player-win32 gles11-vg101-egl13-player-win32_build gles11-vg101-egl13-player-win32_clean
+
+#---------------------------------------------------------------------------
+# Target gles11-vg11-vgu11-egl13-player-win32
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy generate player -o $@ $(TRACY_ARGS)
+gles11-vg11-vgu11-egl13-player-win32_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-win32 && $(NMAKE)
+gles11-vg11-vgu11-egl13-player-win32: gles11-vg11-vgu11-egl13-player-win32_build
+gles11-vg11-vgu11-egl13-player-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-win32
+.PHONY: gles11-vg11-vgu11-egl13-player-win32 gles11-vg11-vgu11-egl13-player-win32_build gles11-vg11-vgu11-egl13-player-win32_clean
+
+#---------------------------------------------------------------------------
+# Target vg11-vgu11-egl13-player-win32
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy generate player -o $@ $(TRACY_ARGS)
+vg11-vgu11-egl13-player-win32_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-win32
+	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-win32 && $(NMAKE)
+vg11-vgu11-egl13-player-win32: vg11-vgu11-egl13-player-win32_build
+vg11-vgu11-egl13-player-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-win32
+.PHONY: vg11-vgu11-egl13-player-win32 vg11-vgu11-egl13-player-win32_build vg11-vgu11-egl13-player-win32_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-egl13-player-win32
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-egl13-player-win32_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-player-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles20-egl13-player-win32 && $(NMAKE)
+gles20-egl13-player-win32: gles20-egl13-player-win32_build
+gles20-egl13-player-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-player-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-player-win32
+.PHONY: gles20-egl13-player-win32 gles20-egl13-player-win32_build gles20-egl13-player-win32_clean
+
+#---------------------------------------------------------------------------
+# Target gles20-vg11-egl13-player-win32
+#---------------------------------------------------------------------------
+$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-vg11-egl13-player-win32_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-win32 && $(NMAKE)
+gles20-vg11-egl13-player-win32: gles20-vg11-egl13-player-win32_build
+gles20-vg11-egl13-player-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-win32
+.PHONY: gles20-vg11-egl13-player-win32 gles20-vg11-egl13-player-win32_build gles20-vg11-egl13-player-win32_clean
 
 #---------------------------------------------------------------------------
 # Target gles11-egl13-player-win32
@@ -3185,43 +3055,17 @@ gles11-egl11-player-win32_clean:
 .PHONY: gles11-egl11-player-win32 gles11-egl11-player-win32_build gles11-egl11-player-win32_clean
 
 #---------------------------------------------------------------------------
-# Target vg11-vgi10-player-win32
+# Target gles20-vg11-vgu11-egl13-player-win32
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgi10-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgi10-win32.tcy generate player -o $@ $(TRACY_ARGS)
-vg11-vgi10-player-win32_build: $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-win32 && $(NMAKE)
-vg11-vgi10-player-win32: vg11-vgi10-player-win32_build
-vg11-vgi10-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgi10-player-win32
-.PHONY: vg11-vgi10-player-win32 vg11-vgi10-player-win32_build vg11-vgi10-player-win32_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-vg11-egl13-player-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-egl13-win32.tcy generate player -o $@ $(TRACY_ARGS)
-gles20-vg11-egl13-player-win32_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-win32 && $(NMAKE)
-gles20-vg11-egl13-player-win32: gles20-vg11-egl13-player-win32_build
-gles20-vg11-egl13-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-egl13-player-win32
-.PHONY: gles20-vg11-egl13-player-win32 gles20-vg11-egl13-player-win32_build gles20-vg11-egl13-player-win32_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-player-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-win32.tcy generate player -o $@ $(TRACY_ARGS)
-vg11-player-win32_build: $(TRACY_CODEGEN_PATH)/vg11-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg11-player-win32 && $(NMAKE)
-vg11-player-win32: vg11-player-win32_build
-vg11-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-player-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-player-win32
-.PHONY: vg11-player-win32 vg11-player-win32_build vg11-player-win32_clean
+$(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-vg11-vgu11-egl13-win32
+	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-vg11-vgu11-egl13-win32.tcy generate player -o $@ $(TRACY_ARGS)
+gles20-vg11-vgu11-egl13-player-win32_build: $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-win32
+	@cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-win32 && $(NMAKE)
+gles20-vg11-vgu11-egl13-player-win32: gles20-vg11-vgu11-egl13-player-win32_build
+gles20-vg11-vgu11-egl13-player-win32_clean:
+	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-win32 && $(NMAKE) clean) || true
+	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-vg11-vgu11-egl13-player-win32
+.PHONY: gles20-vg11-vgu11-egl13-player-win32 gles20-vg11-vgu11-egl13-player-win32_build gles20-vg11-vgu11-egl13-player-win32_clean
 
 #---------------------------------------------------------------------------
 # Target egl13-player-win32
@@ -3237,58 +3081,6 @@ egl13-player-win32_clean:
 .PHONY: egl13-player-win32 egl13-player-win32_build egl13-player-win32_clean
 
 #---------------------------------------------------------------------------
-# Target vg101-vgi10-player-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg101-vgi10-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg101-vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg101-vgi10-win32.tcy generate player -o $@ $(TRACY_ARGS)
-vg101-vgi10-player-win32_build: $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-win32 && $(NMAKE)
-vg101-vgi10-player-win32: vg101-vgi10-player-win32_build
-vg101-vgi10-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-win32 && cd $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg101-vgi10-player-win32
-.PHONY: vg101-vgi10-player-win32 vg101-vgi10-player-win32_build vg101-vgi10-player-win32_clean
-
-#---------------------------------------------------------------------------
-# Target gles20-egl13-player-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles20-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles20-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles20-egl13-win32.tcy generate player -o $@ $(TRACY_ARGS)
-gles20-egl13-player-win32_build: $(TRACY_CODEGEN_PATH)/gles20-egl13-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles20-egl13-player-win32 && $(NMAKE)
-gles20-egl13-player-win32: gles20-egl13-player-win32_build
-gles20-egl13-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles20-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/gles20-egl13-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles20-egl13-player-win32
-.PHONY: gles20-egl13-player-win32 gles20-egl13-player-win32_build gles20-egl13-player-win32_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg101-egl13-player-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg101-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg101-egl13-win32.tcy generate player -o $@ $(TRACY_ARGS)
-gles11-vg101-egl13-player-win32_build: $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-win32 && $(NMAKE)
-gles11-vg101-egl13-player-win32: gles11-vg101-egl13-player-win32_build
-gles11-vg101-egl13-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg101-egl13-player-win32
-.PHONY: gles11-vg101-egl13-player-win32 gles11-vg101-egl13-player-win32_build gles11-vg101-egl13-player-win32_clean
-
-#---------------------------------------------------------------------------
-# Target gles11-vg11-vgu11-egl13-player-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-vg11-vgu11-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/gles11-vg11-vgu11-egl13-win32.tcy generate player -o $@ $(TRACY_ARGS)
-gles11-vg11-vgu11-egl13-player-win32_build: $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-win32 && $(NMAKE)
-gles11-vg11-vgu11-egl13-player-win32: gles11-vg11-vgu11-egl13-player-win32_build
-gles11-vg11-vgu11-egl13-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-vg11-vgu11-egl13-player-win32
-.PHONY: gles11-vg11-vgu11-egl13-player-win32 gles11-vg11-vgu11-egl13-player-win32_build gles11-vg11-vgu11-egl13-player-win32_clean
-
-#---------------------------------------------------------------------------
 # Target gles11-player-win32
 #---------------------------------------------------------------------------
 $(TRACY_CODEGEN_PATH)/gles11-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl gles11-win32
@@ -3300,32 +3092,6 @@ gles11-player-win32_clean:
 	@-(test -d $(TRACY_CODEGEN_PATH)/gles11-player-win32 && cd $(TRACY_CODEGEN_PATH)/gles11-player-win32 && $(NMAKE) clean) || true
 	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/gles11-player-win32
 .PHONY: gles11-player-win32 gles11-player-win32_build gles11-player-win32_clean
-
-#---------------------------------------------------------------------------
-# Target vg11-vgu11-egl13-player-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vg11-vgu11-egl13-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vg11-vgu11-egl13-win32.tcy generate player -o $@ $(TRACY_ARGS)
-vg11-vgu11-egl13-player-win32_build: $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-win32 && $(NMAKE)
-vg11-vgu11-egl13-player-win32: vg11-vgu11-egl13-player-win32_build
-vg11-vgu11-egl13-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-win32 && cd $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vg11-vgu11-egl13-player-win32
-.PHONY: vg11-vgu11-egl13-player-win32 vg11-vgu11-egl13-player-win32_build vg11-vgu11-egl13-player-win32_clean
-
-#---------------------------------------------------------------------------
-# Target vgi10-player-win32
-#---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/vgi10-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl vgi10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/vgi10-win32.tcy generate player -o $@ $(TRACY_ARGS)
-vgi10-player-win32_build: $(TRACY_CODEGEN_PATH)/vgi10-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/vgi10-player-win32 && $(NMAKE)
-vgi10-player-win32: vgi10-player-win32_build
-vgi10-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/vgi10-player-win32 && cd $(TRACY_CODEGEN_PATH)/vgi10-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/vgi10-player-win32
-.PHONY: vgi10-player-win32 vgi10-player-win32_build vgi10-player-win32_clean
 
 #---------------------------------------------------------------------------
 # Target gles20-player-win32
@@ -3341,25 +3107,23 @@ gles20-player-win32_clean:
 .PHONY: gles20-player-win32 gles20-player-win32_build gles20-player-win32_clean
 
 #---------------------------------------------------------------------------
-# Target comp10-player-win32
+# android targets
 #---------------------------------------------------------------------------
-$(TRACY_CODEGEN_PATH)/comp10-player-win32: $(TRACY_CODEGEN_PATH) ../tracer/*.h ../tracer/*.c ../tracer/*.cpp ../tracer/*.inl comp10-win32
-	@$(PYTHON) TracyGenerator.py -c $(TRACY_TARGET_PATH)/comp10-win32.tcy generate player -o $@ $(TRACY_ARGS)
-comp10-player-win32_build: $(TRACY_CODEGEN_PATH)/comp10-player-win32
-	@cd $(TRACY_CODEGEN_PATH)/comp10-player-win32 && $(NMAKE)
-comp10-player-win32: comp10-player-win32_build
-comp10-player-win32_clean:
-	@-(test -d $(TRACY_CODEGEN_PATH)/comp10-player-win32 && cd $(TRACY_CODEGEN_PATH)/comp10-player-win32 && $(NMAKE) clean) || true
-	@-$(RM) -rf $(TRACY_CODEGEN_PATH)/comp10-player-win32
-.PHONY: comp10-player-win32 comp10-player-win32_build comp10-player-win32_clean
+projects-android: gles11-vg11-egl13-android vg11-egl13-android vg11-android gles11-vg101-egl13-android gles11-vg11-vgu11-egl13-android vg11-vgu11-egl13-android gles20-egl13-android gles20-vg11-egl13-android gles11-egl13-android vgu11-android gles11-egl11-android gles20-vg11-vgu11-egl13-android egl13-android gles11-android gles20-android
+targets-android: gles11-vg11-egl13-tracer-android vg11-egl13-tracer-android vg11-tracer-android gles11-vg101-egl13-tracer-android gles11-vg11-vgu11-egl13-tracer-android vg11-vgu11-egl13-tracer-android gles20-egl13-tracer-android gles20-vg11-egl13-tracer-android gles11-egl13-tracer-android vgu11-tracer-android gles11-egl11-tracer-android gles20-vg11-vgu11-egl13-tracer-android egl13-tracer-android gles11-tracer-android gles20-tracer-android gles11-vg11-egl13-passthrough_tracer-android vg11-egl13-passthrough_tracer-android vg11-passthrough_tracer-android gles11-vg101-egl13-passthrough_tracer-android gles11-vg11-vgu11-egl13-passthrough_tracer-android vg11-vgu11-egl13-passthrough_tracer-android gles20-egl13-passthrough_tracer-android gles20-vg11-egl13-passthrough_tracer-android gles11-egl13-passthrough_tracer-android vgu11-passthrough_tracer-android gles11-egl11-passthrough_tracer-android gles20-vg11-vgu11-egl13-passthrough_tracer-android egl13-passthrough_tracer-android gles11-passthrough_tracer-android gles20-passthrough_tracer-android gles11-vg11-egl13-player-android vg11-egl13-player-android vg11-player-android gles11-vg101-egl13-player-android gles11-vg11-vgu11-egl13-player-android vg11-vgu11-egl13-player-android gles20-egl13-player-android gles20-vg11-egl13-player-android gles11-egl13-player-android vgu11-player-android gles11-egl11-player-android gles20-vg11-vgu11-egl13-player-android egl13-player-android gles11-player-android gles20-player-android
+projects-android_clean: gles11-vg11-egl13-android_clean vg11-egl13-android_clean vg11-android_clean gles11-vg101-egl13-android_clean gles11-vg11-vgu11-egl13-android_clean vg11-vgu11-egl13-android_clean gles20-egl13-android_clean gles20-vg11-egl13-android_clean gles11-egl13-android_clean vgu11-android_clean gles11-egl11-android_clean gles20-vg11-vgu11-egl13-android_clean egl13-android_clean gles11-android_clean gles20-android_clean
+targets-android_clean: gles11-vg11-egl13-tracer-android_clean vg11-egl13-tracer-android_clean vg11-tracer-android_clean gles11-vg101-egl13-tracer-android_clean gles11-vg11-vgu11-egl13-tracer-android_clean vg11-vgu11-egl13-tracer-android_clean gles20-egl13-tracer-android_clean gles20-vg11-egl13-tracer-android_clean gles11-egl13-tracer-android_clean vgu11-tracer-android_clean gles11-egl11-tracer-android_clean gles20-vg11-vgu11-egl13-tracer-android_clean egl13-tracer-android_clean gles11-tracer-android_clean gles20-tracer-android_clean gles11-vg11-egl13-passthrough_tracer-android_clean vg11-egl13-passthrough_tracer-android_clean vg11-passthrough_tracer-android_clean gles11-vg101-egl13-passthrough_tracer-android_clean gles11-vg11-vgu11-egl13-passthrough_tracer-android_clean vg11-vgu11-egl13-passthrough_tracer-android_clean gles20-egl13-passthrough_tracer-android_clean gles20-vg11-egl13-passthrough_tracer-android_clean gles11-egl13-passthrough_tracer-android_clean vgu11-passthrough_tracer-android_clean gles11-egl11-passthrough_tracer-android_clean gles20-vg11-vgu11-egl13-passthrough_tracer-android_clean egl13-passthrough_tracer-android_clean gles11-passthrough_tracer-android_clean gles20-passthrough_tracer-android_clean gles11-vg11-egl13-player-android_clean vg11-egl13-player-android_clean vg11-player-android_clean gles11-vg101-egl13-player-android_clean gles11-vg11-vgu11-egl13-player-android_clean vg11-vgu11-egl13-player-android_clean gles20-egl13-player-android_clean gles20-vg11-egl13-player-android_clean gles11-egl13-player-android_clean vgu11-player-android_clean gles11-egl11-player-android_clean gles20-vg11-vgu11-egl13-player-android_clean egl13-player-android_clean gles11-player-android_clean gles20-player-android_clean
+android: projects-android targets-android
+android_clean: projects-android_clean targets-android_clean
+.PHONY: projects-android targets-android projects-android_clean targets-android_clean android android_clean
 
 #---------------------------------------------------------------------------
 # unix targets
 #---------------------------------------------------------------------------
-projects-unix: gles11-vg11-egl13-unix vg11-vgu11-vgi10-unix vg11-egl13-unix vg10-vgi10-unix gles20-vg11-vgu11-egl13-unix gles11-egl13-unix vgu11-unix gles11-egl11-unix vg11-vgi10-unix gles20-vg11-egl13-unix vg11-unix egl13-unix vg101-vgi10-unix gles20-egl13-unix gles11-vg101-egl13-unix gles11-vg11-vgu11-egl13-unix gles11-unix vg11-vgu11-egl13-unix vgi10-unix gles20-unix comp10-unix
-targets-unix: gles11-vg11-egl13-tracer-unix vg11-vgu11-vgi10-tracer-unix vg11-egl13-tracer-unix vg10-vgi10-tracer-unix gles20-vg11-vgu11-egl13-tracer-unix gles11-egl13-tracer-unix vgu11-tracer-unix gles11-egl11-tracer-unix vg11-vgi10-tracer-unix gles20-vg11-egl13-tracer-unix vg11-tracer-unix egl13-tracer-unix vg101-vgi10-tracer-unix gles20-egl13-tracer-unix gles11-vg101-egl13-tracer-unix gles11-vg11-vgu11-egl13-tracer-unix gles11-tracer-unix vg11-vgu11-egl13-tracer-unix vgi10-tracer-unix gles20-tracer-unix comp10-tracer-unix gles11-vg11-egl13-passthrough_tracer-unix vg11-vgu11-vgi10-passthrough_tracer-unix vg11-egl13-passthrough_tracer-unix vg10-vgi10-passthrough_tracer-unix gles20-vg11-vgu11-egl13-passthrough_tracer-unix gles11-egl13-passthrough_tracer-unix vgu11-passthrough_tracer-unix gles11-egl11-passthrough_tracer-unix vg11-vgi10-passthrough_tracer-unix gles20-vg11-egl13-passthrough_tracer-unix vg11-passthrough_tracer-unix egl13-passthrough_tracer-unix vg101-vgi10-passthrough_tracer-unix gles20-egl13-passthrough_tracer-unix gles11-vg101-egl13-passthrough_tracer-unix gles11-vg11-vgu11-egl13-passthrough_tracer-unix gles11-passthrough_tracer-unix vg11-vgu11-egl13-passthrough_tracer-unix vgi10-passthrough_tracer-unix gles20-passthrough_tracer-unix comp10-passthrough_tracer-unix gles11-vg11-egl13-player-unix vg11-vgu11-vgi10-player-unix vg11-egl13-player-unix vg10-vgi10-player-unix gles20-vg11-vgu11-egl13-player-unix gles11-egl13-player-unix vgu11-player-unix gles11-egl11-player-unix vg11-vgi10-player-unix gles20-vg11-egl13-player-unix vg11-player-unix egl13-player-unix vg101-vgi10-player-unix gles20-egl13-player-unix gles11-vg101-egl13-player-unix gles11-vg11-vgu11-egl13-player-unix gles11-player-unix vg11-vgu11-egl13-player-unix vgi10-player-unix gles20-player-unix comp10-player-unix
-projects-unix_clean: gles11-vg11-egl13-unix_clean vg11-vgu11-vgi10-unix_clean vg11-egl13-unix_clean vg10-vgi10-unix_clean gles20-vg11-vgu11-egl13-unix_clean gles11-egl13-unix_clean vgu11-unix_clean gles11-egl11-unix_clean vg11-vgi10-unix_clean gles20-vg11-egl13-unix_clean vg11-unix_clean egl13-unix_clean vg101-vgi10-unix_clean gles20-egl13-unix_clean gles11-vg101-egl13-unix_clean gles11-vg11-vgu11-egl13-unix_clean gles11-unix_clean vg11-vgu11-egl13-unix_clean vgi10-unix_clean gles20-unix_clean comp10-unix_clean
-targets-unix_clean: gles11-vg11-egl13-tracer-unix_clean vg11-vgu11-vgi10-tracer-unix_clean vg11-egl13-tracer-unix_clean vg10-vgi10-tracer-unix_clean gles20-vg11-vgu11-egl13-tracer-unix_clean gles11-egl13-tracer-unix_clean vgu11-tracer-unix_clean gles11-egl11-tracer-unix_clean vg11-vgi10-tracer-unix_clean gles20-vg11-egl13-tracer-unix_clean vg11-tracer-unix_clean egl13-tracer-unix_clean vg101-vgi10-tracer-unix_clean gles20-egl13-tracer-unix_clean gles11-vg101-egl13-tracer-unix_clean gles11-vg11-vgu11-egl13-tracer-unix_clean gles11-tracer-unix_clean vg11-vgu11-egl13-tracer-unix_clean vgi10-tracer-unix_clean gles20-tracer-unix_clean comp10-tracer-unix_clean gles11-vg11-egl13-passthrough_tracer-unix_clean vg11-vgu11-vgi10-passthrough_tracer-unix_clean vg11-egl13-passthrough_tracer-unix_clean vg10-vgi10-passthrough_tracer-unix_clean gles20-vg11-vgu11-egl13-passthrough_tracer-unix_clean gles11-egl13-passthrough_tracer-unix_clean vgu11-passthrough_tracer-unix_clean gles11-egl11-passthrough_tracer-unix_clean vg11-vgi10-passthrough_tracer-unix_clean gles20-vg11-egl13-passthrough_tracer-unix_clean vg11-passthrough_tracer-unix_clean egl13-passthrough_tracer-unix_clean vg101-vgi10-passthrough_tracer-unix_clean gles20-egl13-passthrough_tracer-unix_clean gles11-vg101-egl13-passthrough_tracer-unix_clean gles11-vg11-vgu11-egl13-passthrough_tracer-unix_clean gles11-passthrough_tracer-unix_clean vg11-vgu11-egl13-passthrough_tracer-unix_clean vgi10-passthrough_tracer-unix_clean gles20-passthrough_tracer-unix_clean comp10-passthrough_tracer-unix_clean gles11-vg11-egl13-player-unix_clean vg11-vgu11-vgi10-player-unix_clean vg11-egl13-player-unix_clean vg10-vgi10-player-unix_clean gles20-vg11-vgu11-egl13-player-unix_clean gles11-egl13-player-unix_clean vgu11-player-unix_clean gles11-egl11-player-unix_clean vg11-vgi10-player-unix_clean gles20-vg11-egl13-player-unix_clean vg11-player-unix_clean egl13-player-unix_clean vg101-vgi10-player-unix_clean gles20-egl13-player-unix_clean gles11-vg101-egl13-player-unix_clean gles11-vg11-vgu11-egl13-player-unix_clean gles11-player-unix_clean vg11-vgu11-egl13-player-unix_clean vgi10-player-unix_clean gles20-player-unix_clean comp10-player-unix_clean
+projects-unix: gles11-vg11-egl13-unix vg11-egl13-unix vg11-unix gles11-vg101-egl13-unix gles11-vg11-vgu11-egl13-unix vg11-vgu11-egl13-unix gles20-egl13-unix gles20-vg11-egl13-unix gles11-egl13-unix vgu11-unix gles11-egl11-unix gles20-vg11-vgu11-egl13-unix egl13-unix gles11-unix gles20-unix
+targets-unix: gles11-vg11-egl13-tracer-unix vg11-egl13-tracer-unix vg11-tracer-unix gles11-vg101-egl13-tracer-unix gles11-vg11-vgu11-egl13-tracer-unix vg11-vgu11-egl13-tracer-unix gles20-egl13-tracer-unix gles20-vg11-egl13-tracer-unix gles11-egl13-tracer-unix vgu11-tracer-unix gles11-egl11-tracer-unix gles20-vg11-vgu11-egl13-tracer-unix egl13-tracer-unix gles11-tracer-unix gles20-tracer-unix gles11-vg11-egl13-passthrough_tracer-unix vg11-egl13-passthrough_tracer-unix vg11-passthrough_tracer-unix gles11-vg101-egl13-passthrough_tracer-unix gles11-vg11-vgu11-egl13-passthrough_tracer-unix vg11-vgu11-egl13-passthrough_tracer-unix gles20-egl13-passthrough_tracer-unix gles20-vg11-egl13-passthrough_tracer-unix gles11-egl13-passthrough_tracer-unix vgu11-passthrough_tracer-unix gles11-egl11-passthrough_tracer-unix gles20-vg11-vgu11-egl13-passthrough_tracer-unix egl13-passthrough_tracer-unix gles11-passthrough_tracer-unix gles20-passthrough_tracer-unix gles11-vg11-egl13-player-unix vg11-egl13-player-unix vg11-player-unix gles11-vg101-egl13-player-unix gles11-vg11-vgu11-egl13-player-unix vg11-vgu11-egl13-player-unix gles20-egl13-player-unix gles20-vg11-egl13-player-unix gles11-egl13-player-unix vgu11-player-unix gles11-egl11-player-unix gles20-vg11-vgu11-egl13-player-unix egl13-player-unix gles11-player-unix gles20-player-unix
+projects-unix_clean: gles11-vg11-egl13-unix_clean vg11-egl13-unix_clean vg11-unix_clean gles11-vg101-egl13-unix_clean gles11-vg11-vgu11-egl13-unix_clean vg11-vgu11-egl13-unix_clean gles20-egl13-unix_clean gles20-vg11-egl13-unix_clean gles11-egl13-unix_clean vgu11-unix_clean gles11-egl11-unix_clean gles20-vg11-vgu11-egl13-unix_clean egl13-unix_clean gles11-unix_clean gles20-unix_clean
+targets-unix_clean: gles11-vg11-egl13-tracer-unix_clean vg11-egl13-tracer-unix_clean vg11-tracer-unix_clean gles11-vg101-egl13-tracer-unix_clean gles11-vg11-vgu11-egl13-tracer-unix_clean vg11-vgu11-egl13-tracer-unix_clean gles20-egl13-tracer-unix_clean gles20-vg11-egl13-tracer-unix_clean gles11-egl13-tracer-unix_clean vgu11-tracer-unix_clean gles11-egl11-tracer-unix_clean gles20-vg11-vgu11-egl13-tracer-unix_clean egl13-tracer-unix_clean gles11-tracer-unix_clean gles20-tracer-unix_clean gles11-vg11-egl13-passthrough_tracer-unix_clean vg11-egl13-passthrough_tracer-unix_clean vg11-passthrough_tracer-unix_clean gles11-vg101-egl13-passthrough_tracer-unix_clean gles11-vg11-vgu11-egl13-passthrough_tracer-unix_clean vg11-vgu11-egl13-passthrough_tracer-unix_clean gles20-egl13-passthrough_tracer-unix_clean gles20-vg11-egl13-passthrough_tracer-unix_clean gles11-egl13-passthrough_tracer-unix_clean vgu11-passthrough_tracer-unix_clean gles11-egl11-passthrough_tracer-unix_clean gles20-vg11-vgu11-egl13-passthrough_tracer-unix_clean egl13-passthrough_tracer-unix_clean gles11-passthrough_tracer-unix_clean gles20-passthrough_tracer-unix_clean gles11-vg11-egl13-player-unix_clean vg11-egl13-player-unix_clean vg11-player-unix_clean gles11-vg101-egl13-player-unix_clean gles11-vg11-vgu11-egl13-player-unix_clean vg11-vgu11-egl13-player-unix_clean gles20-egl13-player-unix_clean gles20-vg11-egl13-player-unix_clean gles11-egl13-player-unix_clean vgu11-player-unix_clean gles11-egl11-player-unix_clean gles20-vg11-vgu11-egl13-player-unix_clean egl13-player-unix_clean gles11-player-unix_clean gles20-player-unix_clean
 unix: projects-unix targets-unix
 unix_clean: projects-unix_clean targets-unix_clean
 .PHONY: projects-unix targets-unix projects-unix_clean targets-unix_clean unix unix_clean
@@ -3367,10 +3131,10 @@ unix_clean: projects-unix_clean targets-unix_clean
 #---------------------------------------------------------------------------
 # symbian targets
 #---------------------------------------------------------------------------
-projects-symbian: gles11-vg11-egl13-symbian vg11-vgu11-vgi10-symbian vg11-egl13-symbian vg10-vgi10-symbian gles20-vg11-vgu11-egl13-symbian gles11-egl13-symbian vgu11-symbian gles11-egl11-symbian vg11-vgi10-symbian gles20-vg11-egl13-symbian vg11-symbian egl13-symbian vg101-vgi10-symbian gles20-egl13-symbian gles11-vg101-egl13-symbian gles11-vg11-vgu11-egl13-symbian gles11-symbian vg11-vgu11-egl13-symbian vgi10-symbian gles20-symbian comp10-symbian
-targets-symbian: gles11-vg11-egl13-tracer-symbian vg11-vgu11-vgi10-tracer-symbian vg11-egl13-tracer-symbian vg10-vgi10-tracer-symbian gles20-vg11-vgu11-egl13-tracer-symbian gles11-egl13-tracer-symbian vgu11-tracer-symbian gles11-egl11-tracer-symbian vg11-vgi10-tracer-symbian gles20-vg11-egl13-tracer-symbian vg11-tracer-symbian egl13-tracer-symbian vg101-vgi10-tracer-symbian gles20-egl13-tracer-symbian gles11-vg101-egl13-tracer-symbian gles11-vg11-vgu11-egl13-tracer-symbian gles11-tracer-symbian vg11-vgu11-egl13-tracer-symbian vgi10-tracer-symbian gles20-tracer-symbian comp10-tracer-symbian gles11-vg11-egl13-passthrough_tracer-symbian vg11-vgu11-vgi10-passthrough_tracer-symbian vg11-egl13-passthrough_tracer-symbian vg10-vgi10-passthrough_tracer-symbian gles20-vg11-vgu11-egl13-passthrough_tracer-symbian gles11-egl13-passthrough_tracer-symbian vgu11-passthrough_tracer-symbian gles11-egl11-passthrough_tracer-symbian vg11-vgi10-passthrough_tracer-symbian gles20-vg11-egl13-passthrough_tracer-symbian vg11-passthrough_tracer-symbian egl13-passthrough_tracer-symbian vg101-vgi10-passthrough_tracer-symbian gles20-egl13-passthrough_tracer-symbian gles11-vg101-egl13-passthrough_tracer-symbian gles11-vg11-vgu11-egl13-passthrough_tracer-symbian gles11-passthrough_tracer-symbian vg11-vgu11-egl13-passthrough_tracer-symbian vgi10-passthrough_tracer-symbian gles20-passthrough_tracer-symbian comp10-passthrough_tracer-symbian gles11-vg11-egl13-player-symbian vg11-vgu11-vgi10-player-symbian vg11-egl13-player-symbian vg10-vgi10-player-symbian gles20-vg11-vgu11-egl13-player-symbian gles11-egl13-player-symbian vgu11-player-symbian gles11-egl11-player-symbian vg11-vgi10-player-symbian gles20-vg11-egl13-player-symbian vg11-player-symbian egl13-player-symbian vg101-vgi10-player-symbian gles20-egl13-player-symbian gles11-vg101-egl13-player-symbian gles11-vg11-vgu11-egl13-player-symbian gles11-player-symbian vg11-vgu11-egl13-player-symbian vgi10-player-symbian gles20-player-symbian comp10-player-symbian
-projects-symbian_clean: gles11-vg11-egl13-symbian_clean vg11-vgu11-vgi10-symbian_clean vg11-egl13-symbian_clean vg10-vgi10-symbian_clean gles20-vg11-vgu11-egl13-symbian_clean gles11-egl13-symbian_clean vgu11-symbian_clean gles11-egl11-symbian_clean vg11-vgi10-symbian_clean gles20-vg11-egl13-symbian_clean vg11-symbian_clean egl13-symbian_clean vg101-vgi10-symbian_clean gles20-egl13-symbian_clean gles11-vg101-egl13-symbian_clean gles11-vg11-vgu11-egl13-symbian_clean gles11-symbian_clean vg11-vgu11-egl13-symbian_clean vgi10-symbian_clean gles20-symbian_clean comp10-symbian_clean
-targets-symbian_clean: gles11-vg11-egl13-tracer-symbian_clean vg11-vgu11-vgi10-tracer-symbian_clean vg11-egl13-tracer-symbian_clean vg10-vgi10-tracer-symbian_clean gles20-vg11-vgu11-egl13-tracer-symbian_clean gles11-egl13-tracer-symbian_clean vgu11-tracer-symbian_clean gles11-egl11-tracer-symbian_clean vg11-vgi10-tracer-symbian_clean gles20-vg11-egl13-tracer-symbian_clean vg11-tracer-symbian_clean egl13-tracer-symbian_clean vg101-vgi10-tracer-symbian_clean gles20-egl13-tracer-symbian_clean gles11-vg101-egl13-tracer-symbian_clean gles11-vg11-vgu11-egl13-tracer-symbian_clean gles11-tracer-symbian_clean vg11-vgu11-egl13-tracer-symbian_clean vgi10-tracer-symbian_clean gles20-tracer-symbian_clean comp10-tracer-symbian_clean gles11-vg11-egl13-passthrough_tracer-symbian_clean vg11-vgu11-vgi10-passthrough_tracer-symbian_clean vg11-egl13-passthrough_tracer-symbian_clean vg10-vgi10-passthrough_tracer-symbian_clean gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_clean gles11-egl13-passthrough_tracer-symbian_clean vgu11-passthrough_tracer-symbian_clean gles11-egl11-passthrough_tracer-symbian_clean vg11-vgi10-passthrough_tracer-symbian_clean gles20-vg11-egl13-passthrough_tracer-symbian_clean vg11-passthrough_tracer-symbian_clean egl13-passthrough_tracer-symbian_clean vg101-vgi10-passthrough_tracer-symbian_clean gles20-egl13-passthrough_tracer-symbian_clean gles11-vg101-egl13-passthrough_tracer-symbian_clean gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_clean gles11-passthrough_tracer-symbian_clean vg11-vgu11-egl13-passthrough_tracer-symbian_clean vgi10-passthrough_tracer-symbian_clean gles20-passthrough_tracer-symbian_clean comp10-passthrough_tracer-symbian_clean gles11-vg11-egl13-player-symbian_clean vg11-vgu11-vgi10-player-symbian_clean vg11-egl13-player-symbian_clean vg10-vgi10-player-symbian_clean gles20-vg11-vgu11-egl13-player-symbian_clean gles11-egl13-player-symbian_clean vgu11-player-symbian_clean gles11-egl11-player-symbian_clean vg11-vgi10-player-symbian_clean gles20-vg11-egl13-player-symbian_clean vg11-player-symbian_clean egl13-player-symbian_clean vg101-vgi10-player-symbian_clean gles20-egl13-player-symbian_clean gles11-vg101-egl13-player-symbian_clean gles11-vg11-vgu11-egl13-player-symbian_clean gles11-player-symbian_clean vg11-vgu11-egl13-player-symbian_clean vgi10-player-symbian_clean gles20-player-symbian_clean comp10-player-symbian_clean
+projects-symbian: gles11-vg11-egl13-symbian vg11-egl13-symbian vg11-symbian gles11-vg101-egl13-symbian gles11-vg11-vgu11-egl13-symbian vg11-vgu11-egl13-symbian gles20-egl13-symbian gles20-vg11-egl13-symbian gles11-egl13-symbian vgu11-symbian gles11-egl11-symbian gles20-vg11-vgu11-egl13-symbian egl13-symbian gles11-symbian gles20-symbian
+targets-symbian: gles11-vg11-egl13-tracer-symbian vg11-egl13-tracer-symbian vg11-tracer-symbian gles11-vg101-egl13-tracer-symbian gles11-vg11-vgu11-egl13-tracer-symbian vg11-vgu11-egl13-tracer-symbian gles20-egl13-tracer-symbian gles20-vg11-egl13-tracer-symbian gles11-egl13-tracer-symbian vgu11-tracer-symbian gles11-egl11-tracer-symbian gles20-vg11-vgu11-egl13-tracer-symbian egl13-tracer-symbian gles11-tracer-symbian gles20-tracer-symbian gles11-vg11-egl13-passthrough_tracer-symbian vg11-egl13-passthrough_tracer-symbian vg11-passthrough_tracer-symbian gles11-vg101-egl13-passthrough_tracer-symbian gles11-vg11-vgu11-egl13-passthrough_tracer-symbian vg11-vgu11-egl13-passthrough_tracer-symbian gles20-egl13-passthrough_tracer-symbian gles20-vg11-egl13-passthrough_tracer-symbian gles11-egl13-passthrough_tracer-symbian vgu11-passthrough_tracer-symbian gles11-egl11-passthrough_tracer-symbian gles20-vg11-vgu11-egl13-passthrough_tracer-symbian egl13-passthrough_tracer-symbian gles11-passthrough_tracer-symbian gles20-passthrough_tracer-symbian gles11-vg11-egl13-player-symbian vg11-egl13-player-symbian vg11-player-symbian gles11-vg101-egl13-player-symbian gles11-vg11-vgu11-egl13-player-symbian vg11-vgu11-egl13-player-symbian gles20-egl13-player-symbian gles20-vg11-egl13-player-symbian gles11-egl13-player-symbian vgu11-player-symbian gles11-egl11-player-symbian gles20-vg11-vgu11-egl13-player-symbian egl13-player-symbian gles11-player-symbian gles20-player-symbian
+projects-symbian_clean: gles11-vg11-egl13-symbian_clean vg11-egl13-symbian_clean vg11-symbian_clean gles11-vg101-egl13-symbian_clean gles11-vg11-vgu11-egl13-symbian_clean vg11-vgu11-egl13-symbian_clean gles20-egl13-symbian_clean gles20-vg11-egl13-symbian_clean gles11-egl13-symbian_clean vgu11-symbian_clean gles11-egl11-symbian_clean gles20-vg11-vgu11-egl13-symbian_clean egl13-symbian_clean gles11-symbian_clean gles20-symbian_clean
+targets-symbian_clean: gles11-vg11-egl13-tracer-symbian_clean vg11-egl13-tracer-symbian_clean vg11-tracer-symbian_clean gles11-vg101-egl13-tracer-symbian_clean gles11-vg11-vgu11-egl13-tracer-symbian_clean vg11-vgu11-egl13-tracer-symbian_clean gles20-egl13-tracer-symbian_clean gles20-vg11-egl13-tracer-symbian_clean gles11-egl13-tracer-symbian_clean vgu11-tracer-symbian_clean gles11-egl11-tracer-symbian_clean gles20-vg11-vgu11-egl13-tracer-symbian_clean egl13-tracer-symbian_clean gles11-tracer-symbian_clean gles20-tracer-symbian_clean gles11-vg11-egl13-passthrough_tracer-symbian_clean vg11-egl13-passthrough_tracer-symbian_clean vg11-passthrough_tracer-symbian_clean gles11-vg101-egl13-passthrough_tracer-symbian_clean gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_clean vg11-vgu11-egl13-passthrough_tracer-symbian_clean gles20-egl13-passthrough_tracer-symbian_clean gles20-vg11-egl13-passthrough_tracer-symbian_clean gles11-egl13-passthrough_tracer-symbian_clean vgu11-passthrough_tracer-symbian_clean gles11-egl11-passthrough_tracer-symbian_clean gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_clean egl13-passthrough_tracer-symbian_clean gles11-passthrough_tracer-symbian_clean gles20-passthrough_tracer-symbian_clean gles11-vg11-egl13-player-symbian_clean vg11-egl13-player-symbian_clean vg11-player-symbian_clean gles11-vg101-egl13-player-symbian_clean gles11-vg11-vgu11-egl13-player-symbian_clean vg11-vgu11-egl13-player-symbian_clean gles20-egl13-player-symbian_clean gles20-vg11-egl13-player-symbian_clean gles11-egl13-player-symbian_clean vgu11-player-symbian_clean gles11-egl11-player-symbian_clean gles20-vg11-vgu11-egl13-player-symbian_clean egl13-player-symbian_clean gles11-player-symbian_clean gles20-player-symbian_clean
 symbian: projects-symbian targets-symbian
 symbian_clean: projects-symbian_clean targets-symbian_clean
 .PHONY: projects-symbian targets-symbian projects-symbian_clean targets-symbian_clean symbian symbian_clean
@@ -3378,10 +3142,10 @@ symbian_clean: projects-symbian_clean targets-symbian_clean
 #---------------------------------------------------------------------------
 # win32 targets
 #---------------------------------------------------------------------------
-projects-win32: gles11-vg11-egl13-win32 vg11-vgu11-vgi10-win32 vg11-egl13-win32 vg10-vgi10-win32 gles20-vg11-vgu11-egl13-win32 gles11-egl13-win32 vgu11-win32 gles11-egl11-win32 vg11-vgi10-win32 gles20-vg11-egl13-win32 vg11-win32 egl13-win32 vg101-vgi10-win32 gles20-egl13-win32 gles11-vg101-egl13-win32 gles11-vg11-vgu11-egl13-win32 gles11-win32 vg11-vgu11-egl13-win32 vgi10-win32 gles20-win32 comp10-win32
-targets-win32: gles11-vg11-egl13-tracer-win32 vg11-vgu11-vgi10-tracer-win32 vg11-egl13-tracer-win32 vg10-vgi10-tracer-win32 gles20-vg11-vgu11-egl13-tracer-win32 gles11-egl13-tracer-win32 vgu11-tracer-win32 gles11-egl11-tracer-win32 vg11-vgi10-tracer-win32 gles20-vg11-egl13-tracer-win32 vg11-tracer-win32 egl13-tracer-win32 vg101-vgi10-tracer-win32 gles20-egl13-tracer-win32 gles11-vg101-egl13-tracer-win32 gles11-vg11-vgu11-egl13-tracer-win32 gles11-tracer-win32 vg11-vgu11-egl13-tracer-win32 vgi10-tracer-win32 gles20-tracer-win32 comp10-tracer-win32 gles11-vg11-egl13-passthrough_tracer-win32 vg11-vgu11-vgi10-passthrough_tracer-win32 vg11-egl13-passthrough_tracer-win32 vg10-vgi10-passthrough_tracer-win32 gles20-vg11-vgu11-egl13-passthrough_tracer-win32 gles11-egl13-passthrough_tracer-win32 vgu11-passthrough_tracer-win32 gles11-egl11-passthrough_tracer-win32 vg11-vgi10-passthrough_tracer-win32 gles20-vg11-egl13-passthrough_tracer-win32 vg11-passthrough_tracer-win32 egl13-passthrough_tracer-win32 vg101-vgi10-passthrough_tracer-win32 gles20-egl13-passthrough_tracer-win32 gles11-vg101-egl13-passthrough_tracer-win32 gles11-vg11-vgu11-egl13-passthrough_tracer-win32 gles11-passthrough_tracer-win32 vg11-vgu11-egl13-passthrough_tracer-win32 vgi10-passthrough_tracer-win32 gles20-passthrough_tracer-win32 comp10-passthrough_tracer-win32 gles11-vg11-egl13-player-win32 vg11-vgu11-vgi10-player-win32 vg11-egl13-player-win32 vg10-vgi10-player-win32 gles20-vg11-vgu11-egl13-player-win32 gles11-egl13-player-win32 vgu11-player-win32 gles11-egl11-player-win32 vg11-vgi10-player-win32 gles20-vg11-egl13-player-win32 vg11-player-win32 egl13-player-win32 vg101-vgi10-player-win32 gles20-egl13-player-win32 gles11-vg101-egl13-player-win32 gles11-vg11-vgu11-egl13-player-win32 gles11-player-win32 vg11-vgu11-egl13-player-win32 vgi10-player-win32 gles20-player-win32 comp10-player-win32
-projects-win32_clean: gles11-vg11-egl13-win32_clean vg11-vgu11-vgi10-win32_clean vg11-egl13-win32_clean vg10-vgi10-win32_clean gles20-vg11-vgu11-egl13-win32_clean gles11-egl13-win32_clean vgu11-win32_clean gles11-egl11-win32_clean vg11-vgi10-win32_clean gles20-vg11-egl13-win32_clean vg11-win32_clean egl13-win32_clean vg101-vgi10-win32_clean gles20-egl13-win32_clean gles11-vg101-egl13-win32_clean gles11-vg11-vgu11-egl13-win32_clean gles11-win32_clean vg11-vgu11-egl13-win32_clean vgi10-win32_clean gles20-win32_clean comp10-win32_clean
-targets-win32_clean: gles11-vg11-egl13-tracer-win32_clean vg11-vgu11-vgi10-tracer-win32_clean vg11-egl13-tracer-win32_clean vg10-vgi10-tracer-win32_clean gles20-vg11-vgu11-egl13-tracer-win32_clean gles11-egl13-tracer-win32_clean vgu11-tracer-win32_clean gles11-egl11-tracer-win32_clean vg11-vgi10-tracer-win32_clean gles20-vg11-egl13-tracer-win32_clean vg11-tracer-win32_clean egl13-tracer-win32_clean vg101-vgi10-tracer-win32_clean gles20-egl13-tracer-win32_clean gles11-vg101-egl13-tracer-win32_clean gles11-vg11-vgu11-egl13-tracer-win32_clean gles11-tracer-win32_clean vg11-vgu11-egl13-tracer-win32_clean vgi10-tracer-win32_clean gles20-tracer-win32_clean comp10-tracer-win32_clean gles11-vg11-egl13-passthrough_tracer-win32_clean vg11-vgu11-vgi10-passthrough_tracer-win32_clean vg11-egl13-passthrough_tracer-win32_clean vg10-vgi10-passthrough_tracer-win32_clean gles20-vg11-vgu11-egl13-passthrough_tracer-win32_clean gles11-egl13-passthrough_tracer-win32_clean vgu11-passthrough_tracer-win32_clean gles11-egl11-passthrough_tracer-win32_clean vg11-vgi10-passthrough_tracer-win32_clean gles20-vg11-egl13-passthrough_tracer-win32_clean vg11-passthrough_tracer-win32_clean egl13-passthrough_tracer-win32_clean vg101-vgi10-passthrough_tracer-win32_clean gles20-egl13-passthrough_tracer-win32_clean gles11-vg101-egl13-passthrough_tracer-win32_clean gles11-vg11-vgu11-egl13-passthrough_tracer-win32_clean gles11-passthrough_tracer-win32_clean vg11-vgu11-egl13-passthrough_tracer-win32_clean vgi10-passthrough_tracer-win32_clean gles20-passthrough_tracer-win32_clean comp10-passthrough_tracer-win32_clean gles11-vg11-egl13-player-win32_clean vg11-vgu11-vgi10-player-win32_clean vg11-egl13-player-win32_clean vg10-vgi10-player-win32_clean gles20-vg11-vgu11-egl13-player-win32_clean gles11-egl13-player-win32_clean vgu11-player-win32_clean gles11-egl11-player-win32_clean vg11-vgi10-player-win32_clean gles20-vg11-egl13-player-win32_clean vg11-player-win32_clean egl13-player-win32_clean vg101-vgi10-player-win32_clean gles20-egl13-player-win32_clean gles11-vg101-egl13-player-win32_clean gles11-vg11-vgu11-egl13-player-win32_clean gles11-player-win32_clean vg11-vgu11-egl13-player-win32_clean vgi10-player-win32_clean gles20-player-win32_clean comp10-player-win32_clean
+projects-win32: gles11-vg11-egl13-win32 vg11-egl13-win32 vg11-win32 gles11-vg101-egl13-win32 gles11-vg11-vgu11-egl13-win32 vg11-vgu11-egl13-win32 gles20-egl13-win32 gles20-vg11-egl13-win32 gles11-egl13-win32 vgu11-win32 gles11-egl11-win32 gles20-vg11-vgu11-egl13-win32 egl13-win32 gles11-win32 gles20-win32
+targets-win32: gles11-vg11-egl13-tracer-win32 vg11-egl13-tracer-win32 vg11-tracer-win32 gles11-vg101-egl13-tracer-win32 gles11-vg11-vgu11-egl13-tracer-win32 vg11-vgu11-egl13-tracer-win32 gles20-egl13-tracer-win32 gles20-vg11-egl13-tracer-win32 gles11-egl13-tracer-win32 vgu11-tracer-win32 gles11-egl11-tracer-win32 gles20-vg11-vgu11-egl13-tracer-win32 egl13-tracer-win32 gles11-tracer-win32 gles20-tracer-win32 gles11-vg11-egl13-passthrough_tracer-win32 vg11-egl13-passthrough_tracer-win32 vg11-passthrough_tracer-win32 gles11-vg101-egl13-passthrough_tracer-win32 gles11-vg11-vgu11-egl13-passthrough_tracer-win32 vg11-vgu11-egl13-passthrough_tracer-win32 gles20-egl13-passthrough_tracer-win32 gles20-vg11-egl13-passthrough_tracer-win32 gles11-egl13-passthrough_tracer-win32 vgu11-passthrough_tracer-win32 gles11-egl11-passthrough_tracer-win32 gles20-vg11-vgu11-egl13-passthrough_tracer-win32 egl13-passthrough_tracer-win32 gles11-passthrough_tracer-win32 gles20-passthrough_tracer-win32 gles11-vg11-egl13-player-win32 vg11-egl13-player-win32 vg11-player-win32 gles11-vg101-egl13-player-win32 gles11-vg11-vgu11-egl13-player-win32 vg11-vgu11-egl13-player-win32 gles20-egl13-player-win32 gles20-vg11-egl13-player-win32 gles11-egl13-player-win32 vgu11-player-win32 gles11-egl11-player-win32 gles20-vg11-vgu11-egl13-player-win32 egl13-player-win32 gles11-player-win32 gles20-player-win32
+projects-win32_clean: gles11-vg11-egl13-win32_clean vg11-egl13-win32_clean vg11-win32_clean gles11-vg101-egl13-win32_clean gles11-vg11-vgu11-egl13-win32_clean vg11-vgu11-egl13-win32_clean gles20-egl13-win32_clean gles20-vg11-egl13-win32_clean gles11-egl13-win32_clean vgu11-win32_clean gles11-egl11-win32_clean gles20-vg11-vgu11-egl13-win32_clean egl13-win32_clean gles11-win32_clean gles20-win32_clean
+targets-win32_clean: gles11-vg11-egl13-tracer-win32_clean vg11-egl13-tracer-win32_clean vg11-tracer-win32_clean gles11-vg101-egl13-tracer-win32_clean gles11-vg11-vgu11-egl13-tracer-win32_clean vg11-vgu11-egl13-tracer-win32_clean gles20-egl13-tracer-win32_clean gles20-vg11-egl13-tracer-win32_clean gles11-egl13-tracer-win32_clean vgu11-tracer-win32_clean gles11-egl11-tracer-win32_clean gles20-vg11-vgu11-egl13-tracer-win32_clean egl13-tracer-win32_clean gles11-tracer-win32_clean gles20-tracer-win32_clean gles11-vg11-egl13-passthrough_tracer-win32_clean vg11-egl13-passthrough_tracer-win32_clean vg11-passthrough_tracer-win32_clean gles11-vg101-egl13-passthrough_tracer-win32_clean gles11-vg11-vgu11-egl13-passthrough_tracer-win32_clean vg11-vgu11-egl13-passthrough_tracer-win32_clean gles20-egl13-passthrough_tracer-win32_clean gles20-vg11-egl13-passthrough_tracer-win32_clean gles11-egl13-passthrough_tracer-win32_clean vgu11-passthrough_tracer-win32_clean gles11-egl11-passthrough_tracer-win32_clean gles20-vg11-vgu11-egl13-passthrough_tracer-win32_clean egl13-passthrough_tracer-win32_clean gles11-passthrough_tracer-win32_clean gles20-passthrough_tracer-win32_clean gles11-vg11-egl13-player-win32_clean vg11-egl13-player-win32_clean vg11-player-win32_clean gles11-vg101-egl13-player-win32_clean gles11-vg11-vgu11-egl13-player-win32_clean vg11-vgu11-egl13-player-win32_clean gles20-egl13-player-win32_clean gles20-vg11-egl13-player-win32_clean gles11-egl13-player-win32_clean vgu11-player-win32_clean gles11-egl11-player-win32_clean gles20-vg11-vgu11-egl13-player-win32_clean egl13-player-win32_clean gles11-player-win32_clean gles20-player-win32_clean
 win32: projects-win32 targets-win32
 win32_clean: projects-win32_clean targets-win32_clean
 .PHONY: projects-win32 targets-win32 projects-win32_clean targets-win32_clean win32 win32_clean
@@ -3389,21 +3153,21 @@ win32_clean: projects-win32_clean targets-win32_clean
 #---------------------------------------------------------------------------
 # tracer targets
 #---------------------------------------------------------------------------
-tracers: gles11-vg11-egl13-tracer-unix vg11-vgu11-vgi10-tracer-unix vg11-egl13-tracer-unix vg10-vgi10-tracer-unix gles20-vg11-vgu11-egl13-tracer-unix gles11-egl13-tracer-unix vgu11-tracer-unix gles11-egl11-tracer-unix vg11-vgi10-tracer-unix gles20-vg11-egl13-tracer-unix vg11-tracer-unix egl13-tracer-unix vg101-vgi10-tracer-unix gles20-egl13-tracer-unix gles11-vg101-egl13-tracer-unix gles11-vg11-vgu11-egl13-tracer-unix gles11-tracer-unix vg11-vgu11-egl13-tracer-unix vgi10-tracer-unix gles20-tracer-unix comp10-tracer-unix gles11-vg11-egl13-tracer-symbian vg11-vgu11-vgi10-tracer-symbian vg11-egl13-tracer-symbian vg10-vgi10-tracer-symbian gles20-vg11-vgu11-egl13-tracer-symbian gles11-egl13-tracer-symbian vgu11-tracer-symbian gles11-egl11-tracer-symbian vg11-vgi10-tracer-symbian gles20-vg11-egl13-tracer-symbian vg11-tracer-symbian egl13-tracer-symbian vg101-vgi10-tracer-symbian gles20-egl13-tracer-symbian gles11-vg101-egl13-tracer-symbian gles11-vg11-vgu11-egl13-tracer-symbian gles11-tracer-symbian vg11-vgu11-egl13-tracer-symbian vgi10-tracer-symbian gles20-tracer-symbian comp10-tracer-symbian gles11-vg11-egl13-tracer-win32 vg11-vgu11-vgi10-tracer-win32 vg11-egl13-tracer-win32 vg10-vgi10-tracer-win32 gles20-vg11-vgu11-egl13-tracer-win32 gles11-egl13-tracer-win32 vgu11-tracer-win32 gles11-egl11-tracer-win32 vg11-vgi10-tracer-win32 gles20-vg11-egl13-tracer-win32 vg11-tracer-win32 egl13-tracer-win32 vg101-vgi10-tracer-win32 gles20-egl13-tracer-win32 gles11-vg101-egl13-tracer-win32 gles11-vg11-vgu11-egl13-tracer-win32 gles11-tracer-win32 vg11-vgu11-egl13-tracer-win32 vgi10-tracer-win32 gles20-tracer-win32 comp10-tracer-win32
-tracers_clean: gles11-vg11-egl13-tracer-unix_clean vg11-vgu11-vgi10-tracer-unix_clean vg11-egl13-tracer-unix_clean vg10-vgi10-tracer-unix_clean gles20-vg11-vgu11-egl13-tracer-unix_clean gles11-egl13-tracer-unix_clean vgu11-tracer-unix_clean gles11-egl11-tracer-unix_clean vg11-vgi10-tracer-unix_clean gles20-vg11-egl13-tracer-unix_clean vg11-tracer-unix_clean egl13-tracer-unix_clean vg101-vgi10-tracer-unix_clean gles20-egl13-tracer-unix_clean gles11-vg101-egl13-tracer-unix_clean gles11-vg11-vgu11-egl13-tracer-unix_clean gles11-tracer-unix_clean vg11-vgu11-egl13-tracer-unix_clean vgi10-tracer-unix_clean gles20-tracer-unix_clean comp10-tracer-unix_clean gles11-vg11-egl13-tracer-symbian_clean vg11-vgu11-vgi10-tracer-symbian_clean vg11-egl13-tracer-symbian_clean vg10-vgi10-tracer-symbian_clean gles20-vg11-vgu11-egl13-tracer-symbian_clean gles11-egl13-tracer-symbian_clean vgu11-tracer-symbian_clean gles11-egl11-tracer-symbian_clean vg11-vgi10-tracer-symbian_clean gles20-vg11-egl13-tracer-symbian_clean vg11-tracer-symbian_clean egl13-tracer-symbian_clean vg101-vgi10-tracer-symbian_clean gles20-egl13-tracer-symbian_clean gles11-vg101-egl13-tracer-symbian_clean gles11-vg11-vgu11-egl13-tracer-symbian_clean gles11-tracer-symbian_clean vg11-vgu11-egl13-tracer-symbian_clean vgi10-tracer-symbian_clean gles20-tracer-symbian_clean comp10-tracer-symbian_clean gles11-vg11-egl13-tracer-win32_clean vg11-vgu11-vgi10-tracer-win32_clean vg11-egl13-tracer-win32_clean vg10-vgi10-tracer-win32_clean gles20-vg11-vgu11-egl13-tracer-win32_clean gles11-egl13-tracer-win32_clean vgu11-tracer-win32_clean gles11-egl11-tracer-win32_clean vg11-vgi10-tracer-win32_clean gles20-vg11-egl13-tracer-win32_clean vg11-tracer-win32_clean egl13-tracer-win32_clean vg101-vgi10-tracer-win32_clean gles20-egl13-tracer-win32_clean gles11-vg101-egl13-tracer-win32_clean gles11-vg11-vgu11-egl13-tracer-win32_clean gles11-tracer-win32_clean vg11-vgu11-egl13-tracer-win32_clean vgi10-tracer-win32_clean gles20-tracer-win32_clean comp10-tracer-win32_clean
+tracers: gles11-vg11-egl13-tracer-android vg11-egl13-tracer-android vg11-tracer-android gles11-vg101-egl13-tracer-android gles11-vg11-vgu11-egl13-tracer-android vg11-vgu11-egl13-tracer-android gles20-egl13-tracer-android gles20-vg11-egl13-tracer-android gles11-egl13-tracer-android vgu11-tracer-android gles11-egl11-tracer-android gles20-vg11-vgu11-egl13-tracer-android egl13-tracer-android gles11-tracer-android gles20-tracer-android gles11-vg11-egl13-tracer-unix vg11-egl13-tracer-unix vg11-tracer-unix gles11-vg101-egl13-tracer-unix gles11-vg11-vgu11-egl13-tracer-unix vg11-vgu11-egl13-tracer-unix gles20-egl13-tracer-unix gles20-vg11-egl13-tracer-unix gles11-egl13-tracer-unix vgu11-tracer-unix gles11-egl11-tracer-unix gles20-vg11-vgu11-egl13-tracer-unix egl13-tracer-unix gles11-tracer-unix gles20-tracer-unix gles11-vg11-egl13-tracer-symbian vg11-egl13-tracer-symbian vg11-tracer-symbian gles11-vg101-egl13-tracer-symbian gles11-vg11-vgu11-egl13-tracer-symbian vg11-vgu11-egl13-tracer-symbian gles20-egl13-tracer-symbian gles20-vg11-egl13-tracer-symbian gles11-egl13-tracer-symbian vgu11-tracer-symbian gles11-egl11-tracer-symbian gles20-vg11-vgu11-egl13-tracer-symbian egl13-tracer-symbian gles11-tracer-symbian gles20-tracer-symbian gles11-vg11-egl13-tracer-win32 vg11-egl13-tracer-win32 vg11-tracer-win32 gles11-vg101-egl13-tracer-win32 gles11-vg11-vgu11-egl13-tracer-win32 vg11-vgu11-egl13-tracer-win32 gles20-egl13-tracer-win32 gles20-vg11-egl13-tracer-win32 gles11-egl13-tracer-win32 vgu11-tracer-win32 gles11-egl11-tracer-win32 gles20-vg11-vgu11-egl13-tracer-win32 egl13-tracer-win32 gles11-tracer-win32 gles20-tracer-win32
+tracers_clean: gles11-vg11-egl13-tracer-android_clean vg11-egl13-tracer-android_clean vg11-tracer-android_clean gles11-vg101-egl13-tracer-android_clean gles11-vg11-vgu11-egl13-tracer-android_clean vg11-vgu11-egl13-tracer-android_clean gles20-egl13-tracer-android_clean gles20-vg11-egl13-tracer-android_clean gles11-egl13-tracer-android_clean vgu11-tracer-android_clean gles11-egl11-tracer-android_clean gles20-vg11-vgu11-egl13-tracer-android_clean egl13-tracer-android_clean gles11-tracer-android_clean gles20-tracer-android_clean gles11-vg11-egl13-tracer-unix_clean vg11-egl13-tracer-unix_clean vg11-tracer-unix_clean gles11-vg101-egl13-tracer-unix_clean gles11-vg11-vgu11-egl13-tracer-unix_clean vg11-vgu11-egl13-tracer-unix_clean gles20-egl13-tracer-unix_clean gles20-vg11-egl13-tracer-unix_clean gles11-egl13-tracer-unix_clean vgu11-tracer-unix_clean gles11-egl11-tracer-unix_clean gles20-vg11-vgu11-egl13-tracer-unix_clean egl13-tracer-unix_clean gles11-tracer-unix_clean gles20-tracer-unix_clean gles11-vg11-egl13-tracer-symbian_clean vg11-egl13-tracer-symbian_clean vg11-tracer-symbian_clean gles11-vg101-egl13-tracer-symbian_clean gles11-vg11-vgu11-egl13-tracer-symbian_clean vg11-vgu11-egl13-tracer-symbian_clean gles20-egl13-tracer-symbian_clean gles20-vg11-egl13-tracer-symbian_clean gles11-egl13-tracer-symbian_clean vgu11-tracer-symbian_clean gles11-egl11-tracer-symbian_clean gles20-vg11-vgu11-egl13-tracer-symbian_clean egl13-tracer-symbian_clean gles11-tracer-symbian_clean gles20-tracer-symbian_clean gles11-vg11-egl13-tracer-win32_clean vg11-egl13-tracer-win32_clean vg11-tracer-win32_clean gles11-vg101-egl13-tracer-win32_clean gles11-vg11-vgu11-egl13-tracer-win32_clean vg11-vgu11-egl13-tracer-win32_clean gles20-egl13-tracer-win32_clean gles20-vg11-egl13-tracer-win32_clean gles11-egl13-tracer-win32_clean vgu11-tracer-win32_clean gles11-egl11-tracer-win32_clean gles20-vg11-vgu11-egl13-tracer-win32_clean egl13-tracer-win32_clean gles11-tracer-win32_clean gles20-tracer-win32_clean
 .PHONY: tracers tracers_clean
 
 #---------------------------------------------------------------------------
 # passthrough_tracer targets
 #---------------------------------------------------------------------------
-passthrough_tracers: gles11-vg11-egl13-passthrough_tracer-unix vg11-vgu11-vgi10-passthrough_tracer-unix vg11-egl13-passthrough_tracer-unix vg10-vgi10-passthrough_tracer-unix gles20-vg11-vgu11-egl13-passthrough_tracer-unix gles11-egl13-passthrough_tracer-unix vgu11-passthrough_tracer-unix gles11-egl11-passthrough_tracer-unix vg11-vgi10-passthrough_tracer-unix gles20-vg11-egl13-passthrough_tracer-unix vg11-passthrough_tracer-unix egl13-passthrough_tracer-unix vg101-vgi10-passthrough_tracer-unix gles20-egl13-passthrough_tracer-unix gles11-vg101-egl13-passthrough_tracer-unix gles11-vg11-vgu11-egl13-passthrough_tracer-unix gles11-passthrough_tracer-unix vg11-vgu11-egl13-passthrough_tracer-unix vgi10-passthrough_tracer-unix gles20-passthrough_tracer-unix comp10-passthrough_tracer-unix gles11-vg11-egl13-passthrough_tracer-symbian vg11-vgu11-vgi10-passthrough_tracer-symbian vg11-egl13-passthrough_tracer-symbian vg10-vgi10-passthrough_tracer-symbian gles20-vg11-vgu11-egl13-passthrough_tracer-symbian gles11-egl13-passthrough_tracer-symbian vgu11-passthrough_tracer-symbian gles11-egl11-passthrough_tracer-symbian vg11-vgi10-passthrough_tracer-symbian gles20-vg11-egl13-passthrough_tracer-symbian vg11-passthrough_tracer-symbian egl13-passthrough_tracer-symbian vg101-vgi10-passthrough_tracer-symbian gles20-egl13-passthrough_tracer-symbian gles11-vg101-egl13-passthrough_tracer-symbian gles11-vg11-vgu11-egl13-passthrough_tracer-symbian gles11-passthrough_tracer-symbian vg11-vgu11-egl13-passthrough_tracer-symbian vgi10-passthrough_tracer-symbian gles20-passthrough_tracer-symbian comp10-passthrough_tracer-symbian gles11-vg11-egl13-passthrough_tracer-win32 vg11-vgu11-vgi10-passthrough_tracer-win32 vg11-egl13-passthrough_tracer-win32 vg10-vgi10-passthrough_tracer-win32 gles20-vg11-vgu11-egl13-passthrough_tracer-win32 gles11-egl13-passthrough_tracer-win32 vgu11-passthrough_tracer-win32 gles11-egl11-passthrough_tracer-win32 vg11-vgi10-passthrough_tracer-win32 gles20-vg11-egl13-passthrough_tracer-win32 vg11-passthrough_tracer-win32 egl13-passthrough_tracer-win32 vg101-vgi10-passthrough_tracer-win32 gles20-egl13-passthrough_tracer-win32 gles11-vg101-egl13-passthrough_tracer-win32 gles11-vg11-vgu11-egl13-passthrough_tracer-win32 gles11-passthrough_tracer-win32 vg11-vgu11-egl13-passthrough_tracer-win32 vgi10-passthrough_tracer-win32 gles20-passthrough_tracer-win32 comp10-passthrough_tracer-win32
-passthrough_tracers_clean: gles11-vg11-egl13-passthrough_tracer-unix_clean vg11-vgu11-vgi10-passthrough_tracer-unix_clean vg11-egl13-passthrough_tracer-unix_clean vg10-vgi10-passthrough_tracer-unix_clean gles20-vg11-vgu11-egl13-passthrough_tracer-unix_clean gles11-egl13-passthrough_tracer-unix_clean vgu11-passthrough_tracer-unix_clean gles11-egl11-passthrough_tracer-unix_clean vg11-vgi10-passthrough_tracer-unix_clean gles20-vg11-egl13-passthrough_tracer-unix_clean vg11-passthrough_tracer-unix_clean egl13-passthrough_tracer-unix_clean vg101-vgi10-passthrough_tracer-unix_clean gles20-egl13-passthrough_tracer-unix_clean gles11-vg101-egl13-passthrough_tracer-unix_clean gles11-vg11-vgu11-egl13-passthrough_tracer-unix_clean gles11-passthrough_tracer-unix_clean vg11-vgu11-egl13-passthrough_tracer-unix_clean vgi10-passthrough_tracer-unix_clean gles20-passthrough_tracer-unix_clean comp10-passthrough_tracer-unix_clean gles11-vg11-egl13-passthrough_tracer-symbian_clean vg11-vgu11-vgi10-passthrough_tracer-symbian_clean vg11-egl13-passthrough_tracer-symbian_clean vg10-vgi10-passthrough_tracer-symbian_clean gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_clean gles11-egl13-passthrough_tracer-symbian_clean vgu11-passthrough_tracer-symbian_clean gles11-egl11-passthrough_tracer-symbian_clean vg11-vgi10-passthrough_tracer-symbian_clean gles20-vg11-egl13-passthrough_tracer-symbian_clean vg11-passthrough_tracer-symbian_clean egl13-passthrough_tracer-symbian_clean vg101-vgi10-passthrough_tracer-symbian_clean gles20-egl13-passthrough_tracer-symbian_clean gles11-vg101-egl13-passthrough_tracer-symbian_clean gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_clean gles11-passthrough_tracer-symbian_clean vg11-vgu11-egl13-passthrough_tracer-symbian_clean vgi10-passthrough_tracer-symbian_clean gles20-passthrough_tracer-symbian_clean comp10-passthrough_tracer-symbian_clean gles11-vg11-egl13-passthrough_tracer-win32_clean vg11-vgu11-vgi10-passthrough_tracer-win32_clean vg11-egl13-passthrough_tracer-win32_clean vg10-vgi10-passthrough_tracer-win32_clean gles20-vg11-vgu11-egl13-passthrough_tracer-win32_clean gles11-egl13-passthrough_tracer-win32_clean vgu11-passthrough_tracer-win32_clean gles11-egl11-passthrough_tracer-win32_clean vg11-vgi10-passthrough_tracer-win32_clean gles20-vg11-egl13-passthrough_tracer-win32_clean vg11-passthrough_tracer-win32_clean egl13-passthrough_tracer-win32_clean vg101-vgi10-passthrough_tracer-win32_clean gles20-egl13-passthrough_tracer-win32_clean gles11-vg101-egl13-passthrough_tracer-win32_clean gles11-vg11-vgu11-egl13-passthrough_tracer-win32_clean gles11-passthrough_tracer-win32_clean vg11-vgu11-egl13-passthrough_tracer-win32_clean vgi10-passthrough_tracer-win32_clean gles20-passthrough_tracer-win32_clean comp10-passthrough_tracer-win32_clean
+passthrough_tracers: gles11-vg11-egl13-passthrough_tracer-android vg11-egl13-passthrough_tracer-android vg11-passthrough_tracer-android gles11-vg101-egl13-passthrough_tracer-android gles11-vg11-vgu11-egl13-passthrough_tracer-android vg11-vgu11-egl13-passthrough_tracer-android gles20-egl13-passthrough_tracer-android gles20-vg11-egl13-passthrough_tracer-android gles11-egl13-passthrough_tracer-android vgu11-passthrough_tracer-android gles11-egl11-passthrough_tracer-android gles20-vg11-vgu11-egl13-passthrough_tracer-android egl13-passthrough_tracer-android gles11-passthrough_tracer-android gles20-passthrough_tracer-android gles11-vg11-egl13-passthrough_tracer-unix vg11-egl13-passthrough_tracer-unix vg11-passthrough_tracer-unix gles11-vg101-egl13-passthrough_tracer-unix gles11-vg11-vgu11-egl13-passthrough_tracer-unix vg11-vgu11-egl13-passthrough_tracer-unix gles20-egl13-passthrough_tracer-unix gles20-vg11-egl13-passthrough_tracer-unix gles11-egl13-passthrough_tracer-unix vgu11-passthrough_tracer-unix gles11-egl11-passthrough_tracer-unix gles20-vg11-vgu11-egl13-passthrough_tracer-unix egl13-passthrough_tracer-unix gles11-passthrough_tracer-unix gles20-passthrough_tracer-unix gles11-vg11-egl13-passthrough_tracer-symbian vg11-egl13-passthrough_tracer-symbian vg11-passthrough_tracer-symbian gles11-vg101-egl13-passthrough_tracer-symbian gles11-vg11-vgu11-egl13-passthrough_tracer-symbian vg11-vgu11-egl13-passthrough_tracer-symbian gles20-egl13-passthrough_tracer-symbian gles20-vg11-egl13-passthrough_tracer-symbian gles11-egl13-passthrough_tracer-symbian vgu11-passthrough_tracer-symbian gles11-egl11-passthrough_tracer-symbian gles20-vg11-vgu11-egl13-passthrough_tracer-symbian egl13-passthrough_tracer-symbian gles11-passthrough_tracer-symbian gles20-passthrough_tracer-symbian gles11-vg11-egl13-passthrough_tracer-win32 vg11-egl13-passthrough_tracer-win32 vg11-passthrough_tracer-win32 gles11-vg101-egl13-passthrough_tracer-win32 gles11-vg11-vgu11-egl13-passthrough_tracer-win32 vg11-vgu11-egl13-passthrough_tracer-win32 gles20-egl13-passthrough_tracer-win32 gles20-vg11-egl13-passthrough_tracer-win32 gles11-egl13-passthrough_tracer-win32 vgu11-passthrough_tracer-win32 gles11-egl11-passthrough_tracer-win32 gles20-vg11-vgu11-egl13-passthrough_tracer-win32 egl13-passthrough_tracer-win32 gles11-passthrough_tracer-win32 gles20-passthrough_tracer-win32
+passthrough_tracers_clean: gles11-vg11-egl13-passthrough_tracer-android_clean vg11-egl13-passthrough_tracer-android_clean vg11-passthrough_tracer-android_clean gles11-vg101-egl13-passthrough_tracer-android_clean gles11-vg11-vgu11-egl13-passthrough_tracer-android_clean vg11-vgu11-egl13-passthrough_tracer-android_clean gles20-egl13-passthrough_tracer-android_clean gles20-vg11-egl13-passthrough_tracer-android_clean gles11-egl13-passthrough_tracer-android_clean vgu11-passthrough_tracer-android_clean gles11-egl11-passthrough_tracer-android_clean gles20-vg11-vgu11-egl13-passthrough_tracer-android_clean egl13-passthrough_tracer-android_clean gles11-passthrough_tracer-android_clean gles20-passthrough_tracer-android_clean gles11-vg11-egl13-passthrough_tracer-unix_clean vg11-egl13-passthrough_tracer-unix_clean vg11-passthrough_tracer-unix_clean gles11-vg101-egl13-passthrough_tracer-unix_clean gles11-vg11-vgu11-egl13-passthrough_tracer-unix_clean vg11-vgu11-egl13-passthrough_tracer-unix_clean gles20-egl13-passthrough_tracer-unix_clean gles20-vg11-egl13-passthrough_tracer-unix_clean gles11-egl13-passthrough_tracer-unix_clean vgu11-passthrough_tracer-unix_clean gles11-egl11-passthrough_tracer-unix_clean gles20-vg11-vgu11-egl13-passthrough_tracer-unix_clean egl13-passthrough_tracer-unix_clean gles11-passthrough_tracer-unix_clean gles20-passthrough_tracer-unix_clean gles11-vg11-egl13-passthrough_tracer-symbian_clean vg11-egl13-passthrough_tracer-symbian_clean vg11-passthrough_tracer-symbian_clean gles11-vg101-egl13-passthrough_tracer-symbian_clean gles11-vg11-vgu11-egl13-passthrough_tracer-symbian_clean vg11-vgu11-egl13-passthrough_tracer-symbian_clean gles20-egl13-passthrough_tracer-symbian_clean gles20-vg11-egl13-passthrough_tracer-symbian_clean gles11-egl13-passthrough_tracer-symbian_clean vgu11-passthrough_tracer-symbian_clean gles11-egl11-passthrough_tracer-symbian_clean gles20-vg11-vgu11-egl13-passthrough_tracer-symbian_clean egl13-passthrough_tracer-symbian_clean gles11-passthrough_tracer-symbian_clean gles20-passthrough_tracer-symbian_clean gles11-vg11-egl13-passthrough_tracer-win32_clean vg11-egl13-passthrough_tracer-win32_clean vg11-passthrough_tracer-win32_clean gles11-vg101-egl13-passthrough_tracer-win32_clean gles11-vg11-vgu11-egl13-passthrough_tracer-win32_clean vg11-vgu11-egl13-passthrough_tracer-win32_clean gles20-egl13-passthrough_tracer-win32_clean gles20-vg11-egl13-passthrough_tracer-win32_clean gles11-egl13-passthrough_tracer-win32_clean vgu11-passthrough_tracer-win32_clean gles11-egl11-passthrough_tracer-win32_clean gles20-vg11-vgu11-egl13-passthrough_tracer-win32_clean egl13-passthrough_tracer-win32_clean gles11-passthrough_tracer-win32_clean gles20-passthrough_tracer-win32_clean
 .PHONY: passthrough_tracers passthrough_tracers_clean
 
 #---------------------------------------------------------------------------
 # player targets
 #---------------------------------------------------------------------------
-players: gles11-vg11-egl13-player-unix vg11-vgu11-vgi10-player-unix vg11-egl13-player-unix vg10-vgi10-player-unix gles20-vg11-vgu11-egl13-player-unix gles11-egl13-player-unix vgu11-player-unix gles11-egl11-player-unix vg11-vgi10-player-unix gles20-vg11-egl13-player-unix vg11-player-unix egl13-player-unix vg101-vgi10-player-unix gles20-egl13-player-unix gles11-vg101-egl13-player-unix gles11-vg11-vgu11-egl13-player-unix gles11-player-unix vg11-vgu11-egl13-player-unix vgi10-player-unix gles20-player-unix comp10-player-unix gles11-vg11-egl13-player-symbian vg11-vgu11-vgi10-player-symbian vg11-egl13-player-symbian vg10-vgi10-player-symbian gles20-vg11-vgu11-egl13-player-symbian gles11-egl13-player-symbian vgu11-player-symbian gles11-egl11-player-symbian vg11-vgi10-player-symbian gles20-vg11-egl13-player-symbian vg11-player-symbian egl13-player-symbian vg101-vgi10-player-symbian gles20-egl13-player-symbian gles11-vg101-egl13-player-symbian gles11-vg11-vgu11-egl13-player-symbian gles11-player-symbian vg11-vgu11-egl13-player-symbian vgi10-player-symbian gles20-player-symbian comp10-player-symbian gles11-vg11-egl13-player-win32 vg11-vgu11-vgi10-player-win32 vg11-egl13-player-win32 vg10-vgi10-player-win32 gles20-vg11-vgu11-egl13-player-win32 gles11-egl13-player-win32 vgu11-player-win32 gles11-egl11-player-win32 vg11-vgi10-player-win32 gles20-vg11-egl13-player-win32 vg11-player-win32 egl13-player-win32 vg101-vgi10-player-win32 gles20-egl13-player-win32 gles11-vg101-egl13-player-win32 gles11-vg11-vgu11-egl13-player-win32 gles11-player-win32 vg11-vgu11-egl13-player-win32 vgi10-player-win32 gles20-player-win32 comp10-player-win32
-players_clean: gles11-vg11-egl13-player-unix_clean vg11-vgu11-vgi10-player-unix_clean vg11-egl13-player-unix_clean vg10-vgi10-player-unix_clean gles20-vg11-vgu11-egl13-player-unix_clean gles11-egl13-player-unix_clean vgu11-player-unix_clean gles11-egl11-player-unix_clean vg11-vgi10-player-unix_clean gles20-vg11-egl13-player-unix_clean vg11-player-unix_clean egl13-player-unix_clean vg101-vgi10-player-unix_clean gles20-egl13-player-unix_clean gles11-vg101-egl13-player-unix_clean gles11-vg11-vgu11-egl13-player-unix_clean gles11-player-unix_clean vg11-vgu11-egl13-player-unix_clean vgi10-player-unix_clean gles20-player-unix_clean comp10-player-unix_clean gles11-vg11-egl13-player-symbian_clean vg11-vgu11-vgi10-player-symbian_clean vg11-egl13-player-symbian_clean vg10-vgi10-player-symbian_clean gles20-vg11-vgu11-egl13-player-symbian_clean gles11-egl13-player-symbian_clean vgu11-player-symbian_clean gles11-egl11-player-symbian_clean vg11-vgi10-player-symbian_clean gles20-vg11-egl13-player-symbian_clean vg11-player-symbian_clean egl13-player-symbian_clean vg101-vgi10-player-symbian_clean gles20-egl13-player-symbian_clean gles11-vg101-egl13-player-symbian_clean gles11-vg11-vgu11-egl13-player-symbian_clean gles11-player-symbian_clean vg11-vgu11-egl13-player-symbian_clean vgi10-player-symbian_clean gles20-player-symbian_clean comp10-player-symbian_clean gles11-vg11-egl13-player-win32_clean vg11-vgu11-vgi10-player-win32_clean vg11-egl13-player-win32_clean vg10-vgi10-player-win32_clean gles20-vg11-vgu11-egl13-player-win32_clean gles11-egl13-player-win32_clean vgu11-player-win32_clean gles11-egl11-player-win32_clean vg11-vgi10-player-win32_clean gles20-vg11-egl13-player-win32_clean vg11-player-win32_clean egl13-player-win32_clean vg101-vgi10-player-win32_clean gles20-egl13-player-win32_clean gles11-vg101-egl13-player-win32_clean gles11-vg11-vgu11-egl13-player-win32_clean gles11-player-win32_clean vg11-vgu11-egl13-player-win32_clean vgi10-player-win32_clean gles20-player-win32_clean comp10-player-win32_clean
+players: gles11-vg11-egl13-player-android vg11-egl13-player-android vg11-player-android gles11-vg101-egl13-player-android gles11-vg11-vgu11-egl13-player-android vg11-vgu11-egl13-player-android gles20-egl13-player-android gles20-vg11-egl13-player-android gles11-egl13-player-android vgu11-player-android gles11-egl11-player-android gles20-vg11-vgu11-egl13-player-android egl13-player-android gles11-player-android gles20-player-android gles11-vg11-egl13-player-unix vg11-egl13-player-unix vg11-player-unix gles11-vg101-egl13-player-unix gles11-vg11-vgu11-egl13-player-unix vg11-vgu11-egl13-player-unix gles20-egl13-player-unix gles20-vg11-egl13-player-unix gles11-egl13-player-unix vgu11-player-unix gles11-egl11-player-unix gles20-vg11-vgu11-egl13-player-unix egl13-player-unix gles11-player-unix gles20-player-unix gles11-vg11-egl13-player-symbian vg11-egl13-player-symbian vg11-player-symbian gles11-vg101-egl13-player-symbian gles11-vg11-vgu11-egl13-player-symbian vg11-vgu11-egl13-player-symbian gles20-egl13-player-symbian gles20-vg11-egl13-player-symbian gles11-egl13-player-symbian vgu11-player-symbian gles11-egl11-player-symbian gles20-vg11-vgu11-egl13-player-symbian egl13-player-symbian gles11-player-symbian gles20-player-symbian gles11-vg11-egl13-player-win32 vg11-egl13-player-win32 vg11-player-win32 gles11-vg101-egl13-player-win32 gles11-vg11-vgu11-egl13-player-win32 vg11-vgu11-egl13-player-win32 gles20-egl13-player-win32 gles20-vg11-egl13-player-win32 gles11-egl13-player-win32 vgu11-player-win32 gles11-egl11-player-win32 gles20-vg11-vgu11-egl13-player-win32 egl13-player-win32 gles11-player-win32 gles20-player-win32
+players_clean: gles11-vg11-egl13-player-android_clean vg11-egl13-player-android_clean vg11-player-android_clean gles11-vg101-egl13-player-android_clean gles11-vg11-vgu11-egl13-player-android_clean vg11-vgu11-egl13-player-android_clean gles20-egl13-player-android_clean gles20-vg11-egl13-player-android_clean gles11-egl13-player-android_clean vgu11-player-android_clean gles11-egl11-player-android_clean gles20-vg11-vgu11-egl13-player-android_clean egl13-player-android_clean gles11-player-android_clean gles20-player-android_clean gles11-vg11-egl13-player-unix_clean vg11-egl13-player-unix_clean vg11-player-unix_clean gles11-vg101-egl13-player-unix_clean gles11-vg11-vgu11-egl13-player-unix_clean vg11-vgu11-egl13-player-unix_clean gles20-egl13-player-unix_clean gles20-vg11-egl13-player-unix_clean gles11-egl13-player-unix_clean vgu11-player-unix_clean gles11-egl11-player-unix_clean gles20-vg11-vgu11-egl13-player-unix_clean egl13-player-unix_clean gles11-player-unix_clean gles20-player-unix_clean gles11-vg11-egl13-player-symbian_clean vg11-egl13-player-symbian_clean vg11-player-symbian_clean gles11-vg101-egl13-player-symbian_clean gles11-vg11-vgu11-egl13-player-symbian_clean vg11-vgu11-egl13-player-symbian_clean gles20-egl13-player-symbian_clean gles20-vg11-egl13-player-symbian_clean gles11-egl13-player-symbian_clean vgu11-player-symbian_clean gles11-egl11-player-symbian_clean gles20-vg11-vgu11-egl13-player-symbian_clean egl13-player-symbian_clean gles11-player-symbian_clean gles20-player-symbian_clean gles11-vg11-egl13-player-win32_clean vg11-egl13-player-win32_clean vg11-player-win32_clean gles11-vg101-egl13-player-win32_clean gles11-vg11-vgu11-egl13-player-win32_clean vg11-vgu11-egl13-player-win32_clean gles20-egl13-player-win32_clean gles20-vg11-egl13-player-win32_clean gles11-egl13-player-win32_clean vgu11-player-win32_clean gles11-egl11-player-win32_clean gles20-vg11-vgu11-egl13-player-win32_clean egl13-player-win32_clean gles11-player-win32_clean gles20-player-win32_clean
 .PHONY: players players_clean
 
