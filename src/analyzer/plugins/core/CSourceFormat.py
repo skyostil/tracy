@@ -114,11 +114,11 @@ class CSourceExporterPlugin(Plugin.ExporterPlugin):
         classes[value.cls] = {}
       function = self.analyzer.lookupFunction(event)
       # Object has already been registered
+      if not name or function.parameters[name].isOut:
+        outValueObjects.add(value)
       if objectId(value) in classes[value.cls]:
         return
       classes[value.cls][objectId(value)] = value
-      if not name or function.parameters[name].isOut:
-        outValueObjects.add(value)
       for cType, nativeTypeName in library.typeMap.items():
         if cType.name == value.cls.name:
           objectTypes[value] = cType
