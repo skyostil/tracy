@@ -182,6 +182,7 @@ class Class(object):
   def __init__(self, name):
     self.name          = name
     self.namespacePath = None
+    self.overridable   = False
 
 class Library(object):
   """A collection of functions."""

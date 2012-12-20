@@ -51,6 +51,7 @@ glScript = [
   ("info",                       ["Trace t0:", "Events: [0-9]+", "Frames: 149", "Render calls: 149", "Array data: .+", "Duration: [0-9.]+ s", "Filename: .+"]),
   ("show-state t0 #10",           "vertex_pointer = \[255, 1, 1, 1, 1, 1, 1, 255, 1, 255, 255, 1, 255, 1, 255, 1, 1, 255, 1, 255, 255, 255, 255, 255\]"),
   ("extract-state t0 #10:+1 t1", ["27 events extracted from trace t0 to trace t1"]),
+  ("export t0 gltest.txt c",     ["Exported trace t0 to 'gltest.txt' in c format."]),
 ]
 
 class AnalyzerTest(unittest.TestCase):
@@ -101,6 +102,12 @@ class AnalyzerTest(unittest.TestCase):
   def testGlOperations(self):
     analyzer = self.createAnalyzer(["-c", "../../lib/tracy/gles11-egl11-symbian.tcy"])
     self.verifyScript(analyzer, glScript)
-    
+    result = open("gltest.txt").readlines()
+
+    # Null objects should not be treated specially
+    assert "    eglMakeCurrent(egldisplay_0_1, eglsurface_0_0, eglsurface_0_0, eglcontext_0_0);\n" in result
+
+    os.unlink("gltest.txt")
+
 if __name__ == "__main__":
   unittest.main()

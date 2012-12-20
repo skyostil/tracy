@@ -220,8 +220,6 @@ class CSourceExporterPlugin(Plugin.ExporterPlugin):
     print >>traceFile, "/* Objects */ "
     for objects in classes.values():
       for obj in objects.values():
-        if not obj.id:
-          continue
         print >>traceFile, "static %s %s = (%s)0x%x;" % (objectTypes[obj], objectId(obj), objectTypes[obj], obj.id)
     print >>traceFile, ""
     task.step()
@@ -370,10 +368,9 @@ class CSourceExporterPlugin(Plugin.ExporterPlugin):
 
     for objects in classes.values():
       for obj in objects.values():
-        if not obj.id:
-          continue
         # If the object has attributes or it wasn't created from a return value, ask the user to create it
-        if obj.attrs or not obj in outValueObjects:
+        cClass = library.classes.get(obj.cls.name)
+        if obj.attrs or (not obj in outValueObjects and cClass and cClass.overridable):
           print >>traceFile, indent, "/* %s attributes: %s */" % (obj.cls.name, ", ".join(obj.attrs.keys()))
           if obj.attrs:
             attrs = ", ".join(map(getObjectAttributeValue, obj.attrs.values()))
@@ -388,10 +385,9 @@ class CSourceExporterPlugin(Plugin.ExporterPlugin):
     print >>traceFile, "{"
     for objects in classes.values():
       for obj in objects.values():
-        if not obj.id:
-          continue
         # If the object has attributes or it wasn't created from a return value, ask the user to destroy it
-        if obj.attrs or not obj in outValueObjects:
+        cClass = library.classes.get(obj.cls.name)
+        if obj.attrs or (not obj in outValueObjects and cClass and cClass.overridable):
           print >>traceFile, indent, "destroy%s2(%s, %s);" % (obj.cls.name, playerArgument, objectId(obj))
     print >>traceFile, "}"
     print >>traceFile, ""
@@ -412,8 +408,6 @@ class CSourceExporterPlugin(Plugin.ExporterPlugin):
       
       # Modify objects
       for obj in event.modifiedObjects:
-        if not obj.id:
-          continue
         # Check the the object was really modified
         if obj.attrs and obj.attrs != classes[obj.cls][objectId(obj)].attrs:
           attrs = ", ".join(map(getObjectAttributeValue, obj.attrs.values()))
@@ -473,14 +467,7 @@ class CSourceExporterPlugin(Plugin.ExporterPlugin):
             a         = arrayId(value)
             value     = "(%s)%s_%s%d" % (valueType, str(arrayTypes[a]).lower(), arrayPrefix, arrays.index(a))
         elif isinstance(value, Trace.Object):
-          if not value.id:
-            # See whether the object really is a pointer or just a basic integer
-            if name and library.isPointerType(function.parameters[name].type):
-              value = "(%s)NULL" % valueType
-            else:
-              value = "(%s)0" % valueType
-          else:
-            value = str(objectId(value))
+          value = str(objectId(value))
         elif isinstance(value, Trace.UnknownPhrase):
           value = "(%s)NULL" % valueType
         else:
@@ -524,8 +511,8 @@ class CSourceExporterPlugin(Plugin.ExporterPlugin):
 
       # Save the return value if needed
       returnObject = event.values.get(None, None)
-      if isinstance(returnObject, Trace.Object) and returnObject.id:
-        print >>traceFile, indent, "%s =" % returnValue,
+      if isinstance(returnObject, Trace.Object):
+        print >>traceFile, indent, "%s =" % objectId(returnObject),
       else:
         print >>traceFile, indent,
 
