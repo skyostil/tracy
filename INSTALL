@@ -89,6 +89,45 @@ $ make gles11-vg11-egl13-tracer-unix
 
 $ LD_PRELOAD=/path/to/tracy/src/generator/output/gles11-vg11-egl13-tracer-unix/gles11-vg11-egl13-tracer.so some_application
 
+Installation on Android
+-----------------------
+
+    * Prerequisites: Android NDK
+
+    * First open a shell and compile the tracer:
+
+$ cd tracy/src/generator
+$ make gles20-tracer-android
+$ cd output/gles20-tracer-android
+$ ndk-build
+
+    * Copy the tracer onto your device:
+
+$ adb push libs/armeabi/libgles20-tracer.so /data/local/tmp
+
+    * Enable the use of tracing for your application (i.e., Angry Birds in this
+      example):
+
+$ adb shell setprop wrap.com.rovio.angrybirds "LD_PRELOAD=/data/local/tmp/libgles20-tracer.so"
+
+    * Settings this property requires root access. It will also fail if the
+      property name exceeds 31 characters. In this case you should truncate the
+      property name at the 31 character mark.
+
+    * Launch your app and look for a "Tracer initialized" message in adb logcat
+      to ensure the tracer was started correctly. By default the trace files
+      will be written to /sdcard/Download. This can be changed with "adb shell
+      setprop tracy.path /some/path/". Note that your application needs to have
+      write permissions for the specified path.
+
+    * You can now download the trace file using adb and examine it with the
+      Analyzer:
+
+$ cd tracy/src/analyzer
+$ adb pull /sdcard/Download/tracer_app_process.bin
+$ python TracyAnalyzer.py
+gles20> load tracer_app_process.bin
+
 Converting binary trace files to text format
 --------------------------------------------
 
@@ -110,4 +149,3 @@ gles11-vg11-egl13> export t0 "someapp.txt" text
 
 We're done for now, so you can either close the analyzer with "quit" or type
 "help" to see what additional commands are available. 
-
