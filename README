@@ -6,6 +6,6 @@ for cross-platform system and application development. Tracy operates by
 recording graphics function calls and argument data of unmodified applications
 into a trace file for offline playback, debugging, and performance analysis.
 
-Please see https://gitorious.org/tracy for more information.
+Please see http://unrealvoodoo.org/hiteck/projects/mscthesis/ for more information.
 
 Installation instructions can be found in the INSTALL file.
