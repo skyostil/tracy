@@ -1,0 +1,24 @@
+Android C trace player
+======================
+
+This application plays back trace files that have been converted to C code
+using the analyzer.
+
+Usage:
+
+1. Load the trace file to the analyzer and export it as C code:
+
+    $ cd src/analyzer
+    $ python TracyAnalyzer.py
+    >>> load trace.bin
+    >>> export t0 trace.inl c
+
+2. Copy the generated file (trace.inl) to this directory.
+
+3. Replace "triangle.inl" in jni/Android.mk with the correct trace file name.
+
+4. Build and install:
+
+    $ ndk-build
+    $ ant debug
+    $ adb install -r bin/cplayer-debug.apk
